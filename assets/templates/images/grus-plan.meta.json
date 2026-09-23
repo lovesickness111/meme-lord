@@ -1,0 +1,55 @@
+{
+  "name": "Gru's Plan",
+  "tags": [
+    "plan-backfires",
+    "four-panel",
+    "realization"
+  ],
+  "slots": [
+    {
+      "name": "step1",
+      "rect": [
+        190,
+        30,
+        145,
+        165
+      ],
+      "hint": "step one of the plan"
+    },
+    {
+      "name": "step2",
+      "rect": [
+        545,
+        30,
+        145,
+        165
+      ],
+      "hint": "step two of the plan"
+    },
+    {
+      "name": "step3",
+      "rect": [
+        190,
+        255,
+        145,
+        165
+      ],
+      "hint": "the unintended consequence"
+    },
+    {
+      "name": "step4",
+      "rect": [
+        545,
+        255,
+        145,
+        165
+      ],
+      "hint": "same as step3 \u2014 the horrified double-take"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Grus-Plan",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Chihuahua Hydrant Perspective",
+  "tags": [
+    "animal",
+    "object",
+    "dog",
+    "perspective"
+  ],
+  "category": "animal",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        33,
+        36,
+        755,
+        240
+      ],
+      "hint": "how big it looks to them"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        33,
+        924,
+        755,
+        240
+      ],
+      "hint": "how big it really is"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/meme/543211057/Chihuahua-Hydrant-Perspective",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

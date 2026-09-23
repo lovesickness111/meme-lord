@@ -1,0 +1,27 @@
+{
+  "name": "Pretending To Be Happy",
+  "tags": [
+    "panel",
+    "comic",
+    "mask",
+    "sad"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "caption",
+      "rect": [
+        264,
+        34,
+        496,
+        154
+      ],
+      "hint": "what is secretly hurting inside"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/99924861/Pretending-To-Be-Happy-Hiding-Crying-Behind-A-Mask",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

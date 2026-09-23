@@ -1,0 +1,26 @@
+{
+  "name": "Excited Baby Yoda",
+  "tags": [
+    "reaction",
+    "excited",
+    "star-wars"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        36,
+        21,
+        1120,
+        292
+      ],
+      "hint": "the exciting thing"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/211624438/Excited-Baby-Yoda",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Incoming Call",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "phone",
+    "dread",
+    "call"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "caller",
+      "rect": [
+        41,
+        60,
+        330,
+        90
+      ],
+      "hint": "who or what is calling (e.g. pagerduty at 3am)"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/141033994/Incoming-call",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

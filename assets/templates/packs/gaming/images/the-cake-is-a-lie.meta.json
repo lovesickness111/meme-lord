@@ -1,0 +1,36 @@
+{
+  "name": "The Cake Is A Lie",
+  "tags": [
+    "gaming",
+    "portal",
+    "lie"
+  ],
+  "category": "gaming",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        36,
+        19,
+        1128,
+        173
+      ],
+      "hint": "the promised reward"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        36,
+        768,
+        1128,
+        173
+      ],
+      "hint": "\"the cake is a lie\""
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/102541716/The-Cake-Is-A-Lie",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

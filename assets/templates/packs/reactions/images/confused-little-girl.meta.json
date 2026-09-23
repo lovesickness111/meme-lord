@@ -1,0 +1,26 @@
+{
+  "name": "Confused Little Girl",
+  "tags": [
+    "reaction",
+    "confused",
+    "puzzled"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        19,
+        12,
+        583,
+        173
+      ],
+      "hint": "the baffling thing"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/23444927/Confused-Little-Girl",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Roll Safe Think About It",
+  "tags": [
+    "flawed-logic",
+    "smart",
+    "reaction"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        15,
+        8,
+        670,
+        70
+      ],
+      "hint": "the problem being avoided"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        15,
+        320,
+        670,
+        68
+      ],
+      "hint": "the technically-true galaxy-brain solution"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Roll-Safe-Think-About-It",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

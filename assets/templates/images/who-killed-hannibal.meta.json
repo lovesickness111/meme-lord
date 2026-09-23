@@ -1,0 +1,40 @@
+{
+  "name": "Who Killed Hannibal",
+  "tags": ["blame", "irony", "two-panel"],
+  "category": "irony",
+  "selectionGuide": {
+    "description": "A two-panel sequence shows a man shooting Hannibal and then asking who killed him, pairing obvious responsibility with denial.",
+    "bestFor": [
+      "a perpetrator blaming others for a problem they directly caused",
+      "an institution creating a failure and then feigning confusion",
+      "calling out denial when responsibility is already visible"
+    ],
+    "avoidWhen": [
+      "the cause is genuinely ambiguous",
+      "violent imagery would be inappropriate for the subject or audience",
+      "the explanation requires more than a direct cause and denial"
+    ],
+    "tone": ["dark-humor", "ironic", "accusatory", "sarcastic"],
+    "mechanics": {
+      "visual": "The first panel establishes responsibility through the shooting; the second panel makes the same character's denial visibly absurd.",
+      "text": "Use setup to identify the actor or harmful action, then make question voice that actor's attempt to blame an outside target."
+    }
+  },
+  "slots": [
+    {
+      "name": "setup",
+      "rect": [27, 20, 836, 140],
+      "hint": "who/what caused the problem"
+    },
+    {
+      "name": "question",
+      "rect": [27, 840, 836, 140],
+      "hint": "\"why would X do this?\""
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Who-Killed-Hannibal",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

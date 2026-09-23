@@ -1,0 +1,37 @@
+{
+  "name": "Angry Possum",
+  "tags": [
+    "animal",
+    "possum",
+    "anger",
+    "screaming"
+  ],
+  "category": "animal",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        46,
+        19,
+        1049,
+        128
+      ],
+      "hint": "the provocation"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        46,
+        494,
+        1049,
+        128
+      ],
+      "hint": "the screeching response"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/meme/193879117/Angry-Possum",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

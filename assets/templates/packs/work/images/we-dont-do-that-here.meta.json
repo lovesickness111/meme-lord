@@ -1,0 +1,38 @@
+{
+  "name": "We Don't Do That Here",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "black-panther",
+    "norms"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        32,
+        14,
+        734,
+        112
+      ],
+      "hint": "the taboo thing suggested (e.g. writing tests)"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        32,
+        572,
+        734,
+        112
+      ],
+      "hint": "we don't do that here"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/140621378/We-dont-do-that-here",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

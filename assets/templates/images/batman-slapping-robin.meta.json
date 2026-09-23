@@ -1,0 +1,35 @@
+{
+  "name": "Batman Slapping Robin",
+  "tags": [
+    "correction",
+    "interruption",
+    "two-actor"
+  ],
+  "slots": [
+    {
+      "name": "robin",
+      "rect": [
+        12,
+        8,
+        180,
+        95
+      ],
+      "hint": "the naive statement being interrupted"
+    },
+    {
+      "name": "batman",
+      "rect": [
+        210,
+        8,
+        178,
+        95
+      ],
+      "hint": "the forceful correction"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Batman-Slapping-Robin",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Y'all Got Any More Of That",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "craving",
+    "addiction"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        24,
+        9,
+        552,
+        75
+      ],
+      "hint": "y'all got any more of them"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        24,
+        386,
+        552,
+        75
+      ],
+      "hint": "the thing craved (e.g. compute credits)"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Yall-Got-Any-More-Of-That",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

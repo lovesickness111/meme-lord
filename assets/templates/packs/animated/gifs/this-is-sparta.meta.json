@@ -1,0 +1,38 @@
+{
+  "name": "This Is Sparta",
+  "tags": [
+    "sparta",
+    "kick",
+    "rejection",
+    "gif",
+    "animated"
+  ],
+  "category": "gif",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        8,
+        8,
+        304,
+        38
+      ],
+      "hint": "the offending request"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        8,
+        88,
+        304,
+        38
+      ],
+      "hint": "THIS IS SPARTA"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/gif-maker/212147381/This-is-sparta",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

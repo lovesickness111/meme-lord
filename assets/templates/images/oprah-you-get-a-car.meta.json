@@ -1,0 +1,36 @@
+{
+  "name": "Oprah: You Get A Car",
+  "tags": [
+    "giving",
+    "generosity",
+    "excitement"
+  ],
+  "category": "announcement",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        19,
+        20,
+        583,
+        201
+      ],
+      "hint": "what everyone is getting"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        19,
+        782,
+        583,
+        201
+      ],
+      "hint": "\"everybody gets X!\""
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Oprah-You-Get-A-Car-Everybody-Gets-A-Car",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

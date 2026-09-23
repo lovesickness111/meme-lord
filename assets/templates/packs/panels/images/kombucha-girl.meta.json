@@ -1,0 +1,37 @@
+{
+  "name": "Kombucha Girl",
+  "tags": [
+    "panel",
+    "two-panel",
+    "disgust",
+    "reconsider"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "first-taste",
+      "rect": [
+        16,
+        9,
+        233,
+        59
+      ],
+      "hint": "the initial disgusted take"
+    },
+    {
+      "name": "second-taste",
+      "rect": [
+        280,
+        9,
+        233,
+        59
+      ],
+      "hint": "the reconsidering take"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/197671929/Kombucha-Girl",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

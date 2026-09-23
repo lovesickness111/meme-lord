@@ -1,0 +1,36 @@
+{
+  "name": "Inside You There Are Two Wolves",
+  "tags": [
+    "duality",
+    "wolves",
+    "choice"
+  ],
+  "category": "choice",
+  "slots": [
+    {
+      "name": "wolf1",
+      "rect": [
+        22,
+        184,
+        324,
+        132
+      ],
+      "hint": "the first inner wolf"
+    },
+    {
+      "name": "wolf2",
+      "rect": [
+        374,
+        184,
+        324,
+        132
+      ],
+      "hint": "the second inner wolf"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/175043930/Inside-you-there-are-two-wolves",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

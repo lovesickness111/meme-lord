@@ -1,0 +1,38 @@
+{
+  "name": "Ah Shit, Here We Go Again (CJ)",
+  "tags": [
+    "celebrity",
+    "character",
+    "deja-vu",
+    "gta",
+    "resignation"
+  ],
+  "category": "character",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        36,
+        14,
+        1128,
+        135
+      ],
+      "hint": "the recurring situation"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        36,
+        526,
+        1128,
+        135
+      ],
+      "hint": "\"ah shit, here we go again\""
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/172883415/Here-we-go-again",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

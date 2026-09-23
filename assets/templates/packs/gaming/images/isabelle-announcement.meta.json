@@ -1,0 +1,36 @@
+{
+  "name": "Isabelle Announcement",
+  "tags": [
+    "gaming",
+    "animal-crossing",
+    "announcement"
+  ],
+  "category": "gaming",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        22,
+        8,
+        677,
+        73
+      ],
+      "hint": "the cheerful announcement"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        22,
+        324,
+        677,
+        73
+      ],
+      "hint": "the dark twist"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/224815430/Isabelle-Animal-Crossing-Announcement",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

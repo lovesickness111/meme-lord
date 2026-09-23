@@ -1,0 +1,36 @@
+{
+  "name": "Minecraft Villager Looking Up",
+  "tags": [
+    "gaming",
+    "minecraft",
+    "villager"
+  ],
+  "category": "gaming",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        19,
+        11,
+        602,
+        99
+      ],
+      "hint": "what the villager notices"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        19,
+        439,
+        602,
+        99
+      ],
+      "hint": "the villager's reaction"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/187908710/Minecraft-Villager-Looking-Up",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

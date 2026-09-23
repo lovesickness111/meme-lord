@@ -1,0 +1,38 @@
+{
+  "name": "No No Wait Wait",
+  "tags": [
+    "panic",
+    "backtrack",
+    "wait",
+    "gif",
+    "animated"
+  ],
+  "category": "gif",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        8,
+        8,
+        304,
+        49
+      ],
+      "hint": "the hasty decision"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        8,
+        119,
+        304,
+        49
+      ],
+      "hint": "NO NO WAIT WAIT"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/gif-maker/394136913/NONONOWAITWAITWAIT",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Scout Opening The Fridge",
+  "tags": [
+    "discovery",
+    "shock",
+    "fridge",
+    "gif",
+    "animated"
+  ],
+  "category": "gif",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        8,
+        8,
+        304,
+        143
+      ],
+      "hint": "opening the fridge to find"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        8,
+        359,
+        304,
+        143
+      ],
+      "hint": "the horrifying discovery"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/gif-maker/366572495/Scout-opening-the-fridge",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

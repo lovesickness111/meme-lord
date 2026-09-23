@@ -1,0 +1,28 @@
+{
+  "name": "Types of Headaches",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "pain",
+    "diagram"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "label",
+      "rect": [
+        251,
+        338,
+        222,
+        50
+      ],
+      "hint": "the cause of the whole-head headache (e.g. merge conflicts)"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/119215120/Types-of-Headaches-meme",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

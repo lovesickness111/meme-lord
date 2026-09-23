@@ -1,0 +1,38 @@
+{
+  "name": "For Frodo (Animated)",
+  "tags": [
+    "charge",
+    "sacrifice",
+    "heroic",
+    "gif",
+    "animated"
+  ],
+  "category": "gif",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        8,
+        8,
+        304,
+        50
+      ],
+      "hint": "the cause"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        8,
+        122,
+        304,
+        50
+      ],
+      "hint": "the heroic charge"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/gif-maker/471651601/for-frodo",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

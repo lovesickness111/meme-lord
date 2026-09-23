@@ -1,0 +1,39 @@
+{
+  "name": "Michael Scott No God No",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "the-office",
+    "dread",
+    "reaction"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        40,
+        11,
+        919,
+        91
+      ],
+      "hint": "the dreaded arrival (e.g. a recruiter ping, a meeting invite)"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        40,
+        468,
+        919,
+        91
+      ],
+      "hint": "no god no god please no"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/437708078/Michael-Scott-No-god-please-no",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

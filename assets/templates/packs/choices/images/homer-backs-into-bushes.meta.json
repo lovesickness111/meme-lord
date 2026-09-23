@@ -1,0 +1,38 @@
+{
+  "name": "Homer Backs Into Bushes",
+  "tags": [
+    "choice",
+    "decision",
+    "avoidance",
+    "retreat",
+    "simpsons"
+  ],
+  "category": "choice",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        48,
+        14,
+        864,
+        116
+      ],
+      "hint": "setup text"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        48,
+        593,
+        864,
+        116
+      ],
+      "hint": "punchline text"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/68927175/HOMER-BUSH",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

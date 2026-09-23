@@ -1,0 +1,27 @@
+{
+  "name": "Disappearing Kid",
+  "tags": [
+    "exit",
+    "vanish",
+    "awkward",
+    "animated"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        10,
+        6,
+        301,
+        64
+      ],
+      "hint": "the situation you quietly vanish from"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/222516354/Disappearing-kid-gif",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

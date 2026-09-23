@@ -1,0 +1,38 @@
+{
+  "name": "Simba Shadowy Place",
+  "tags": [
+    "boundary",
+    "celebrity",
+    "character",
+    "lion-king",
+    "warning"
+  ],
+  "category": "character",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        11,
+        14,
+        341,
+        144
+      ],
+      "hint": "everything the light touches"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        11,
+        562,
+        341,
+        144
+      ],
+      "hint": "the shadowy place you must never go"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Simba-Shadowy-Place",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

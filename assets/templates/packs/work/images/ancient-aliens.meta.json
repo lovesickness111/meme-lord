@@ -1,0 +1,38 @@
+{
+  "name": "Ancient Aliens Guy",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "explanation",
+    "conspiracy"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        20,
+        9,
+        460,
+        70
+      ],
+      "hint": "the phenomenon needing explanation"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        20,
+        358,
+        460,
+        70
+      ],
+      "hint": "the explanation (e.g. caching / dns / aliens)"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Ancient-Aliens",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

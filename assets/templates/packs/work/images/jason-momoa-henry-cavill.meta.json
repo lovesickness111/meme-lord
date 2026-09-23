@@ -1,0 +1,39 @@
+{
+  "name": "Jason Momoa Sneaking Up On Henry Cavill",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "ambush",
+    "unaware",
+    "three-actor"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "lurker",
+      "rect": [
+        10,
+        15,
+        282,
+        92
+      ],
+      "hint": "the looming threat (e.g. a flaky test)"
+    },
+    {
+      "name": "victim",
+      "rect": [
+        307,
+        422,
+        195,
+        92
+      ],
+      "hint": "the unaware victim (e.g. me, about to merge)"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/137135579/Jason-Momoa-Henry-Cavill-Meme",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

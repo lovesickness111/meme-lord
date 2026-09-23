@@ -1,0 +1,27 @@
+{
+  "name": "Willem Dafoe Looking Up",
+  "tags": [
+    "realization",
+    "looking-up",
+    "dramatic",
+    "animated"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "bottom",
+      "rect": [
+        10,
+        168,
+        301,
+        43
+      ],
+      "hint": "what he suddenly notices"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/367782046/William-Dafoe-looking-up",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

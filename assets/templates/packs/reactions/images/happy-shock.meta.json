@@ -1,0 +1,26 @@
+{
+  "name": "Happy Shock",
+  "tags": [
+    "reaction",
+    "shocked",
+    "excited"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        36,
+        21,
+        1128,
+        289
+      ],
+      "hint": "the thrilling news"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/248097807/Happy--Shock",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

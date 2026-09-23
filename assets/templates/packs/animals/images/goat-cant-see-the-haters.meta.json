@@ -1,0 +1,37 @@
+{
+  "name": "Goat Can't See The Haters",
+  "tags": [
+    "animal",
+    "goat",
+    "haters",
+    "unbothered"
+  ],
+  "category": "animal",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        36,
+        36,
+        828,
+        240
+      ],
+      "hint": "the haters' noise"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        36,
+        924,
+        828,
+        240
+      ],
+      "hint": "can't see the haters"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/meme/50386785/Goat-cant-see-the-haters",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

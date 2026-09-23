@@ -1,0 +1,38 @@
+{
+  "name": "Futurama Fry (Not Sure If)",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "suspicion",
+    "ambiguity"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        22,
+        8,
+        508,
+        66
+      ],
+      "hint": "not sure if X"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        22,
+        339,
+        508,
+        66
+      ],
+      "hint": "or just Y"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Futurama-Fry",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

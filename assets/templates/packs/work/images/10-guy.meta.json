@@ -1,0 +1,38 @@
+{
+  "name": "10 Guy",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "confused",
+    "dazed"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        20,
+        9,
+        460,
+        73
+      ],
+      "hint": "the confused setup"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        20,
+        372,
+        460,
+        73
+      ],
+      "hint": "the nonsensical conclusion"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/10-Guy",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

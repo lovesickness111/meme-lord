@@ -1,0 +1,37 @@
+{
+  "name": "Chihuahua Smirk",
+  "tags": [
+    "animal",
+    "dog",
+    "chihuahua",
+    "smug"
+  ],
+  "category": "animal",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        24,
+        17,
+        555,
+        115
+      ],
+      "hint": "the setup"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        24,
+        444,
+        555,
+        115
+      ],
+      "hint": "the smug punchline"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/meme/210714148/Chihuahua-Smirk",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

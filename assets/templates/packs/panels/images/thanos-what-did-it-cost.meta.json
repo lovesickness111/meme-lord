@@ -1,0 +1,37 @@
+{
+  "name": "Thanos What Did It Cost",
+  "tags": [
+    "panel",
+    "four-panel",
+    "cost",
+    "thanos"
+  ],
+  "category": "twist",
+  "slots": [
+    {
+      "name": "question",
+      "rect": [
+        58,
+        313,
+        1046,
+        63
+      ],
+      "hint": "what did it cost?"
+    },
+    {
+      "name": "answer",
+      "rect": [
+        58,
+        705,
+        1046,
+        63
+      ],
+      "hint": "everything"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/146291180/thanos-what-did-it-cost",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

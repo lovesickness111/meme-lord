@@ -1,0 +1,45 @@
+{
+  "name": "Two Buttons",
+  "tags": ["choice", "dilemma", "decision"],
+  "category": "choice",
+  "selectionGuide": {
+    "description": "A sweating decision-maker reaches toward two labeled buttons, turning incompatible options into an anxious dilemma.",
+    "bestFor": [
+      "two mutually exclusive choices that are both costly or embarrassing",
+      "conflicting obligations faced by one identifiable decision-maker",
+      "an impossible tradeoff whose tension is the punchline"
+    ],
+    "avoidWhen": [
+      "one option is clearly preferred with no real conflict",
+      "the ideas form a cause-and-effect sequence instead of a choice",
+      "more than two alternatives need equal treatment"
+    ],
+    "tone": ["anxious", "relatable", "absurd", "frustrated"],
+    "mechanics": {
+      "visual": "The two buttons establish the alternatives, while the sweating figure communicates that choosing either one creates trouble.",
+      "text": "Place parallel options in left and right, then use caption only when naming the conflicted person or group adds necessary context."
+    }
+  },
+  "slots": [
+    {
+      "name": "left",
+      "rect": [55, 90, 215, 130],
+      "hint": "first difficult option"
+    },
+    {
+      "name": "right",
+      "rect": [300, 55, 215, 120],
+      "hint": "second difficult option"
+    },
+    {
+      "name": "caption",
+      "rect": [30, 770, 540, 120],
+      "hint": "who is struggling to decide (optional)"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Two-Buttons",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

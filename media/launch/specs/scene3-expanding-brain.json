@@ -1,0 +1,8 @@
+{
+  "texts": [
+    { "slot": "level1", "text": "COPY-PASTING TEMPLATES", "style": { "size": 40 } },
+    { "slot": "level2", "text": "ONLINE MEME EDITORS", "style": { "size": 40 } },
+    { "slot": "level3", "text": "A DETERMINISTIC CLI", "style": { "size": "auto" } },
+    { "slot": "level4", "text": "AGENTS RENDERING MEMES VIA MCP", "style": { "size": 40 } }
+  ]
+}

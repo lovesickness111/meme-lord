@@ -1,0 +1,37 @@
+{
+  "name": "Say It Again, Dexter",
+  "tags": [
+    "celebrity",
+    "character",
+    "dexters-lab",
+    "repetition"
+  ],
+  "category": "character",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        21,
+        18,
+        656,
+        180
+      ],
+      "hint": "the thing said"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        21,
+        702,
+        656,
+        180
+      ],
+      "hint": "the delighted reaction"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Say-it-Again-Dexter",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

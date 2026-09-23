@@ -1,0 +1,47 @@
+{
+  "name": "Three-headed Dragon",
+  "tags": [
+    "choice",
+    "decision",
+    "three-option",
+    "comparison"
+  ],
+  "category": "choice",
+  "slots": [
+    {
+      "name": "left",
+      "rect": [
+        14,
+        11,
+        204,
+        76
+      ],
+      "hint": "first option"
+    },
+    {
+      "name": "middle",
+      "rect": [
+        238,
+        11,
+        204,
+        76
+      ],
+      "hint": "second option"
+    },
+    {
+      "name": "right",
+      "rect": [
+        462,
+        11,
+        204,
+        76
+      ],
+      "hint": "third option"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/187102311/Three-headed-Dragon",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

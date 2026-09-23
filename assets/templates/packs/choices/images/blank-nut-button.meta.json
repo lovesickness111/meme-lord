@@ -1,0 +1,37 @@
+{
+  "name": "Blank Nut Button",
+  "tags": [
+    "choice",
+    "decision",
+    "button",
+    "impulse"
+  ],
+  "category": "choice",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        30,
+        9,
+        540,
+        71
+      ],
+      "hint": "setup text"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        30,
+        366,
+        540,
+        71
+      ],
+      "hint": "punchline text"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Blank-Nut-Button",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

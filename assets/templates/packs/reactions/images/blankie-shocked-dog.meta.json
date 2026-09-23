@@ -1,0 +1,26 @@
+{
+  "name": "Blankie the Shocked Dog",
+  "tags": [
+    "reaction",
+    "shocked",
+    "dog"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        18,
+        16,
+        564,
+        220
+      ],
+      "hint": "the shocking thing"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/9494542/Blankie-the-Shocked-Dog",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

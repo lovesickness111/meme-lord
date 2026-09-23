@@ -1,0 +1,38 @@
+{
+  "name": "Leonardo DiCaprio Cheers",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "toast",
+    "smug"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        24,
+        8,
+        552,
+        64
+      ],
+      "hint": "the smug toast setup"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        24,
+        328,
+        552,
+        64
+      ],
+      "hint": "the punchline"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Leonardo-Dicaprio-Cheers",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

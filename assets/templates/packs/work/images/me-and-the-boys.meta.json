@@ -1,0 +1,38 @@
+{
+  "name": "Me And The Boys",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "squad",
+    "group"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        29,
+        10,
+        662,
+        76
+      ],
+      "hint": "me and the boys"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        29,
+        390,
+        662,
+        76
+      ],
+      "hint": "the group activity (e.g. pushing to prod on friday)"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Me-And-The-Boys",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

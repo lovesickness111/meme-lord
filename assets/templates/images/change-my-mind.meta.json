@@ -1,0 +1,48 @@
+{
+  "name": "Change My Mind",
+  "tags": ["opinion", "debate", "hot-take"],
+  "category": "opinion",
+  "selectionGuide": {
+    "description": "A man sits behind a table whose sign serves as the focal space for a debatable claim or provocative thesis.",
+    "bestFor": [
+      "a concise hot take presented as an invitation to debate",
+      "challenging a familiar convention with one assertive claim",
+      "framing a subjective opinion with deliberate confidence"
+    ],
+    "avoidWhen": [
+      "the point needs a long explanation or several qualifications",
+      "multiple actors or alternatives must be labeled separately",
+      "the joke requires a visual reaction or narrative reversal"
+    ],
+    "tone": ["assertive", "provocative", "deadpan", "opinionated"],
+    "mechanics": {
+      "visual": "The seated debater and prominently displayed sign frame the caption as a public challenge awaiting rebuttal.",
+      "text": "Write one compact, self-contained statement in sign; it should read as the thesis itself, not as a setup followed by a punchline."
+    }
+  },
+  "slots": [
+    {
+      "name": "sign",
+      "rect": [200, 175, 235, 100],
+      "safeRect": [220, 210, 195, 60],
+      "hint": "the controversial opinion on the sign",
+      "style": {
+        "color": "black",
+        "strokeWidth": 0,
+        "caps": false,
+        "lineHeight": 1.05
+      },
+      "constraints": {
+        "padding": 6,
+        "minFontSize": 18,
+        "maxLines": 2,
+        "maxTextCoverage": 0.7
+      }
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Change-My-Mind",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

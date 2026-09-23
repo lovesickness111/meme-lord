@@ -1,0 +1,36 @@
+{
+  "name": "Pro Gamer Move",
+  "tags": [
+    "gaming",
+    "pro-gamer",
+    "clever"
+  ],
+  "category": "gaming",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        20,
+        11,
+        639,
+        101
+      ],
+      "hint": "the questionable tactic"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        20,
+        448,
+        639,
+        101
+      ],
+      "hint": "\"outstanding move\""
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/185636052/Pro-Gamer-move",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

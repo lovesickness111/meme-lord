@@ -1,0 +1,38 @@
+{
+  "name": "Philosoraptor",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "question",
+    "pondering"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        20,
+        10,
+        460,
+        80
+      ],
+      "hint": "first half of the deep question"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        20,
+        410,
+        460,
+        80
+      ],
+      "hint": "second half of the deep question"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Philosoraptor",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

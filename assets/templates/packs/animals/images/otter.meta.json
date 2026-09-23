@@ -1,0 +1,37 @@
+{
+  "name": "Otter",
+  "tags": [
+    "animal",
+    "otter",
+    "cute",
+    "wholesome"
+  ],
+  "category": "animal",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        20,
+        15,
+        460,
+        100
+      ],
+      "hint": "the setup"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        20,
+        385,
+        460,
+        100
+      ],
+      "hint": "the punchline"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/meme/24214238/Otter",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

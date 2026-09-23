@@ -1,0 +1,38 @@
+{
+  "name": "Distressed Man Choosing Between Two Buttons",
+  "tags": [
+    "choice",
+    "decision",
+    "buttons",
+    "two-option",
+    "leaning"
+  ],
+  "category": "choice",
+  "slots": [
+    {
+      "name": "left",
+      "rect": [
+        31,
+        31,
+        451,
+        164
+      ],
+      "hint": "first option"
+    },
+    {
+      "name": "right",
+      "rect": [
+        543,
+        31,
+        451,
+        164
+      ],
+      "hint": "second option"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/508888523/Distressed-man-choosing-between-two-buttons-but-leaning-towards",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

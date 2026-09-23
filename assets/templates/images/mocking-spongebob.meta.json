@@ -1,0 +1,40 @@
+{
+  "name": "Mocking SpongeBob",
+  "tags": ["mockery", "sarcasm", "reaction"],
+  "category": "reaction",
+  "selectionGuide": {
+    "description": "SpongeBob's exaggerated pose turns a quoted statement into a taunting imitation, usually through a repeated caption.",
+    "bestFor": [
+      "parodying a recognizable claim by echoing its wording",
+      "dismissing a weak excuse or argument with exaggerated imitation",
+      "mocking a familiar complaint, rule, or repeated phrase"
+    ],
+    "avoidWhen": [
+      "the response needs a nuanced rebuttal rather than ridicule",
+      "there is no specific statement to quote or imitate",
+      "the subject is sensitive enough that taunting would obscure the point"
+    ],
+    "tone": ["mocking", "sarcastic", "derisive", "playful"],
+    "mechanics": {
+      "visual": "The contorted character expression supplies the contempt, so the image reads as imitation rather than a neutral quotation.",
+      "text": "Put the original statement in top and its recognizable alternating-case parody in bottom, preserving enough wording for the echo to land."
+    }
+  },
+  "slots": [
+    {
+      "name": "top",
+      "rect": [15, 8, 470, 70],
+      "hint": "the statement being mocked"
+    },
+    {
+      "name": "bottom",
+      "rect": [15, 275, 470, 70],
+      "hint": "the same statement in mOcKiNg CaSe"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Mocking-Spongebob",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

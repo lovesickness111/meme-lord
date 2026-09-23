@@ -1,0 +1,37 @@
+{
+  "name": "Angry Doge",
+  "tags": [
+    "animal",
+    "dog",
+    "doge",
+    "anger"
+  ],
+  "category": "animal",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        25,
+        14,
+        570,
+        93
+      ],
+      "hint": "the provocation"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        25,
+        358,
+        570,
+        93
+      ],
+      "hint": "the angry response"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/meme/16444790/ANGRY-DOGE",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

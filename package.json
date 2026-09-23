@@ -1,0 +1,86 @@
+{
+  "name": "agent-meme-maker",
+  "version": "0.4.0",
+  "description": "Local-first meme maker for agents: 610 templates, deterministic quality gates, CLI, stdio MCP server, and optional web UI.",
+  "keywords": [
+    "meme",
+    "meme-generator",
+    "mcp",
+    "mcp-server",
+    "cli",
+    "agent",
+    "ai",
+    "image",
+    "gif",
+    "sharp",
+    "headless"
+  ],
+  "license": "UNLICENSED",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "bin": {
+    "agent-meme-maker": "dist/cli.js",
+    "meme": "dist/cli.js",
+    "meme-maker-mcp": "dist/mcp.js"
+  },
+  "files": [
+    "dist",
+    "assets",
+    "!**/.gitkeep",
+    "CHANGELOG.md"
+  ],
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "prepack": "npm run build:manifest && npm run build",
+    "prepublishOnly": "npm run build:manifest && npm run build && npm run lint && npm test && npm audit --omit=dev --audit-level=high",
+    "build": "tsc -p tsconfig.json && npm run build:ui",
+    "build:ui": "vite build ui",
+    "dev:ui": "vite ui",
+    "ui": "node dist/cli.js ui",
+    "ui:portless": "node scripts/portless.js",
+    "build:manifest": "tsx scripts/build-manifest.ts",
+    "build:thumbs": "tsx scripts/build-thumbs.ts",
+    "report:assets": "tsx scripts/asset-size-report.ts",
+    "build:slim-tarball": "tsx scripts/pack-slim.ts",
+    "test": "vitest run",
+    "test:package": "tsx scripts/smoke-package.ts",
+    "benchmark": "tsx scripts/benchmark.ts",
+    "load-test": "tsx scripts/load-test.ts",
+    "lint": "eslint src test scripts ui/src && prettier --check src test scripts ui/src && tsc -p ui/tsconfig.json",
+    "format": "prettier --write src test scripts ui/src"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "commander": "^13.1.0",
+    "opentype.js": "^2.0.0",
+    "preact": "^10.29.7",
+    "sharp": "0.35.4",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.20.0",
+    "@preact/preset-vite": "^2.10.6",
+    "@types/node": "^20.17.0",
+    "@types/opentype.js": "^1.3.10",
+    "eslint": "^9.20.0",
+    "portless": "^0.15.1",
+    "prettier": "^3.5.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0",
+    "typescript-eslint": "^8.24.0",
+    "vite": "^6.4.3",
+    "vitest": "^3.0.5"
+  }
+}

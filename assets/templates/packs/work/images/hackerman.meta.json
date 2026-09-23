@@ -1,0 +1,38 @@
+{
+  "name": "Hackerman",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "hacker",
+    "expert"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        27,
+        14,
+        626,
+        108
+      ],
+      "hint": "the trivial tech feat performed"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        27,
+        556,
+        626,
+        108
+      ],
+      "hint": "hackerman"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/180163366/Ryan-Beckford",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

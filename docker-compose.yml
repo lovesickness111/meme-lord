@@ -1,0 +1,11 @@
+services:
+  meme-ui:
+    build: .
+    image: meme-maker:latest
+    ports:
+      - '3456:3456'
+    volumes:
+      - meme-history:/home/node/.meme-maker
+
+volumes:
+  meme-history:

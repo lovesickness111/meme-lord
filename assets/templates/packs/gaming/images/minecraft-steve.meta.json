@@ -1,0 +1,36 @@
+{
+  "name": "Minecraft Steve",
+  "tags": [
+    "gaming",
+    "minecraft",
+    "steve"
+  ],
+  "category": "gaming",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        12,
+        8,
+        384,
+        73
+      ],
+      "hint": "top caption"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        12,
+        326,
+        384,
+        73
+      ],
+      "hint": "bottom caption"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/10710904/Minecraft-Steve",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

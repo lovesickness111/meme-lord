@@ -1,0 +1,37 @@
+{
+  "name": "Peter Parker's Glasses",
+  "tags": [
+    "panel",
+    "two-panel",
+    "clarity",
+    "spider-man"
+  ],
+  "category": "twist",
+  "slots": [
+    {
+      "name": "without",
+      "rect": [
+        38,
+        12,
+        675,
+        61
+      ],
+      "hint": "the view without correction"
+    },
+    {
+      "name": "with",
+      "rect": [
+        38,
+        321,
+        675,
+        61
+      ],
+      "hint": "the worse view with it on"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/153355886/Spiderman-Glasses",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

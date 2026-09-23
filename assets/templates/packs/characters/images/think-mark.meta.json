@@ -1,0 +1,37 @@
+{
+  "name": "Think Mark, Think!",
+  "tags": [
+    "argument",
+    "celebrity",
+    "character",
+    "invincible"
+  ],
+  "category": "character",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        33,
+        14,
+        1049,
+        145
+      ],
+      "hint": "the setup"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        33,
+        566,
+        1049,
+        145
+      ],
+      "hint": "\"think, Mark, think\""
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/316307016/Think-Mark-Think",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

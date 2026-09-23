@@ -1,0 +1,36 @@
+{
+  "name": "Undertaker Sneaking Up",
+  "tags": [
+    "ambush",
+    "doom",
+    "impending"
+  ],
+  "category": "panic",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        28,
+        15,
+        892,
+        148
+      ],
+      "hint": "who is blissfully unaware"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        28,
+        579,
+        892,
+        148
+      ],
+      "hint": "what is sneaking up on them"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/257745141/undertaker",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

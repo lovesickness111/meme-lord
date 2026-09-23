@@ -1,0 +1,36 @@
+{
+  "name": "Duck Hunt Dog",
+  "tags": [
+    "gaming",
+    "duck-hunt",
+    "mockery"
+  ],
+  "category": "gaming",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        13,
+        6,
+        421,
+        54
+      ],
+      "hint": "your failure"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        13,
+        240,
+        421,
+        54
+      ],
+      "hint": "the dog laughing at you"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/72590507/Duck-Hunt-Dog",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

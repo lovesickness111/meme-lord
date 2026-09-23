@@ -1,0 +1,36 @@
+{
+  "name": "Long Day At The Factory",
+  "tags": [
+    "exhaustion",
+    "work",
+    "relatable"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        30,
+        20,
+        927,
+        200
+      ],
+      "hint": "after a long day of..."
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        30,
+        780,
+        927,
+        200
+      ],
+      "hint": "the exhausting non-job activity"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/626639141/Long-day-factory",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

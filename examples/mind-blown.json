@@ -1,0 +1,5 @@
+{
+  "base": { "kind": "template", "id": "mind-blown" },
+  "texts": [{ "slot": "top", "text": "AGENTS MAKING MEMES" }],
+  "output": { "path": "mind-blown.gif", "format": "gif" }
+}

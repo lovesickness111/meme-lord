@@ -1,0 +1,38 @@
+{
+  "name": "Where Monkey (Spinning Guy)",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "searching",
+    "confusion"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        45,
+        13,
+        1024,
+        101
+      ],
+      "hint": "the thing being searched for"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        45,
+        516,
+        1024,
+        101
+      ],
+      "hint": "where (e.g. where documentation)"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/316466202/where-monkey",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Boardroom Meeting Suggestion",
+  "tags": [
+    "choice",
+    "decision",
+    "suggestion",
+    "rejection",
+    "office"
+  ],
+  "category": "choice",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        25,
+        13,
+        450,
+        104
+      ],
+      "hint": "setup text"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        25,
+        532,
+        450,
+        104
+      ],
+      "hint": "punchline text"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Boardroom-Meeting-Suggestion",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

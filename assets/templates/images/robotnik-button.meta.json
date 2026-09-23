@@ -1,0 +1,36 @@
+{
+  "name": "Robotnik Pressing Button",
+  "tags": [
+    "choice",
+    "dilemma",
+    "buttons"
+  ],
+  "category": "choice",
+  "slots": [
+    {
+      "name": "left",
+      "rect": [
+        32,
+        30,
+        269,
+        119
+      ],
+      "hint": "first tempting button"
+    },
+    {
+      "name": "right",
+      "rect": [
+        339,
+        30,
+        269,
+        119
+      ],
+      "hint": "second tempting button"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/243879998/Robotnik-Button",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

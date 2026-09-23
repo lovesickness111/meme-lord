@@ -1,0 +1,39 @@
+{
+  "name": "Say The Line, Bart",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "simpsons",
+    "catchphrase",
+    "pressure"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        16,
+        13,
+        363,
+        104
+      ],
+      "hint": "say the line, bart (what the crowd demands)"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        16,
+        533,
+        363,
+        104
+      ],
+      "hint": "the reluctantly delivered line"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/72525473/say-the-line-bart-simpsons",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

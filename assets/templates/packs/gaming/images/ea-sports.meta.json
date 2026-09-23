@@ -1,0 +1,36 @@
+{
+  "name": "EA Sports",
+  "tags": [
+    "gaming",
+    "ea",
+    "sports"
+  ],
+  "category": "gaming",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        18,
+        12,
+        564,
+        108
+      ],
+      "hint": "the thing being monetized"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        18,
+        480,
+        564,
+        108
+      ],
+      "hint": "\"it's in the game\""
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/195280548/EA-Sports",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Who Would Win?",
+  "tags": [
+    "panel",
+    "two-panel",
+    "versus",
+    "matchup"
+  ],
+  "category": "comparison",
+  "slots": [
+    {
+      "name": "contender1",
+      "rect": [
+        24,
+        175,
+        353,
+        225
+      ],
+      "hint": "the first contender"
+    },
+    {
+      "name": "contender2",
+      "rect": [
+        425,
+        175,
+        353,
+        225
+      ],
+      "hint": "the second contender"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Who-Would-Win",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

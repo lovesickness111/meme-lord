@@ -1,0 +1,39 @@
+{
+  "name": "Not Stonks",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "losses",
+    "finance",
+    "irony"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        38,
+        12,
+        883,
+        92
+      ],
+      "hint": "the losing move"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        38,
+        472,
+        883,
+        92
+      ],
+      "hint": "not stonks (or a pun on it)"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/190265254/Not-stonks",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

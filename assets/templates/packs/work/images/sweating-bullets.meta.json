@@ -1,0 +1,38 @@
+{
+  "name": "Sweating Bullets (Jordan Peele)",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "nervous",
+    "pressure"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        30,
+        14,
+        690,
+        115
+      ],
+      "hint": "the high-pressure situation (e.g. deploying on friday)"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        30,
+        589,
+        690,
+        115
+      ],
+      "hint": "the nervous reaction"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/457161548/Who-Wants-to-Be-a-Millionaire",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

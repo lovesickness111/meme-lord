@@ -1,0 +1,29 @@
+{
+  "name": "They Don't Know (Party Corner Guy)",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "loner",
+    "secret",
+    "party"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "thought",
+      "rect": [
+        40,
+        27,
+        369,
+        148
+      ],
+      "hint": "the secret thought (e.g. they don't know i use vim)"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/284929871/They-dont-know",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

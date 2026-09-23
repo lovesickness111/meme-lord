@@ -1,0 +1,50 @@
+{
+  "name": "Clown Applying Makeup",
+  "tags": ["escalation", "four-panel", "self-deception"],
+  "category": "escalation",
+  "selectionGuide": {
+    "description": "Four stages of applying clown makeup turn a chain of worsening choices or beliefs into a visible loss of credibility.",
+    "bestFor": [
+      "a sequence of increasingly bad decisions",
+      "rationalizations that deepen into obvious self-deception",
+      "an escalating commitment whose final stage is plainly absurd"
+    ],
+    "avoidWhen": [
+      "there is only one mistake with no progression",
+      "the steps cannot be ordered from questionable to worse",
+      "the joke would punch down at a vulnerable person rather than critique choices"
+    ],
+    "tone": ["mocking", "critical", "escalating", "self-deprecating"],
+    "mechanics": {
+      "visual": "Each panel adds more clown makeup, visually mapping continued commitment to a progressively less credible position.",
+      "text": "Fill step1 through step4 with linked choices or claims in worsening order, using consistent phrasing and the clearest clown moment last."
+    }
+  },
+  "slots": [
+    {
+      "name": "step1",
+      "rect": [385, 15, 350, 170],
+      "hint": "the first questionable decision"
+    },
+    {
+      "name": "step2",
+      "rect": [385, 215, 350, 170],
+      "hint": "doubling down"
+    },
+    {
+      "name": "step3",
+      "rect": [385, 415, 350, 170],
+      "hint": "getting worse"
+    },
+    {
+      "name": "step4",
+      "rect": [385, 615, 350, 170],
+      "hint": "the full clown moment"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Clown-Applying-Makeup",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

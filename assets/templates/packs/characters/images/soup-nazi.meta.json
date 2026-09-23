@@ -1,0 +1,37 @@
+{
+  "name": "Soup Nazi (No Soup For You)",
+  "tags": [
+    "celebrity",
+    "character",
+    "denial",
+    "seinfeld"
+  ],
+  "category": "character",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        19,
+        16,
+        583,
+        155
+      ],
+      "hint": "the offense"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        19,
+        604,
+        583,
+        155
+      ],
+      "hint": "\"no soup for you\""
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/10585695/soup-nazi",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

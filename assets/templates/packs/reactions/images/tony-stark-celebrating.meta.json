@@ -1,0 +1,26 @@
+{
+  "name": "Tony Stark Celebrating",
+  "tags": [
+    "reaction",
+    "celebrating",
+    "victory"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        36,
+        16,
+        1128,
+        224
+      ],
+      "hint": "the victorious moment"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/89036781/Tony-Stark-Celebrating",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Harambe",
+  "tags": [
+    "animal",
+    "gorilla",
+    "harambe",
+    "tribute"
+  ],
+  "category": "animal",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        25,
+        11,
+        583,
+        71
+      ],
+      "hint": "the setup"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        25,
+        275,
+        583,
+        71
+      ],
+      "hint": "the tribute"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/meme/68985584/Harambe-the-gorilla",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

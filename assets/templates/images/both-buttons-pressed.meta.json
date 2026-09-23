@@ -1,0 +1,46 @@
+{
+  "name": "Both Buttons Pressed",
+  "tags": [
+    "choice",
+    "both",
+    "decision"
+  ],
+  "category": "choice",
+  "slots": [
+    {
+      "name": "left",
+      "rect": [
+        54,
+        91,
+        216,
+        118
+      ],
+      "hint": "first option"
+    },
+    {
+      "name": "right",
+      "rect": [
+        300,
+        54,
+        216,
+        118
+      ],
+      "hint": "second option"
+    },
+    {
+      "name": "caption",
+      "rect": [
+        30,
+        772,
+        540,
+        118
+      ],
+      "hint": "who refuses to choose (optional)"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/286646496/Both-Buttons-Pressed",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

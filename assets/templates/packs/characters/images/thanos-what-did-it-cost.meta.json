@@ -1,0 +1,38 @@
+{
+  "name": "Thanos: What Did It Cost?",
+  "tags": [
+    "avengers",
+    "celebrity",
+    "character",
+    "sacrifice",
+    "thanos"
+  ],
+  "category": "character",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        35,
+        16,
+        1092,
+        157
+      ],
+      "hint": "\"what did it cost?\""
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        35,
+        611,
+        1092,
+        157
+      ],
+      "hint": "\"everything\""
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/146291180/thanos-what-did-it-cost",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

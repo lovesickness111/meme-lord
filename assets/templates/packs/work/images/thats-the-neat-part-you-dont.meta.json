@@ -1,0 +1,39 @@
+{
+  "name": "That's The Neat Part, You Don't",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "invincible",
+    "hopeless",
+    "two-panel"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "question",
+      "rect": [
+        38,
+        20,
+        867,
+        102
+      ],
+      "hint": "the desperate question (e.g. how do i exit vim)"
+    },
+    {
+      "name": "answer",
+      "rect": [
+        38,
+        532,
+        867,
+        102
+      ],
+      "hint": "that's the neat part, you don't"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/326899798/Thats-the-neat-part-you-dont",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

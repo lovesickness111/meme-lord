@@ -1,0 +1,25 @@
+{
+  "name": "Typing Cat",
+  "tags": [
+    "typing",
+    "busy",
+    "animated"
+  ],
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        5,
+        5,
+        290,
+        60
+      ],
+      "hint": "what is being furiously typed"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Typing-Cat",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

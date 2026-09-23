@@ -1,0 +1,45 @@
+{
+  "name": "Bell Curve (Midwit)",
+  "tags": [
+    "iq",
+    "distribution",
+    "three-actor"
+  ],
+  "slots": [
+    {
+      "name": "low",
+      "rect": [
+        10,
+        40,
+        190,
+        120
+      ],
+      "hint": "the simple take from the low end (agrees with high end)"
+    },
+    {
+      "name": "mid",
+      "rect": [
+        235,
+        10,
+        205,
+        100
+      ],
+      "hint": "the overcomplicated midwit take"
+    },
+    {
+      "name": "high",
+      "rect": [
+        470,
+        40,
+        195,
+        120
+      ],
+      "hint": "the enlightened take (same as the low end)"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Bell-Curve",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

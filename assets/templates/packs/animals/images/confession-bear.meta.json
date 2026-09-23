@@ -1,0 +1,37 @@
+{
+  "name": "Confession Bear",
+  "tags": [
+    "animal",
+    "bear",
+    "confession",
+    "guilt"
+  ],
+  "category": "animal",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        18,
+        14,
+        423,
+        96
+      ],
+      "hint": "the confession setup"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        18,
+        370,
+        423,
+        96
+      ],
+      "hint": "the guilty admission"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/meme/Confession-Bear",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

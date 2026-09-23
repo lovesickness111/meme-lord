@@ -1,0 +1,38 @@
+{
+  "name": "Balanced Scales",
+  "tags": [
+    "choice",
+    "decision",
+    "weighing",
+    "scales",
+    "two-option"
+  ],
+  "category": "choice",
+  "slots": [
+    {
+      "name": "left",
+      "rect": [
+        36,
+        28,
+        528,
+        151
+      ],
+      "hint": "first option"
+    },
+    {
+      "name": "right",
+      "rect": [
+        636,
+        28,
+        528,
+        151
+      ],
+      "hint": "second option"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/395274586/Balanced-Scales",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

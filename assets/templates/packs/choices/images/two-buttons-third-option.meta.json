@@ -1,0 +1,47 @@
+{
+  "name": "Two Buttons Third Option",
+  "tags": [
+    "choice",
+    "decision",
+    "buttons",
+    "three-option"
+  ],
+  "category": "choice",
+  "slots": [
+    {
+      "name": "left",
+      "rect": [
+        8,
+        24,
+        119,
+        168
+      ],
+      "hint": "first option"
+    },
+    {
+      "name": "middle",
+      "rect": [
+        139,
+        24,
+        119,
+        168
+      ],
+      "hint": "second option"
+    },
+    {
+      "name": "right",
+      "rect": [
+        269,
+        24,
+        119,
+        168
+      ],
+      "hint": "third option"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/374502853/Two-buttons-third-option",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

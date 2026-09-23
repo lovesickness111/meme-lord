@@ -1,0 +1,66 @@
+{
+  "name": "Disappointed Black Guy",
+  "tags": ["expectation", "reality", "two-panel", "sarcasm", "irony", "hypocrisy"],
+  "category": "comparison",
+  "selectionGuide": {
+    "description": "Two stacked reaction panels show the same man moving from pleased anticipation to visible disappointment.",
+    "bestFor": [
+      "expectation-versus-reality contrasts with a clear emotional reversal",
+      "hypocrisy where a stated standard conflicts with actual behavior",
+      "a promising claim followed by a disappointing result"
+    ],
+    "avoidWhen": [
+      "the joke has no meaningful two-part contrast",
+      "three or more independently labeled actors are required",
+      "the punchline is a single opinion rather than a reversal"
+    ],
+    "tone": ["sarcastic", "ironic", "disappointed", "critical"],
+    "mechanics": {
+      "visual": "The top reaction reads as approval or hope; the bottom reaction turns that same setup into disappointment.",
+      "text": "Put the promise, expectation, or public claim in expectation and its contradictory outcome in reality; parallel phrasing works best."
+    }
+  },
+  "slots": [
+    {
+      "name": "expectation",
+      "rect": [0, 0, 610, 315],
+      "safeRect": [35, 35, 540, 240],
+      "hint": "what was hoped for",
+      "style": {
+        "color": "black",
+        "strokeWidth": 0,
+        "caps": false,
+        "lineHeight": 1.05
+      },
+      "constraints": {
+        "padding": 12,
+        "minFontSize": 28,
+        "maxLines": 3,
+        "maxTextCoverage": 0.95
+      }
+    },
+    {
+      "name": "reality",
+      "rect": [0, 320, 610, 325],
+      "safeRect": [35, 355, 540, 240],
+      "hint": "the disappointing reality",
+      "style": {
+        "color": "black",
+        "strokeWidth": 0,
+        "caps": false,
+        "lineHeight": 1.05
+      },
+      "constraints": {
+        "padding": 12,
+        "minFontSize": 28,
+        "maxLines": 3,
+        "maxTextCoverage": 0.95
+      }
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/50421420/Disappointed-Black-Guy",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

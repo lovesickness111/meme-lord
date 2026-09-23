@@ -1,0 +1,36 @@
+{
+  "name": "Am I Out Of Touch?",
+  "tags": [
+    "denial",
+    "self-reflection",
+    "two-panel"
+  ],
+  "category": "irony",
+  "slots": [
+    {
+      "name": "question",
+      "rect": [
+        21,
+        420,
+        659,
+        90
+      ],
+      "hint": "\"am I out of touch?\"-style doubt"
+    },
+    {
+      "name": "answer",
+      "rect": [
+        21,
+        900,
+        659,
+        90
+      ],
+      "hint": "\"no, it's everyone else who is wrong\""
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/93160967/Skinner-Out-Of-Touch",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

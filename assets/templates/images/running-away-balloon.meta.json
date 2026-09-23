@@ -1,0 +1,45 @@
+{
+  "name": "Running Away Balloon",
+  "tags": [
+    "held-back",
+    "obstacle",
+    "two-panel"
+  ],
+  "slots": [
+    {
+      "name": "person",
+      "rect": [
+        40,
+        320,
+        250,
+        120
+      ],
+      "hint": "who is reaching for the goal"
+    },
+    {
+      "name": "balloon",
+      "rect": [
+        470,
+        80,
+        260,
+        180
+      ],
+      "hint": "the desired goal floating away"
+    },
+    {
+      "name": "holder",
+      "rect": [
+        30,
+        600,
+        230,
+        160
+      ],
+      "hint": "the thing holding them back"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Running-Away-Balloon",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

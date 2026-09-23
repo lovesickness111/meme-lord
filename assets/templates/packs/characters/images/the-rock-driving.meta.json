@@ -1,0 +1,38 @@
+{
+  "name": "The Rock Driving",
+  "tags": [
+    "celebrity",
+    "character",
+    "dwayne-johnson",
+    "eyebrow",
+    "surprise"
+  ],
+  "category": "character",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        17,
+        14,
+        534,
+        140
+      ],
+      "hint": "the innocent question"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        17,
+        546,
+        534,
+        140
+      ],
+      "hint": "the alarming answer"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/The-Rock-Driving",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

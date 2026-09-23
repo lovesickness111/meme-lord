@@ -1,0 +1,37 @@
+{
+  "name": "Jason Momoa Sneaking Up On Henry Cavill",
+  "tags": [
+    "celebrity",
+    "character",
+    "lurking",
+    "threat"
+  ],
+  "category": "character",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        15,
+        15,
+        481,
+        154
+      ],
+      "hint": "the looming threat"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        15,
+        599,
+        481,
+        154
+      ],
+      "hint": "the oblivious party"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/137135579/Jason-Momoa-Henry-Cavill-Meme",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Simba Shadowy Place",
+  "tags": [
+    "panel",
+    "three-panel",
+    "lion-king",
+    "forbidden"
+  ],
+  "category": "comic",
+  "slots": [
+    {
+      "name": "kingdom",
+      "rect": [
+        18,
+        7,
+        327,
+        65
+      ],
+      "hint": "everything the light touches"
+    },
+    {
+      "name": "warning",
+      "rect": [
+        18,
+        490,
+        327,
+        65
+      ],
+      "hint": "you must never go to that shadowy place"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/21597072/lion-king-light-touches-shadowy-place-kek",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

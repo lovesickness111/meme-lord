@@ -1,0 +1,37 @@
+{
+  "name": "Why Can't You Just Be Normal",
+  "tags": [
+    "panel",
+    "two-panel",
+    "babadook",
+    "scream"
+  ],
+  "category": "argument",
+  "slots": [
+    {
+      "name": "plea",
+      "rect": [
+        22,
+        9,
+        405,
+        41
+      ],
+      "hint": "who is begging for normality"
+    },
+    {
+      "name": "scream",
+      "rect": [
+        22,
+        249,
+        405,
+        41
+      ],
+      "hint": "who answers with screaming"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/303873877/Why-Cant-You-Just-Be-Normal",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

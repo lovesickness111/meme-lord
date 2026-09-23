@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en" class="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>meme-maker — Batch / Contact Sheet (mockup)</title>
+<link rel="stylesheet" href="tokens.css">
+<style>
+  .summary {
+    display: flex; gap: 10px; align-items: center; padding: 12px 16px;
+    border-bottom: 1px solid var(--border); background: var(--card); position: sticky; top: 52px; z-index: 5;
+  }
+  .cell-status { display: flex; gap: 6px; padding: 0 10px 10px; flex-wrap: wrap; }
+  .err-chip { border-color: var(--destructive); color: var(--destructive); }
+  .selected { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .drop {
+    margin: 16px; padding: 28px; border: 1.5px dashed var(--border); border-radius: var(--radius);
+    text-align: center; color: var(--muted-foreground);
+  }
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="brand"><span class="brand-tile anton">M</span> Meme Maker</div>
+  <nav class="tabs" role="tablist">
+    <button class="tab" role="tab" onclick="location='gallery.html'">Gallery</button>
+    <button class="tab" role="tab" onclick="location='history.html'">My Memes</button>
+    <button class="tab" role="tab" aria-selected="true">Batch</button>
+  </nav>
+  <div class="spacer"></div>
+  <button class="btn btn-primary">Export all <span class="kbd" style="border-color:transparent">e</span></button>
+  <button class="icon-btn" title="Toggle theme (Ctrl+D)" onclick="document.documentElement.classList.toggle('dark')">◐</button>
+</header>
+
+<div class="summary" role="status">
+  <strong>variants.jsonl</strong>
+  <span class="chip" aria-pressed="false">4 rendered</span>
+  <span class="chip chip-warning">⚠ 1 warning</span>
+  <span class="chip err-chip">✕ 1 error</span>
+  <span class="spacer"></span>
+  <span class="kbd">j</span><span class="kbd">k</span> navigate · <span class="kbd">Enter</span> edit
+</div>
+
+<div class="drop">Drop <code>.json</code> spec files or a <code>.jsonl</code> batch here</div>
+
+<main class="card-grid" aria-label="Contact sheet">
+  <div class="tcard selected" tabindex="0" aria-label="variant-1, selected">
+    <div class="thumb anton" style="background:linear-gradient(135deg,#e8a33d,#b5651d)">SHIP IT</div>
+    <div class="meta"><span class="name">variant-1.json</span></div>
+  </div>
+  <div class="tcard" tabindex="0">
+    <div class="thumb anton" style="background:linear-gradient(135deg,#e8a33d,#b5651d)">SHIP IT??</div>
+    <div class="meta"><span class="name">variant-2.json</span></div>
+    <div class="cell-status"><span class="chip chip-warning">⚠ overflow: slot yes</span></div>
+  </div>
+  <div class="tcard" tabindex="0">
+    <div class="thumb anton" style="background:linear-gradient(135deg,#5b8dbf,#2f4d6e)">JUST SHIP</div>
+    <div class="meta"><span class="name">variant-3.json</span></div>
+  </div>
+  <div class="tcard" tabindex="0">
+    <div class="thumb" style="background:var(--elevated); color:var(--destructive); font-size:13px">
+      TEMPLATE_NOT_FOUND<br><span style="color:var(--muted-foreground)">"drakke" — did you mean "drake"?</span>
+    </div>
+    <div class="meta"><span class="name">variant-4.json</span></div>
+    <div class="cell-status"><span class="chip err-chip">✕ TEMPLATE_NOT_FOUND</span></div>
+  </div>
+  <div class="tcard" tabindex="0">
+    <div class="thumb anton" style="background:linear-gradient(135deg,#16a085,#0b4f43)">SHIP FRIDAY</div>
+    <div class="meta"><span class="name">variant-5.json</span></div>
+  </div>
+</main>
+</body>
+</html>

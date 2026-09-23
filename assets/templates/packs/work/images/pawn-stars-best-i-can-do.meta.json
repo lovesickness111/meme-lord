@@ -1,0 +1,38 @@
+{
+  "name": "Pawn Stars Best I Can Do",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "negotiation",
+    "lowball"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        25,
+        7,
+        574,
+        56
+      ],
+      "hint": "the reasonable ask (e.g. two weeks for the feature)"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        25,
+        289,
+        574,
+        56
+      ],
+      "hint": "best i can do is X (the lowball)"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/77045868/Pawn-Stars-Best-I-Can-Do",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

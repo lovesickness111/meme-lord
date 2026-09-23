@@ -1,0 +1,37 @@
+{
+  "name": "Sweating Jordan Peele",
+  "tags": [
+    "choice",
+    "decision",
+    "nervous",
+    "pressure"
+  ],
+  "category": "choice",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        47,
+        16,
+        846,
+        125
+      ],
+      "hint": "setup text"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        47,
+        640,
+        846,
+        125
+      ],
+      "hint": "punchline text"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/140580979/Jordan-Peele-Sweating",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

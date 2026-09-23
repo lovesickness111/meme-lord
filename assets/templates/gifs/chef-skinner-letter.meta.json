@@ -1,0 +1,27 @@
+{
+  "name": "Chef Skinner Reading A Letter",
+  "tags": [
+    "shock",
+    "reading",
+    "discovery",
+    "animated"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "bottom",
+      "rect": [
+        10,
+        140,
+        301,
+        36
+      ],
+      "hint": "the shocking thing being read"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/300006681/Chef-Skinner-Reading-a-Letter",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

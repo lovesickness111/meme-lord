@@ -1,0 +1,36 @@
+{
+  "name": "Charlie Conspiracy Board",
+  "tags": [
+    "conspiracy",
+    "explaining",
+    "frantic"
+  ],
+  "category": "explanation",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        30,
+        15,
+        940,
+        150
+      ],
+      "hint": "the wild theory being explained"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        30,
+        585,
+        940,
+        150
+      ],
+      "hint": "the conclusion (optional)"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/92084495/Charlie-Conspiracy-Always-Sunny-in-Philidelphia",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

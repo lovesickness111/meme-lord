@@ -1,0 +1,26 @@
+{
+  "name": "The Scroll Of Truth",
+  "tags": [
+    "truth",
+    "rejection",
+    "two-panel"
+  ],
+  "category": "irony",
+  "slots": [
+    {
+      "name": "scroll",
+      "rect": [
+        520,
+        580,
+        360,
+        251
+      ],
+      "hint": "the unwanted truth on the scroll"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/The-Scroll-Of-Truth",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

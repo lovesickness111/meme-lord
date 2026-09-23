@@ -1,0 +1,37 @@
+{
+  "name": "Business Cat",
+  "tags": [
+    "animal",
+    "cat",
+    "business",
+    "work"
+  ],
+  "category": "animal",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        20,
+        15,
+        460,
+        100
+      ],
+      "hint": "corporate setup"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        20,
+        385,
+        460,
+        100
+      ],
+      "hint": "cat-related punchline"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/meme/Business-Cat",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

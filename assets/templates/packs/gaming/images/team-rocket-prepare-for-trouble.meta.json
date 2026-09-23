@@ -1,0 +1,36 @@
+{
+  "name": "Team Rocket Prepare For Trouble",
+  "tags": [
+    "gaming",
+    "pokemon",
+    "team-rocket"
+  ],
+  "category": "gaming",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        15,
+        9,
+        470,
+        81
+      ],
+      "hint": "\"prepare for trouble\""
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        15,
+        361,
+        470,
+        81
+      ],
+      "hint": "\"and make it double\""
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/219182392/prepare-for-trouble-and-make-it-double",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

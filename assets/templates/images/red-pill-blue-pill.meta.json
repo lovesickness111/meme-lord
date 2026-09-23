@@ -1,0 +1,36 @@
+{
+  "name": "Red Pill Blue Pill",
+  "tags": [
+    "choice",
+    "matrix",
+    "two-option"
+  ],
+  "category": "choice",
+  "slots": [
+    {
+      "name": "blue",
+      "rect": [
+        550,
+        31,
+        400,
+        84
+      ],
+      "hint": "the comfortable option"
+    },
+    {
+      "name": "red",
+      "rect": [
+        50,
+        31,
+        400,
+        84
+      ],
+      "hint": "the hard truth option"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/84195720/Red-pill-blue-pill",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

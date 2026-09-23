@@ -1,0 +1,36 @@
+{
+  "name": "Cuphead Flower",
+  "tags": [
+    "gaming",
+    "cuphead",
+    "menacing"
+  ],
+  "category": "gaming",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        23,
+        15,
+        726,
+        139
+      ],
+      "hint": "the intimidating thing"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        23,
+        618,
+        726,
+        139
+      ],
+      "hint": "you, facing it"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/213473065/Cuphead-Flower",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

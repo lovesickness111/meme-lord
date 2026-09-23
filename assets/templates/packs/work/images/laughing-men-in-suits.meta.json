@@ -1,0 +1,38 @@
+{
+  "name": "Laughing Men In Suits",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "executives",
+    "mockery"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        20,
+        7,
+        460,
+        53
+      ],
+      "hint": "and then he said"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        20,
+        273,
+        460,
+        53
+      ],
+      "hint": "the naive thing (e.g. 'it will ship on time')"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Laughing-Men-In-Suits",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Everyone Joins The Battle",
+  "tags": [
+    "gaming",
+    "smash-bros",
+    "chaos"
+  ],
+  "category": "gaming",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        36,
+        14,
+        1128,
+        122
+      ],
+      "hint": "who or what joins"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        36,
+        540,
+        1128,
+        122
+      ],
+      "hint": "\"joins the battle\""
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/172809782/EVERYONE-JOINS-THE-BATTLE",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

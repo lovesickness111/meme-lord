@@ -1,0 +1,57 @@
+{
+  "name": "Drake 4 Panel",
+  "tags": [
+    "panel",
+    "four-panel",
+    "preference",
+    "escalation"
+  ],
+  "category": "comparison",
+  "slots": [
+    {
+      "name": "no1",
+      "rect": [
+        399,
+        36,
+        345,
+        216
+      ],
+      "hint": "rejected option one"
+    },
+    {
+      "name": "no2",
+      "rect": [
+        399,
+        336,
+        345,
+        216
+      ],
+      "hint": "rejected option two"
+    },
+    {
+      "name": "no3",
+      "rect": [
+        399,
+        636,
+        345,
+        216
+      ],
+      "hint": "rejected option three"
+    },
+    {
+      "name": "yes",
+      "rect": [
+        399,
+        936,
+        345,
+        216
+      ],
+      "hint": "the approved option"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/150271101/Drake-4-panel-yes-no-approval-disapprove",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

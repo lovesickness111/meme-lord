@@ -1,0 +1,26 @@
+{
+  "name": "The Office Handshake",
+  "tags": [
+    "reaction",
+    "respect",
+    "agreement"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        20,
+        12,
+        639,
+        172
+      ],
+      "hint": "the deal being sealed"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/206622427/the-office-handshake",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

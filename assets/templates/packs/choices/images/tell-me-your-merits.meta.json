@@ -1,0 +1,37 @@
+{
+  "name": "Tell Me Your Merits (Choose The Next King)",
+  "tags": [
+    "choice",
+    "decision",
+    "selection",
+    "judging"
+  ],
+  "category": "choice",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        39,
+        24,
+        709,
+        192
+      ],
+      "hint": "setup text"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        39,
+        984,
+        709,
+        192
+      ],
+      "hint": "punchline text"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/190325604/Tell-me-your-merits-and-i-will-choose-the-next-king",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

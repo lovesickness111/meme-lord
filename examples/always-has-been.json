@@ -1,0 +1,8 @@
+{
+  "base": { "kind": "template", "id": "always-has-been" },
+  "texts": [
+    { "slot": "realization", "text": "WAIT, IT'S ALL JSON?" },
+    { "slot": "response", "text": "ALWAYS HAS BEEN" }
+  ],
+  "output": { "path": "always-has-been.png", "format": "png" }
+}

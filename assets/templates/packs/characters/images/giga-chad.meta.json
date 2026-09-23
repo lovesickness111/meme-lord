@@ -1,0 +1,37 @@
+{
+  "name": "Giga Chad",
+  "tags": [
+    "celebrity",
+    "chad",
+    "character",
+    "confidence"
+  ],
+  "category": "character",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        36,
+        31,
+        1128,
+        310
+      ],
+      "hint": "the setup"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        36,
+        1208,
+        1128,
+        310
+      ],
+      "hint": "the chad move"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/190327839/Giga-Chad",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

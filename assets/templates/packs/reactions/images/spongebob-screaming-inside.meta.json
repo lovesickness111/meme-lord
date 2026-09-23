@@ -1,0 +1,26 @@
+{
+  "name": "SpongeBob Screaming Inside",
+  "tags": [
+    "reaction",
+    "screaming",
+    "internal"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        29,
+        15,
+        911,
+        208
+      ],
+      "hint": "the internal panic"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/194852517/spongebob-screaming-inside",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "UNO Draw 25 Cards",
+  "tags": [
+    "choice",
+    "decision",
+    "uno",
+    "two-option",
+    "consequences"
+  ],
+  "category": "choice",
+  "slots": [
+    {
+      "name": "left",
+      "rect": [
+        15,
+        15,
+        220,
+        79
+      ],
+      "hint": "first option"
+    },
+    {
+      "name": "right",
+      "rect": [
+        265,
+        15,
+        220,
+        79
+      ],
+      "hint": "second option"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/UNO-Draw-25-Cards",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

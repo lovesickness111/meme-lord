@@ -1,0 +1,37 @@
+{
+  "name": "Gus Fring: We Are Not The Same",
+  "tags": [
+    "breaking-bad",
+    "celebrity",
+    "character",
+    "comparison"
+  ],
+  "category": "character",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        21,
+        20,
+        658,
+        200
+      ],
+      "hint": "you vs me setup"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        21,
+        780,
+        658,
+        200
+      ],
+      "hint": "\"we are not the same\""
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/342785297/Gus-Fring-we-are-not-the-same",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Swipe Left or Right",
+  "tags": [
+    "choice",
+    "decision",
+    "dating",
+    "two-option"
+  ],
+  "category": "choice",
+  "slots": [
+    {
+      "name": "left",
+      "rect": [
+        36,
+        24,
+        528,
+        128
+      ],
+      "hint": "first option"
+    },
+    {
+      "name": "right",
+      "rect": [
+        636,
+        24,
+        528,
+        128
+      ],
+      "hint": "second option"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/124375682/Swipe-left-or-right",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

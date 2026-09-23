@@ -1,0 +1,27 @@
+{
+  "name": "Oprah You Get A Car (Animated)",
+  "tags": [
+    "giving",
+    "excitement",
+    "generosity",
+    "animated"
+  ],
+  "category": "announcement",
+  "slots": [
+    {
+      "name": "bottom",
+      "rect": [
+        10,
+        170,
+        301,
+        44
+      ],
+      "hint": "what everybody gets"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/171270276/Oprah-You-Get-A-Car",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

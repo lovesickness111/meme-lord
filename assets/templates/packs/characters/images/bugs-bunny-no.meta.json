@@ -1,0 +1,37 @@
+{
+  "name": "Bugs Bunny No",
+  "tags": [
+    "celebrity",
+    "character",
+    "refusal",
+    "rejection"
+  ],
+  "category": "character",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        21,
+        17,
+        658,
+        170
+      ],
+      "hint": "the request"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        21,
+        661,
+        658,
+        170
+      ],
+      "hint": "\"no\""
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/179116198/Bugs-Bunny-No",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

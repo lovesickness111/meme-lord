@@ -1,0 +1,8 @@
+{
+  "base": { "kind": "template", "id": "animated-andy-dwyer-excited" },
+  "texts": [
+    { "slot": "top", "text": "CI PASSED" },
+    { "slot": "bottom", "text": "ON THE FIRST TRY", "frames": [5, 30] }
+  ],
+  "output": { "path": "gif-pack-frames.gif", "format": "gif" }
+}

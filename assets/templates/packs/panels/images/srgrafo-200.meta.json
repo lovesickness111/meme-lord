@@ -1,0 +1,27 @@
+{
+  "name": "SRGrafo Dude WTF",
+  "tags": [
+    "panel",
+    "comic",
+    "two-panel",
+    "overreaction"
+  ],
+  "category": "comic",
+  "slots": [
+    {
+      "name": "statement",
+      "rect": [
+        26,
+        397,
+        244,
+        83
+      ],
+      "hint": "the innocent statement that causes the overreaction"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/215252615/Srgrafo-dude-wtf",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

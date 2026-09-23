@@ -1,0 +1,48 @@
+{
+  "name": "Trojan Horse",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "deception",
+    "hidden"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "horse",
+      "rect": [
+        204,
+        67,
+        272,
+        67
+      ],
+      "hint": "the innocent-looking wrapper"
+    },
+    {
+      "name": "soldiers",
+      "rect": [
+        204,
+        302,
+        272,
+        67
+      ],
+      "hint": "what's hidden inside"
+    },
+    {
+      "name": "city",
+      "rect": [
+        14,
+        537,
+        272,
+        67
+      ],
+      "hint": "the unsuspecting target"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/144961820/Trojan-Horse",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

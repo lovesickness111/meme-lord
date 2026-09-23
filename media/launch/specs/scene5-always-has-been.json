@@ -1,0 +1,6 @@
+{
+  "texts": [
+    { "slot": "realization", "text": "WAIT, IT'S ALL JUST ONE JSON SPEC?", "style": { "size": 30 } },
+    { "slot": "response", "text": "ALWAYS HAS BEEN", "style": { "size": 32 } }
+  ]
+}

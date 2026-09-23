@@ -1,0 +1,38 @@
+{
+  "name": "Jack Sparrow Being Chased",
+  "tags": [
+    "celebrity",
+    "character",
+    "chase",
+    "escape",
+    "pirates"
+  ],
+  "category": "character",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        15,
+        8,
+        470,
+        75
+      ],
+      "hint": "who is chasing"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        15,
+        292,
+        470,
+        75
+      ],
+      "hint": "who is running"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Jack-Sparrow-Being-Chased",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

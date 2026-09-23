@@ -1,0 +1,38 @@
+{
+  "name": "Silence X, a Y Is Talking",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "hierarchy",
+    "dismissal"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        29,
+        14,
+        659,
+        111
+      ],
+      "hint": "silence, X (e.g. frontend dev)"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        29,
+        567,
+        659,
+        111
+      ],
+      "hint": "a Y is talking (e.g. the compiler)"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/534143336/Silence-X-a-Y-is-talking",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

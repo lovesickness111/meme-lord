@@ -1,0 +1,36 @@
+{
+  "name": "Banned From Roblox",
+  "tags": [
+    "gaming",
+    "roblox",
+    "banned"
+  ],
+  "category": "gaming",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        22,
+        17,
+        677,
+        149
+      ],
+      "hint": "the offense committed"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        22,
+        663,
+        677,
+        149
+      ],
+      "hint": "the ban notice"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/138309975/banned-from-ROBLOX",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Why Can't You Just Be Normal",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "screaming",
+    "chaos",
+    "two-panel"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        18,
+        9,
+        414,
+        45
+      ],
+      "hint": "why can't you just be normal (said to the misbehaving thing)"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        18,
+        236,
+        414,
+        45
+      ],
+      "hint": "the screaming response"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/303873877/Why-Cant-You-Just-Be-Normal",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

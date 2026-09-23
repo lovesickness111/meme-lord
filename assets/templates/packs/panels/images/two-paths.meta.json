@@ -1,0 +1,37 @@
+{
+  "name": "Two Paths",
+  "tags": [
+    "panel",
+    "two-panel",
+    "choice",
+    "diverging"
+  ],
+  "category": "choice",
+  "slots": [
+    {
+      "name": "bright",
+      "rect": [
+        8,
+        8,
+        175,
+        75
+      ],
+      "hint": "the bright easy path"
+    },
+    {
+      "name": "dark",
+      "rect": [
+        233,
+        8,
+        175,
+        75
+      ],
+      "hint": "the dark ominous path"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Two-Paths",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

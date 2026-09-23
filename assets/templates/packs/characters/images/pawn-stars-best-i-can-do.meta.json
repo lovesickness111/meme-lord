@@ -1,0 +1,37 @@
+{
+  "name": "Pawn Stars: Best I Can Do",
+  "tags": [
+    "celebrity",
+    "character",
+    "lowball",
+    "negotiation"
+  ],
+  "category": "character",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        19,
+        7,
+        587,
+        70
+      ],
+      "hint": "the ask"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        19,
+        275,
+        587,
+        70
+      ],
+      "hint": "\"best I can do is X\""
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/77045868/Pawn-Stars-Best-I-Can-Do",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

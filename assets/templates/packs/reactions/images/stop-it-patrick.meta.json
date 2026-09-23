@@ -1,0 +1,26 @@
+{
+  "name": "Stop It Patrick You're Scaring Him",
+  "tags": [
+    "reaction",
+    "scared",
+    "spongebob"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        23,
+        14,
+        731,
+        202
+      ],
+      "hint": "the scary topic"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/161213284/Stop-it-Patrick-Youre-Scaring-Him",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

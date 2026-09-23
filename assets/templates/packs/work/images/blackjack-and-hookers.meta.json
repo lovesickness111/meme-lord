@@ -1,0 +1,39 @@
+{
+  "name": "I'm Gonna Build My Own Theme Park (Blackjack)",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "futurama",
+    "fork",
+    "diy"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        25,
+        9,
+        570,
+        74
+      ],
+      "hint": "i'm gonna build my own X"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        25,
+        381,
+        570,
+        74
+      ],
+      "hint": "with blackjack and hookers (the extras)"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/6207229/Blackjack-and-Hookers",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

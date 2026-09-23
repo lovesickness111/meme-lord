@@ -1,0 +1,40 @@
+{
+  "name": "Drake Hotline Bling",
+  "tags": ["choice", "preference", "two-panel"],
+  "category": "choice",
+  "selectionGuide": {
+    "description": "Two stacked panels pair a rejecting gesture with an approving gesture to express a simple preference.",
+    "bestFor": [
+      "rejecting one option in favor of a clearly preferred alternative",
+      "contrasting an old habit with a better replacement",
+      "showing inconsistent priorities through a compact two-choice comparison"
+    ],
+    "avoidWhen": [
+      "both options are equally undesirable or difficult",
+      "the joke depends on a chronological story rather than a preference",
+      "more than two choices need separate labels"
+    ],
+    "tone": ["playful", "decisive", "sarcastic"],
+    "mechanics": {
+      "visual": "The first panel visibly refuses its option, while the second panel approves the alternative, making the hierarchy immediate.",
+      "text": "Put the rejected option in no and the preferred option in yes; concise, grammatically parallel phrases make the contrast strongest."
+    }
+  },
+  "slots": [
+    {
+      "name": "no",
+      "rect": [620, 30, 560, 540],
+      "hint": "the rejected option"
+    },
+    {
+      "name": "yes",
+      "rect": [620, 630, 560, 540],
+      "hint": "the preferred option"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Drake-Hotline-Bling",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

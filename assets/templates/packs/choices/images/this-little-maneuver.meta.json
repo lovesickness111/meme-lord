@@ -1,0 +1,37 @@
+{
+  "name": "This Little Maneuver Is Gonna Cost Us 51 Years",
+  "tags": [
+    "choice",
+    "decision",
+    "costly-choice",
+    "interstellar"
+  ],
+  "category": "choice",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        48,
+        14,
+        869,
+        116
+      ],
+      "hint": "setup text"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        48,
+        594,
+        869,
+        116
+      ],
+      "hint": "punchline text"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/229406011/This-little-maneuver-is-gonna-cost-us-51-years",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

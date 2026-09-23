@@ -1,0 +1,37 @@
+{
+  "name": "Moo Deng",
+  "tags": [
+    "animal",
+    "hippo",
+    "moo-deng",
+    "chaotic"
+  ],
+  "category": "animal",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        37,
+        18,
+        845,
+        122
+      ],
+      "hint": "the setup"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        37,
+        472,
+        845,
+        122
+      ],
+      "hint": "the chaotic energy"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/meme/550463235/Moo-Deng",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

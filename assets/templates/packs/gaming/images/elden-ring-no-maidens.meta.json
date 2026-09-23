@@ -1,0 +1,36 @@
+{
+  "name": "Elden Ring No Maidens",
+  "tags": [
+    "gaming",
+    "elden-ring",
+    "insult"
+  ],
+  "category": "gaming",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        25,
+        24,
+        797,
+        216
+      ],
+      "hint": "the target of the roast"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        25,
+        960,
+        797,
+        216
+      ],
+      "hint": "\"maidenless behavior\""
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/376588567/No-Maidens",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

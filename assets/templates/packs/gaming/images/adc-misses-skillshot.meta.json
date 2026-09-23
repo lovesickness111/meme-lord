@@ -1,0 +1,36 @@
+{
+  "name": "When ADC Misses Skill Shot",
+  "tags": [
+    "gaming",
+    "league-of-legends",
+    "fail"
+  ],
+  "category": "gaming",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        19,
+        12,
+        602,
+        111
+      ],
+      "hint": "the missed play"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        19,
+        491,
+        602,
+        111
+      ],
+      "hint": "the team's reaction"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/232601751/When-ADC-Misses-Skill-Shot",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

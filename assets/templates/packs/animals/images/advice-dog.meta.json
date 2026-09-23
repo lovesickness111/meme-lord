@@ -1,0 +1,37 @@
+{
+  "name": "Advice Dog",
+  "tags": [
+    "animal",
+    "dog",
+    "advice",
+    "classic"
+  ],
+  "category": "animal",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        20,
+        15,
+        460,
+        100
+      ],
+      "hint": "the advice setup"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        20,
+        385,
+        460,
+        100
+      ],
+      "hint": "the questionable advice"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/meme/Advice-Dog",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

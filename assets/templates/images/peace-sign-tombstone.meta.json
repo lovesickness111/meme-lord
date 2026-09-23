@@ -1,0 +1,36 @@
+{
+  "name": "Peace Sign Tombstone",
+  "tags": [
+    "death",
+    "farewell",
+    "irreverent"
+  ],
+  "category": "failure",
+  "slots": [
+    {
+      "name": "tombstone",
+      "rect": [
+        300,
+        298,
+        450,
+        187
+      ],
+      "hint": "what died"
+    },
+    {
+      "name": "caption",
+      "rect": [
+        30,
+        17,
+        940,
+        119
+      ],
+      "hint": "the farewell message (optional)"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/233816164/Peace-sign-tombstone",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

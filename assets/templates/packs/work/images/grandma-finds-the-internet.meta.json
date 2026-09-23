@@ -1,0 +1,39 @@
+{
+  "name": "Grandma Finds The Internet",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "internet",
+    "confusion",
+    "users"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        26,
+        10,
+        589,
+        77
+      ],
+      "hint": "the confused question about technology"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        26,
+        394,
+        589,
+        77
+      ],
+      "hint": "the punchline"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Grandma-Finds-The-Internet",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

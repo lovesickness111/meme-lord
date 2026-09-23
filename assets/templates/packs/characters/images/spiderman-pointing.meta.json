@@ -1,0 +1,38 @@
+{
+  "name": "Spider-Man Pointing At Spider-Man",
+  "tags": [
+    "blame",
+    "celebrity",
+    "character",
+    "duplication",
+    "spiderman"
+  ],
+  "category": "character",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        24,
+        9,
+        752,
+        90
+      ],
+      "hint": "the first identical thing"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        24,
+        351,
+        752,
+        90
+      ],
+      "hint": "the other identical thing"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/110133729/spiderman-pointing-at-spiderman",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

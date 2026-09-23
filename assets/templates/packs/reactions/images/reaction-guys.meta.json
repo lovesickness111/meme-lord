@@ -1,0 +1,27 @@
+{
+  "name": "Reaction Guys (Gaijin 4koma)",
+  "tags": [
+    "reaction",
+    "excited",
+    "laughing",
+    "group"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        36,
+        18,
+        1128,
+        252
+      ],
+      "hint": "the hype-worthy announcement"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/204057853/Reaction-Guys",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

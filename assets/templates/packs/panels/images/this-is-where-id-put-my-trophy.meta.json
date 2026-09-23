@@ -1,0 +1,37 @@
+{
+  "name": "This Is Where I'd Put My Trophy",
+  "tags": [
+    "panel",
+    "two-panel",
+    "fairly-odd-parents",
+    "lack"
+  ],
+  "category": "comic",
+  "slots": [
+    {
+      "name": "showcase",
+      "rect": [
+        15,
+        4,
+        270,
+        38
+      ],
+      "hint": "this is where I'd put my X"
+    },
+    {
+      "name": "punchline",
+      "rect": [
+        15,
+        222,
+        270,
+        38
+      ],
+      "hint": "IF I HAD ONE"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/This-Is-Where-Id-Put-My-Trophy-If-I-Had-One",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

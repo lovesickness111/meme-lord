@@ -1,0 +1,47 @@
+{
+  "name": "Trolley Problem",
+  "tags": [
+    "panel",
+    "choice",
+    "ethics",
+    "diagram"
+  ],
+  "category": "choice",
+  "slots": [
+    {
+      "name": "chooser",
+      "rect": [
+        120,
+        6,
+        180,
+        41
+      ],
+      "hint": "the one at the lever"
+    },
+    {
+      "name": "many",
+      "rect": [
+        384,
+        260,
+        204,
+        48
+      ],
+      "hint": "the group on the main track"
+    },
+    {
+      "name": "one",
+      "rect": [
+        420,
+        108,
+        168,
+        38
+      ],
+      "hint": "the single person on the side track"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/93659037/Trolley-Problem",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

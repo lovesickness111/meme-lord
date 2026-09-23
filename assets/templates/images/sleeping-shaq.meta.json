@@ -1,0 +1,36 @@
+{
+  "name": "Sleeping Shaq",
+  "tags": [
+    "indifference",
+    "excitement",
+    "two-panel"
+  ],
+  "category": "comparison",
+  "slots": [
+    {
+      "name": "sleep",
+      "rect": [
+        269,
+        32,
+        352,
+        221
+      ],
+      "hint": "the boring thing (sleeping)"
+    },
+    {
+      "name": "wake-up",
+      "rect": [
+        269,
+        347,
+        352,
+        221
+      ],
+      "hint": "the exciting thing (wide awake)"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Sleeping-Shaq",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

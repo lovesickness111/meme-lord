@@ -1,0 +1,26 @@
+{
+  "name": "Ight Imma Head Out",
+  "tags": [
+    "leaving",
+    "exit",
+    "done"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        25,
+        19,
+        773,
+        173
+      ],
+      "hint": "the situation that makes you leave"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Spongebob-Ight-Imma-Head-Out",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

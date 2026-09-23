@@ -1,0 +1,38 @@
+{
+  "name": "Leonardo DiCaprio Cheers",
+  "tags": [
+    "celebrity",
+    "character",
+    "congratulations",
+    "leonardo-dicaprio",
+    "toast"
+  ],
+  "category": "character",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        18,
+        8,
+        564,
+        80
+      ],
+      "hint": "the toast"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        18,
+        312,
+        564,
+        80
+      ],
+      "hint": "who it's for"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Leonardo-Dicaprio-Cheers",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

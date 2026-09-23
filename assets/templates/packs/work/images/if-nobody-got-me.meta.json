@@ -1,0 +1,38 @@
+{
+  "name": "If Nobody Got Me, I Know...",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "loyalty",
+    "reliability"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        48,
+        23,
+        1104,
+        184
+      ],
+      "hint": "if nobody got me"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        48,
+        942,
+        1104,
+        184
+      ],
+      "hint": "i know X got me (e.g. stack overflow)"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/383002262/if-nobody-got-me-i-know-X-got-me",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

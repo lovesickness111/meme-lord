@@ -1,0 +1,10 @@
+{
+  "base": { "kind": "template", "id": "grus-plan" },
+  "texts": [
+    { "slot": "step1", "text": "SHIP THE FEATURE" },
+    { "slot": "step2", "text": "SKIP THE TESTS" },
+    { "slot": "step3", "text": "PROD IS DOWN" },
+    { "slot": "step4", "text": "PROD IS DOWN" }
+  ],
+  "output": { "path": "grus-plan.png", "format": "png" }
+}

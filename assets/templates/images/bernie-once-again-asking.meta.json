@@ -1,0 +1,26 @@
+{
+  "name": "Bernie I Am Once Again Asking",
+  "tags": [
+    "request",
+    "plea",
+    "asking"
+  ],
+  "category": "request",
+  "slots": [
+    {
+      "name": "bottom",
+      "rect": [
+        38,
+        540,
+        675,
+        180
+      ],
+      "hint": "what you are once again asking for"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Bernie-I-Am-Once-Again-Asking-For-Your-Support",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

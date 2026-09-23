@@ -1,0 +1,37 @@
+{
+  "name": "Flex Tape",
+  "tags": [
+    "panel",
+    "two-panel",
+    "fix",
+    "patch"
+  ],
+  "category": "comic",
+  "slots": [
+    {
+      "name": "problem",
+      "rect": [
+        26,
+        11,
+        459,
+        57
+      ],
+      "hint": "the massive leak / problem"
+    },
+    {
+      "name": "fix",
+      "rect": [
+        26,
+        303,
+        459,
+        57
+      ],
+      "hint": "the quick patch slapped on it"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Flex-Tape",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

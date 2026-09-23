@@ -1,0 +1,36 @@
+{
+  "name": "Gamer Rage",
+  "tags": [
+    "gaming",
+    "rage",
+    "anger"
+  ],
+  "category": "gaming",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        15,
+        14,
+        470,
+        129
+      ],
+      "hint": "what happened in the game"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        15,
+        574,
+        470,
+        129
+      ],
+      "hint": "the enraged reaction"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/38686085/Gamer-Rage",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

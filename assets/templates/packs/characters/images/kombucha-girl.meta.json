@@ -1,0 +1,37 @@
+{
+  "name": "Kombucha Girl",
+  "tags": [
+    "celebrity",
+    "character",
+    "indecision",
+    "mixed-feelings"
+  ],
+  "category": "character",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        16,
+        9,
+        497,
+        90
+      ],
+      "hint": "first reaction: disgust"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        16,
+        353,
+        497,
+        90
+      ],
+      "hint": "second thought: maybe"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/197671929/Kombucha-Girl",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Surprised Announcer",
+  "tags": [
+    "surprised",
+    "announcer",
+    "hype",
+    "gif",
+    "animated"
+  ],
+  "category": "gif",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        8,
+        8,
+        304,
+        61
+      ],
+      "hint": "the unexpected play"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        8,
+        149,
+        304,
+        61
+      ],
+      "hint": "the shocked call"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/gif-maker/502024819/Surprised-Announcer",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

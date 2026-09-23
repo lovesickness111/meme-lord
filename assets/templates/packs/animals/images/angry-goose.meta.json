@@ -1,0 +1,37 @@
+{
+  "name": "Angry Goose",
+  "tags": [
+    "animal",
+    "bird",
+    "goose",
+    "anger"
+  ],
+  "category": "animal",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        25,
+        12,
+        570,
+        83
+      ],
+      "hint": "the provocation"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        25,
+        319,
+        570,
+        83
+      ],
+      "hint": "the honking fury"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/meme/19932521/Angry-Goose",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

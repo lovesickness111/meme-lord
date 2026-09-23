@@ -1,0 +1,37 @@
+{
+  "name": "Face You Make Robert Downey Jr",
+  "tags": [
+    "annoyance",
+    "celebrity",
+    "character",
+    "reaction"
+  ],
+  "category": "character",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        14,
+        10,
+        432,
+        105
+      ],
+      "hint": "the face you make when"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        14,
+        408,
+        432,
+        105
+      ],
+      "hint": "the annoying thing"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Face-You-Make-Robert-Downey-Jr",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

@@ -1,0 +1,23 @@
+# The published package is allowlisted via the "files" field in package.json
+# (dist/ and assets/ only). This file is defense-in-depth in case that field
+# is ever removed.
+src/
+test/
+ui/
+scripts/
+docs/
+examples/
+workflows/
+.github/
+*.log
+.env
+.env.*
+secrets/
+*.pem
+*.key
+tsconfig.json
+vitest.config.ts
+eslint.config.js
+.prettierrc
+.gitkeep
+*.map

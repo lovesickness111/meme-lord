@@ -1,0 +1,26 @@
+{
+  "name": "Don't Make Me Tap The Sign",
+  "tags": [
+    "rules",
+    "reminder",
+    "warning"
+  ],
+  "category": "announcement",
+  "slots": [
+    {
+      "name": "sign",
+      "rect": [
+        179,
+        568,
+        352,
+        189
+      ],
+      "hint": "the rule on the blank sign being tapped"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/145699196/Dont-make-me-tap-the-sign",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

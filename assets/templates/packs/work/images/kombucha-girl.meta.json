@@ -1,0 +1,38 @@
+{
+  "name": "Kombucha Girl",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "mixed-feelings",
+    "two-panel"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        21,
+        9,
+        487,
+        45
+      ],
+      "hint": "first reaction (disgust)"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        21,
+        235,
+        487,
+        45
+      ],
+      "hint": "reconsidering reaction (maybe it's fine)"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/197671929/Kombucha-Girl",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "The Monkey's Paw",
+  "tags": [
+    "choice",
+    "decision",
+    "wish",
+    "consequences",
+    "be-careful"
+  ],
+  "category": "choice",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        26,
+        8,
+        461,
+        61
+      ],
+      "hint": "setup text"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        26,
+        315,
+        461,
+        61
+      ],
+      "hint": "punchline text"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/364787482/The-Monkeys-Paw",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

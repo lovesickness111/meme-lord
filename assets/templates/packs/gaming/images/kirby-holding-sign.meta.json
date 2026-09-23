@@ -1,0 +1,36 @@
+{
+  "name": "Kirby Holding A Sign",
+  "tags": [
+    "gaming",
+    "kirby",
+    "announcement"
+  ],
+  "category": "gaming",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        19,
+        13,
+        602,
+        114
+      ],
+      "hint": "the sign's message"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        19,
+        509,
+        602,
+        114
+      ],
+      "hint": "extra caption"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/187230669/Kirby-holding-a-sign",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

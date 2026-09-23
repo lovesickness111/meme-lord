@@ -1,0 +1,38 @@
+{
+  "name": "Krusty Krab vs Chum Bucket",
+  "tags": [
+    "choice",
+    "decision",
+    "versus",
+    "spongebob",
+    "comparison"
+  ],
+  "category": "choice",
+  "slots": [
+    {
+      "name": "left",
+      "rect": [
+        18,
+        18,
+        264,
+        96
+      ],
+      "hint": "first option"
+    },
+    {
+      "name": "right",
+      "rect": [
+        318,
+        18,
+        264,
+        96
+      ],
+      "hint": "second option"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Krusty-Krab-Vs-Chum-Bucket",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

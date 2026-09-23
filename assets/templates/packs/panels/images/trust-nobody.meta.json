@@ -1,0 +1,37 @@
+{
+  "name": "Trust Nobody, Not Even Yourself",
+  "tags": [
+    "panel",
+    "two-panel",
+    "betrayal",
+    "self"
+  ],
+  "category": "betrayal",
+  "slots": [
+    {
+      "name": "you",
+      "rect": [
+        12,
+        308,
+        264,
+        65
+      ],
+      "hint": "you"
+    },
+    {
+      "name": "yourself",
+      "rect": [
+        324,
+        308,
+        264,
+        65
+      ],
+      "hint": "also you, with the gun"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/132543875/Trust-Nobody-Not-Even-Yourself",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

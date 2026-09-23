@@ -1,0 +1,38 @@
+{
+  "name": "Pros and Cons",
+  "tags": [
+    "choice",
+    "decision",
+    "pros-cons",
+    "weighing",
+    "two-option"
+  ],
+  "category": "choice",
+  "slots": [
+    {
+      "name": "left",
+      "rect": [
+        15,
+        12,
+        220,
+        65
+      ],
+      "hint": "first option"
+    },
+    {
+      "name": "right",
+      "rect": [
+        265,
+        12,
+        220,
+        65
+      ],
+      "hint": "second option"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/181870254/Pros-and-cons",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

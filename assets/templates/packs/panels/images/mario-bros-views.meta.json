@@ -1,0 +1,47 @@
+{
+  "name": "Mario Bros Views",
+  "tags": [
+    "panel",
+    "three-panel",
+    "opinions",
+    "mario"
+  ],
+  "category": "comparison",
+  "slots": [
+    {
+      "name": "topic",
+      "rect": [
+        354,
+        101,
+        204,
+        60
+      ],
+      "hint": "the topic being asked about"
+    },
+    {
+      "name": "mario",
+      "rect": [
+        95,
+        358,
+        224,
+        167
+      ],
+      "hint": "Mario's view"
+    },
+    {
+      "name": "luigi",
+      "rect": [
+        354,
+        370,
+        204,
+        167
+      ],
+      "hint": "Luigi's view"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/144021397/Mario-Bros-Views",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

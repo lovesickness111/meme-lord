@@ -1,0 +1,37 @@
+{
+  "name": "Awkward Moment Seal",
+  "tags": [
+    "animal",
+    "seal",
+    "awkward",
+    "cringe"
+  ],
+  "category": "animal",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        20,
+        19,
+        451,
+        128
+      ],
+      "hint": "that awkward moment when"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        20,
+        493,
+        451,
+        128
+      ],
+      "hint": "the cringe detail"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/meme/29837530/Awkward-moment-seal",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

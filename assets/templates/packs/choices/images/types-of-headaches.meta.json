@@ -1,0 +1,37 @@
+{
+  "name": "Types of Headaches",
+  "tags": [
+    "choice",
+    "decision",
+    "pain",
+    "comparison"
+  ],
+  "category": "choice",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        24,
+        10,
+        435,
+        80
+      ],
+      "hint": "setup text"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        24,
+        408,
+        435,
+        80
+      ],
+      "hint": "punchline text"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/119215120/Types-of-Headaches-meme",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

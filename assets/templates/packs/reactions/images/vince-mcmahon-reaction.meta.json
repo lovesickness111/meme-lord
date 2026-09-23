@@ -1,0 +1,26 @@
+{
+  "name": "Vince McMahon Reaction",
+  "tags": [
+    "reaction",
+    "shocked",
+    "escalation"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        19,
+        18,
+        609,
+        252
+      ],
+      "hint": "the increasingly exciting thing"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/193966043/Vince-McMahon-Reaction",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

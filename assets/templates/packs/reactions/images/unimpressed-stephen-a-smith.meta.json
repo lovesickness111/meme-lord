@@ -1,0 +1,26 @@
+{
+  "name": "Unimpressed Stephen A. Smith",
+  "tags": [
+    "reaction",
+    "unimpressed",
+    "skeptical"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        22,
+        14,
+        703,
+        191
+      ],
+      "hint": "the unconvincing take"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/182027554/Unimpressed-Stephen-A-Smith",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

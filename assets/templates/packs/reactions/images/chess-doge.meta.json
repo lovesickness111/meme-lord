@@ -1,0 +1,26 @@
+{
+  "name": "Chess Doge",
+  "tags": [
+    "reaction",
+    "smug",
+    "strategy"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        30,
+        24,
+        932,
+        336
+      ],
+      "hint": "the galaxy-brain move"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/249546525/Chess-doge",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

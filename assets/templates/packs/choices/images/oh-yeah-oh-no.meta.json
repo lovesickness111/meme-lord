@@ -1,0 +1,37 @@
+{
+  "name": "Oh Yeah! Oh No.",
+  "tags": [
+    "choice",
+    "decision",
+    "realization",
+    "regret"
+  ],
+  "category": "choice",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        262,
+        23,
+        226,
+        100
+      ],
+      "hint": "first reaction"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        262,
+        215,
+        226,
+        100
+      ],
+      "hint": "second reaction"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/184152522/Oh-yeah-Oh-no",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

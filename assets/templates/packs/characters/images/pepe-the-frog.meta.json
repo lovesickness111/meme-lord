@@ -1,0 +1,37 @@
+{
+  "name": "Sad Pepe The Frog",
+  "tags": [
+    "celebrity",
+    "character",
+    "pepe",
+    "sadness"
+  ],
+  "category": "character",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        12,
+        6,
+        376,
+        64
+      ],
+      "hint": "the setup"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        12,
+        250,
+        376,
+        64
+      ],
+      "hint": "the sad feels"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/36383069/Pepe-the-Frog",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

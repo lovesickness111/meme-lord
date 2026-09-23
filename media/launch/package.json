@@ -1,0 +1,18 @@
+{
+  "name": "meme-maker-launch-video",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Remotion composition for the meme-maker X launch video",
+  "type": "module",
+  "scripts": {
+    "render": "remotion render src/index.tsx Launch launch.mp4",
+    "preview": "remotion studio src/index.tsx"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.495",
+    "@remotion/renderer": "4.0.495",
+    "react": "19.2.7",
+    "react-dom": "19.2.7",
+    "remotion": "4.0.495"
+  }
+}

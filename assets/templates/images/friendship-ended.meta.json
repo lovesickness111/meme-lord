@@ -1,0 +1,36 @@
+{
+  "name": "Friendship Ended",
+  "tags": [
+    "replacement",
+    "friendship",
+    "announcement"
+  ],
+  "category": "choice",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        24,
+        12,
+        752,
+        120
+      ],
+      "hint": "friendship ended with X"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        24,
+        468,
+        752,
+        120
+      ],
+      "hint": "now Y is my best friend"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/137501417/Friendship-ended",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

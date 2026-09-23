@@ -1,0 +1,36 @@
+{
+  "name": "How Do You Do, Fellow Kids",
+  "tags": [
+    "out-of-touch",
+    "pretending",
+    "fitting-in"
+  ],
+  "category": "irony",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        27,
+        14,
+        846,
+        144
+      ],
+      "hint": "who is pretending to fit in"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        27,
+        562,
+        846,
+        144
+      ],
+      "hint": "\"how do you do, fellow kids?\""
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/58910635/Steve-Buscemi-Fellow-Kids",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Robotnik Pressing Button",
+  "tags": [
+    "gaming",
+    "sonic",
+    "choice"
+  ],
+  "category": "gaming",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        19,
+        15,
+        602,
+        134
+      ],
+      "hint": "option one"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        19,
+        594,
+        602,
+        134
+      ],
+      "hint": "option two"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/243879998/Robotnik-Button",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

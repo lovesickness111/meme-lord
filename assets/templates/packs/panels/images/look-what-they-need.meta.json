@@ -1,0 +1,27 @@
+{
+  "name": "Look What They Need To Mimic A Fraction Of Our Power",
+  "tags": [
+    "panel",
+    "two-panel",
+    "flex",
+    "invincible"
+  ],
+  "category": "comparison",
+  "slots": [
+    {
+      "name": "subject",
+      "rect": [
+        48,
+        32,
+        864,
+        139
+      ],
+      "hint": "the elaborate thing they need"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/324268649/Look-What-They-Need-To-Mimic-A-Fraction-Of-Our-Power",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Say What Again (Pulp Fiction)",
+  "tags": [
+    "celebrity",
+    "character",
+    "pulp-fiction",
+    "samuel-l-jackson",
+    "threat"
+  ],
+  "category": "character",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        19,
+        7,
+        583,
+        70
+      ],
+      "hint": "\"say X again\""
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        19,
+        271,
+        583,
+        70
+      ],
+      "hint": "\"I dare you\""
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/16362847/Say-what-again",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

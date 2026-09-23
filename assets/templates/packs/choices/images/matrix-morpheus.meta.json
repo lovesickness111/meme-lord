@@ -1,0 +1,37 @@
+{
+  "name": "Matrix Morpheus",
+  "tags": [
+    "choice",
+    "decision",
+    "matrix",
+    "revelation"
+  ],
+  "category": "choice",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        25,
+        6,
+        450,
+        48
+      ],
+      "hint": "setup text"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        25,
+        248,
+        450,
+        48
+      ],
+      "hint": "punchline text"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Matrix-Morpheus",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Bill Lumbergh That Would Be Great",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "office-space",
+    "boss",
+    "passive-aggressive"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        21,
+        9,
+        484,
+        70
+      ],
+      "hint": "the passive-aggressive request (yeah, if you could...)"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        21,
+        361,
+        484,
+        70
+      ],
+      "hint": "that would be great"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/That-Would-Be-Great",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

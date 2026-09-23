@@ -1,0 +1,37 @@
+{
+  "name": "No Take, Only Throw",
+  "tags": [
+    "choice",
+    "decision",
+    "one-sided",
+    "dog"
+  ],
+  "category": "choice",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        38,
+        7,
+        685,
+        55
+      ],
+      "hint": "setup text"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        38,
+        281,
+        685,
+        55
+      ],
+      "hint": "punchline text"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/184734077/No-Take-Only-Throw",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

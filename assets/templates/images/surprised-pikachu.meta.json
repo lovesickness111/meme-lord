@@ -1,0 +1,35 @@
+{
+  "name": "Surprised Pikachu",
+  "tags": ["surprise", "consequences", "reaction"],
+  "category": "reaction",
+  "selectionGuide": {
+    "description": "A close-up surprised reaction acts as the punchline after a caption describes an obviously predictable consequence.",
+    "bestFor": [
+      "an action followed by the foreseeable result of that action",
+      "feigned shock after ignoring an obvious warning",
+      "calling out someone who treats a predictable outcome as surprising"
+    ],
+    "avoidWhen": [
+      "the outcome is genuinely unexpected",
+      "multiple actors or competing choices need separate labels",
+      "the setup requires a complex chronology to understand"
+    ],
+    "tone": ["ironic", "deadpan", "sarcastic", "incredulous"],
+    "mechanics": {
+      "visual": "Pikachu's wide-eyed reaction supplies the exaggerated surprise, so the image completes the joke without a second text region.",
+      "text": "Use top to state both the action and its predictable consequence, often as a compact 'does X; X happens' construction."
+    }
+  },
+  "slots": [
+    {
+      "name": "top",
+      "rect": [40, 25, 1120, 330],
+      "hint": "the action and its predictable consequence"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Surprised-Pikachu",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

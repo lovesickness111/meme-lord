@@ -1,0 +1,37 @@
+{
+  "name": "Airplane Duck",
+  "tags": [
+    "animal",
+    "bird",
+    "duck",
+    "travel"
+  ],
+  "category": "animal",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        30,
+        30,
+        690,
+        200
+      ],
+      "hint": "the setup"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        30,
+        772,
+        690,
+        200
+      ],
+      "hint": "the punchline"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/meme/42585674/Airplane-Duck",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

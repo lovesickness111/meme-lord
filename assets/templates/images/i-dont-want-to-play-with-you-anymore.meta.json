@@ -1,0 +1,36 @@
+{
+  "name": "I Don't Want To Play With You Anymore",
+  "tags": [
+    "abandonment",
+    "replacement",
+    "woody"
+  ],
+  "category": "rejection",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        30,
+        14,
+        940,
+        108
+      ],
+      "hint": "what is being abandoned"
+    },
+    {
+      "name": "new-toys",
+      "rect": [
+        550,
+        305,
+        420,
+        95
+      ],
+      "hint": "the shiny new replacements (optional)"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/196435636/I-dont-want-to-play-with-you-anymore",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

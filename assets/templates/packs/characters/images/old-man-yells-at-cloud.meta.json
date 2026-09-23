@@ -1,0 +1,38 @@
+{
+  "name": "Old Man Yells At Cloud",
+  "tags": [
+    "celebrity",
+    "character",
+    "complaint",
+    "rant",
+    "simpsons"
+  ],
+  "category": "character",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        14,
+        5,
+        451,
+        54
+      ],
+      "hint": "who is yelling"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        14,
+        211,
+        451,
+        54
+      ],
+      "hint": "the thing being yelled at"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/54522231/Old-man-yells-at-cloud",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

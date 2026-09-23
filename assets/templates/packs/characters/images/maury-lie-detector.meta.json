@@ -1,0 +1,37 @@
+{
+  "name": "Maury Lie Detector",
+  "tags": [
+    "celebrity",
+    "character",
+    "exposure",
+    "lie"
+  ],
+  "category": "character",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        11,
+        8,
+        358,
+        76
+      ],
+      "hint": "the claim"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        11,
+        295,
+        358,
+        76
+      ],
+      "hint": "\"the lie detector determined that was a lie\""
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Maury-Lie-Detector",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

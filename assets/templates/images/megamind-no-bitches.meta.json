@@ -1,0 +1,26 @@
+{
+  "name": "Megamind Peeking (No Bitches?)",
+  "tags": [
+    "mocking",
+    "question",
+    "reaction"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        20,
+        15,
+        634,
+        147
+      ],
+      "hint": "the mocking question"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/371619279/Megamind-no-bitches",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

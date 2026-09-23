@@ -1,0 +1,36 @@
+{
+  "name": "Evil Kermit",
+  "tags": [
+    "temptation",
+    "inner-voice",
+    "two-actor"
+  ],
+  "category": "choice",
+  "slots": [
+    {
+      "name": "me",
+      "rect": [
+        15,
+        8,
+        670,
+        60
+      ],
+      "hint": "the sensible thought, e.g. 'me: I should...'"
+    },
+    {
+      "name": "inner-me",
+      "rect": [
+        15,
+        255,
+        670,
+        62
+      ],
+      "hint": "the dark tempting counter-thought, e.g. 'inner me: ...'"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Evil-Kermit",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

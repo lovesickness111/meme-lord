@@ -1,0 +1,39 @@
+{
+  "name": "Did You Mean (Search Suggestion)",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "google",
+    "search",
+    "correction"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "query",
+      "rect": [
+        93,
+        48,
+        743,
+        48
+      ],
+      "hint": "the original search query"
+    },
+    {
+      "name": "suggestion",
+      "rect": [
+        139,
+        191,
+        743,
+        48
+      ],
+      "hint": "the corrective 'did you mean' suggestion"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/265415745/Did-you-mean",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

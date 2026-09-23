@@ -1,0 +1,38 @@
+{
+  "name": "Ah, I See You're a Man of Culture As Well",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "approval",
+    "taste"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        41,
+        12,
+        942,
+        92
+      ],
+      "hint": "the refined choice observed (e.g. tabs vs spaces)"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        41,
+        472,
+        942,
+        92
+      ],
+      "hint": "ah, i see you're a man of culture as well"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/145256242/Ah-I-See-Youre-a-Man-of-Culture-As-Well",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

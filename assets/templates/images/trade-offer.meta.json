@@ -1,0 +1,35 @@
+{
+  "name": "Trade Offer",
+  "tags": [
+    "exchange",
+    "proposal",
+    "negotiation"
+  ],
+  "slots": [
+    {
+      "name": "i-receive",
+      "rect": [
+        30,
+        175,
+        260,
+        180
+      ],
+      "hint": "what the proposer receives"
+    },
+    {
+      "name": "you-receive",
+      "rect": [
+        320,
+        175,
+        260,
+        180
+      ],
+      "hint": "what the other party receives"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Trade-Offer",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Surprised Joey",
+  "tags": [
+    "celebrity",
+    "character",
+    "friends",
+    "shock"
+  ],
+  "category": "character",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        19,
+        11,
+        602,
+        114
+      ],
+      "hint": "the setup"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        19,
+        444,
+        602,
+        114
+      ],
+      "hint": "the shocking reveal"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/231948831/Surprised-Joey",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

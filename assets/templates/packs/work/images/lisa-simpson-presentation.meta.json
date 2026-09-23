@@ -1,0 +1,29 @@
+{
+  "name": "Lisa Simpson's Presentation",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "presentation",
+    "truth",
+    "simpsons"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "board",
+      "rect": [
+        102,
+        48,
+        435,
+        168
+      ],
+      "hint": "the bold statement on the presentation board"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/139917843/Lisa-Simpsons-Presentation",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

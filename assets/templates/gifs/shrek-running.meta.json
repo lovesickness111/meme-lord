@@ -1,0 +1,27 @@
+{
+  "name": "Shrek Running",
+  "tags": [
+    "urgency",
+    "chasing",
+    "determination",
+    "animated"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        10,
+        4,
+        301,
+        36
+      ],
+      "hint": "what you are running toward/from"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/577634962/Shrek-running",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Crab Rave",
+  "tags": [
+    "celebration",
+    "party",
+    "crabs",
+    "animated"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        10,
+        4,
+        301,
+        36
+      ],
+      "hint": "the thing worth celebrating"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/188952964/Crab-Rave",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

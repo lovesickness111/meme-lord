@@ -1,0 +1,26 @@
+{
+  "name": "Wake Up Babe",
+  "tags": [
+    "excitement",
+    "news",
+    "announcement"
+  ],
+  "category": "announcement",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        30,
+        11,
+        940,
+        112
+      ],
+      "hint": "\"babe wake up, X just dropped\""
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/260755514/Wake-Up-Babe",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Stop Trying To Make Fetch Happen",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "mean-girls",
+    "rejection"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        25,
+        7,
+        570,
+        56
+      ],
+      "hint": "stop trying to make X happen"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        25,
+        285,
+        570,
+        56
+      ],
+      "hint": "it's not going to happen"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/7552574/Stop-Trying-to-Make-Fetch-Happen",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

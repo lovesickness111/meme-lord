@@ -1,0 +1,38 @@
+{
+  "name": "Vince McMahon Crying",
+  "tags": [
+    "crying",
+    "emotional",
+    "moved",
+    "gif",
+    "animated"
+  ],
+  "category": "gif",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        8,
+        8,
+        304,
+        74
+      ],
+      "hint": "the emotional trigger"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        8,
+        184,
+        304,
+        74
+      ],
+      "hint": "the tears"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/gif-maker/491107549/Vince-McMahon-Crying",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

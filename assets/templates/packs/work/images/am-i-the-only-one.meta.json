@@ -1,0 +1,38 @@
+{
+  "name": "Am I The Only One Around Here",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "frustration",
+    "standards"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        20,
+        7,
+        460,
+        56
+      ],
+      "hint": "am i the only one around here"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        20,
+        285,
+        460,
+        56
+      ],
+      "hint": "who does the reasonable thing"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Am-I-The-Only-One-Around-Here",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "It's A Surprise Tool That Will Help Us Later",
+  "tags": [
+    "reaction",
+    "surprise",
+    "foreshadowing"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        20,
+        12,
+        639,
+        170
+      ],
+      "hint": "the thing being saved for later"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/143246729/Its-a-surprise-tool-that-will-help-us-later",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

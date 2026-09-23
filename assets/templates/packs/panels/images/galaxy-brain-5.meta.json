@@ -1,0 +1,67 @@
+{
+  "name": "Expanding Brain 5 Panel",
+  "tags": [
+    "panel",
+    "five-panel",
+    "escalation",
+    "galaxy-brain"
+  ],
+  "category": "escalation",
+  "slots": [
+    {
+      "name": "level1",
+      "rect": [
+        26,
+        22,
+        474,
+        180
+      ],
+      "hint": "the basic idea"
+    },
+    {
+      "name": "level2",
+      "rect": [
+        26,
+        247,
+        474,
+        180
+      ],
+      "hint": "a smarter idea"
+    },
+    {
+      "name": "level3",
+      "rect": [
+        26,
+        472,
+        474,
+        180
+      ],
+      "hint": "a much smarter idea"
+    },
+    {
+      "name": "level4",
+      "rect": [
+        26,
+        697,
+        474,
+        180
+      ],
+      "hint": "a galaxy-brain idea"
+    },
+    {
+      "name": "level5",
+      "rect": [
+        26,
+        922,
+        474,
+        180
+      ],
+      "hint": "the transcendent final form"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/106208250/Expanding-Brain-5-Panel",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

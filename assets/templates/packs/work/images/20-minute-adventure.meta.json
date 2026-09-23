@@ -1,0 +1,39 @@
+{
+  "name": "Rick and Morty 20 Minute Adventure",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "rick-and-morty",
+    "scope-creep",
+    "two-panel"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "promise",
+      "rect": [
+        39,
+        21,
+        908,
+        127
+      ],
+      "hint": "the optimistic promise (in and out, 20 minute adventure)"
+    },
+    {
+      "name": "reality",
+      "rect": [
+        39,
+        583,
+        908,
+        127
+      ],
+      "hint": "the grim reality much later"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/205214210/20-minute-adventure-rick-morty",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

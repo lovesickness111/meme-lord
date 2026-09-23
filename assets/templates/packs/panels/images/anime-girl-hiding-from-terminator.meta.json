@@ -1,0 +1,37 @@
+{
+  "name": "Anime Girl Hiding From Terminator",
+  "tags": [
+    "panel",
+    "two-panel",
+    "hiding",
+    "fear"
+  ],
+  "category": "hiding",
+  "slots": [
+    {
+      "name": "hunter",
+      "rect": [
+        12,
+        13,
+        256,
+        89
+      ],
+      "hint": "the relentless thing searching"
+    },
+    {
+      "name": "hider",
+      "rect": [
+        302,
+        519,
+        261,
+        89
+      ],
+      "hint": "the terrified thing hiding"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Anime-Girl-Hiding-From-Terminator",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

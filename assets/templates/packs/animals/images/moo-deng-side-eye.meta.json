@@ -1,0 +1,37 @@
+{
+  "name": "Moo Deng Side Eye",
+  "tags": [
+    "animal",
+    "hippo",
+    "moo-deng",
+    "judgement"
+  ],
+  "category": "animal",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        31,
+        31,
+        707,
+        205
+      ],
+      "hint": "what was said"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        31,
+        788,
+        707,
+        205
+      ],
+      "hint": "the side eye"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/meme/555398822/Moo-Deng-Side-Eye",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

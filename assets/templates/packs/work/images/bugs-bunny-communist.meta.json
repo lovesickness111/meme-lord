@@ -1,0 +1,38 @@
+{
+  "name": "Communist Bugs Bunny (Our)",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "sharing",
+    "ours"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        24,
+        10,
+        552,
+        80
+      ],
+      "hint": "the thing being collectivized (e.g. 'your code')"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        24,
+        410,
+        552,
+        80
+      ],
+      "hint": "our"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/253470429/communist-bugs-bunny",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

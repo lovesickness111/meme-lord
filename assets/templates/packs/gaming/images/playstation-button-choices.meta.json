@@ -1,0 +1,36 @@
+{
+  "name": "PlayStation Button Choices",
+  "tags": [
+    "gaming",
+    "playstation",
+    "choice"
+  ],
+  "category": "gaming",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        23,
+        18,
+        705,
+        163
+      ],
+      "hint": "the question posed"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        23,
+        726,
+        705,
+        163
+      ],
+      "hint": "the button options"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/148038913/PlayStation-button-choices",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

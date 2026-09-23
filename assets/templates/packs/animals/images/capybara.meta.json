@@ -1,0 +1,37 @@
+{
+  "name": "Capybara",
+  "tags": [
+    "animal",
+    "capybara",
+    "calm",
+    "unbothered"
+  ],
+  "category": "animal",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        39,
+        36,
+        894,
+        240
+      ],
+      "hint": "the chaos around"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        39,
+        924,
+        894,
+        240
+      ],
+      "hint": "the unbothered vibe"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/meme/358865604/Capybara",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Overwatch Loot Box",
+  "tags": [
+    "gaming",
+    "overwatch",
+    "loot-box"
+  ],
+  "category": "gaming",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        36,
+        14,
+        1128,
+        122
+      ],
+      "hint": "what you hoped for"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        36,
+        540,
+        1128,
+        122
+      ],
+      "hint": "what you got"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/105096733/Overwatch-Loot-Box",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

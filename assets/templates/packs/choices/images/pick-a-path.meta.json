@@ -1,0 +1,37 @@
+{
+  "name": "Pick a Path",
+  "tags": [
+    "choice",
+    "decision",
+    "paths",
+    "two-option"
+  ],
+  "category": "choice",
+  "slots": [
+    {
+      "name": "left",
+      "rect": [
+        14,
+        11,
+        210,
+        57
+      ],
+      "hint": "first option"
+    },
+    {
+      "name": "right",
+      "rect": [
+        253,
+        11,
+        210,
+        57
+      ],
+      "hint": "second option"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/382209064/Pick-a-path",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

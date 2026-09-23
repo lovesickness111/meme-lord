@@ -1,0 +1,38 @@
+{
+  "name": "Average Fan vs Average Enjoyer",
+  "tags": [
+    "choice",
+    "decision",
+    "versus",
+    "comparison",
+    "two-option"
+  ],
+  "category": "choice",
+  "slots": [
+    {
+      "name": "left",
+      "rect": [
+        21,
+        22,
+        312,
+        115
+      ],
+      "hint": "first option"
+    },
+    {
+      "name": "right",
+      "rect": [
+        375,
+        22,
+        312,
+        115
+      ],
+      "hint": "second option"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/316989420/Average-Fan-vs-Average-Enjoyer",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

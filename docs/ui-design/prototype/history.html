@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en" class="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>meme-maker — My Memes (mockup)</title>
+<link rel="stylesheet" href="tokens.css">
+<style>
+  .mcard .actions { display: flex; gap: 6px; padding: 0 10px 10px; flex-wrap: wrap; }
+  .mcard .actions .btn { padding: 3px 9px; font-size: 12px; }
+  .time { font-size: 11px; color: var(--muted-foreground); }
+  .empty { display: grid; place-items: center; gap: 12px; padding: 96px 16px; text-align: center; }
+  .empty .anton { font-size: 42px; color: var(--muted-foreground); }
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="brand"><span class="brand-tile anton">M</span> Meme Maker</div>
+  <nav class="tabs" role="tablist">
+    <button class="tab" role="tab" onclick="location='gallery.html'">Gallery</button>
+    <button class="tab" role="tab" aria-selected="true">My Memes</button>
+    <button class="tab" role="tab" onclick="location='batch.html'">Batch</button>
+  </nav>
+  <div class="spacer"></div>
+  <button class="icon-btn" title="Toggle theme (Ctrl+D)" onclick="document.documentElement.classList.toggle('dark')">◐</button>
+  <button class="icon-btn" title="Keyboard shortcuts (?)">?</button>
+</header>
+
+<main class="card-grid" aria-label="Rendered memes, newest first">
+  <div class="tcard mcard">
+    <div class="thumb anton" style="background:linear-gradient(135deg,#e8a33d,#b5651d)">DRAKE</div>
+    <div class="meta"><span class="name">Drake Hotline Bling</span><span class="time">2 min ago</span></div>
+    <div class="actions">
+      <button class="btn">Re-edit</button><button class="btn">Duplicate</button>
+      <button class="btn">Copy spec</button><button class="btn" style="color:var(--destructive)">Delete</button>
+    </div>
+  </div>
+  <div class="tcard mcard">
+    <div class="thumb anton" style="background:linear-gradient(135deg,#e67e22,#a04000)">THIS IS FINE</div>
+    <div class="meta"><span class="name">This Is Fine <span class="badge">agent</span></span><span class="time">1 h ago</span></div>
+    <div class="actions">
+      <button class="btn">Re-edit</button><button class="btn">Duplicate</button>
+      <button class="btn">Copy spec</button><button class="btn" style="color:var(--destructive)">Delete</button>
+    </div>
+  </div>
+  <div class="tcard mcard">
+    <div class="thumb anton" style="background:linear-gradient(135deg,#f4d03f,#b7950b);color:#161616">PIKACHU</div>
+    <div class="meta"><span class="name">Surprised Pikachu</span><span class="time">yesterday</span></div>
+    <div class="actions">
+      <button class="btn">Re-edit</button><button class="btn">Duplicate</button>
+      <button class="btn">Copy spec</button><button class="btn" style="color:var(--destructive)">Delete</button>
+    </div>
+  </div>
+</main>
+
+<!-- Empty state, shown when ~/.meme-maker/history is empty:
+<div class="empty">
+  <div class="anton">NO MEMES YET</div>
+  <button class="btn btn-primary">MAKE ONE</button>
+</div>
+-->
+</body>
+</html>

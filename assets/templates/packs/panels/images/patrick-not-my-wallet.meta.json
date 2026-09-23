@@ -1,0 +1,57 @@
+{
+  "name": "Patrick, That's Not My Wallet",
+  "tags": [
+    "panel",
+    "multi-panel",
+    "comic",
+    "denial"
+  ],
+  "category": "comic",
+  "slots": [
+    {
+      "name": "evidence",
+      "rect": [
+        20,
+        6,
+        965,
+        66
+      ],
+      "hint": "the evidence presented"
+    },
+    {
+      "name": "question",
+      "rect": [
+        20,
+        342,
+        965,
+        66
+      ],
+      "hint": "isn't this yours?"
+    },
+    {
+      "name": "denial",
+      "rect": [
+        20,
+        678,
+        965,
+        66
+      ],
+      "hint": "the stubborn denial"
+    },
+    {
+      "name": "resignation",
+      "rect": [
+        20,
+        942,
+        965,
+        66
+      ],
+      "hint": "giving up on the obvious truth"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/109894751/patrick-not-my-wallet",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

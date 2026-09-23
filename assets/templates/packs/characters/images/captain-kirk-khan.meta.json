@@ -1,0 +1,38 @@
+{
+  "name": "Captain Kirk Screaming Khan",
+  "tags": [
+    "celebrity",
+    "character",
+    "rage",
+    "scream",
+    "star-trek"
+  ],
+  "category": "character",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        17,
+        7,
+        526,
+        75
+      ],
+      "hint": "the setup"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        17,
+        291,
+        526,
+        75
+      ],
+      "hint": "the thing you scream about"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/100708178/Captain-Kirk-Khan",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

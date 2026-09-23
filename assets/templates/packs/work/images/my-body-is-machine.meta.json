@@ -1,0 +1,38 @@
+{
+  "name": "My Body Is A Machine",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "determination",
+    "machine"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        33,
+        20,
+        762,
+        157
+      ],
+      "hint": "my body is a machine that turns"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        33,
+        806,
+        762,
+        157
+      ],
+      "hint": "input into output (e.g. coffee into code)"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/441502473/My-body-is-machine",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

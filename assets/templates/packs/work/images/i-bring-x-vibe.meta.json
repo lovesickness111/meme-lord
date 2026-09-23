@@ -1,0 +1,38 @@
+{
+  "name": "I Bring a Sort of X Vibe to the Y",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "vibe",
+    "self-description"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        27,
+        17,
+        626,
+        136
+      ],
+      "hint": "i feel like i bring a sort of X vibe"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        27,
+        695,
+        626,
+        136
+      ],
+      "hint": "to the Y (e.g. to the standup)"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/430625331/I-Bring-a-Sort-of-X-Vibe-to-the-Y",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

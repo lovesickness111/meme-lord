@@ -1,0 +1,37 @@
+{
+  "name": "A Meowl",
+  "tags": [
+    "animal",
+    "cat",
+    "owl",
+    "hybrid"
+  ],
+  "category": "animal",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        21,
+        14,
+        489,
+        94
+      ],
+      "hint": "the setup"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        21,
+        362,
+        489,
+        94
+      ],
+      "hint": "the punchline"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/meme/613198819/A-meowl",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

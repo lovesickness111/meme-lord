@@ -1,0 +1,37 @@
+{
+  "name": "Foul Bachelor Frog",
+  "tags": [
+    "animal",
+    "frog",
+    "lazy",
+    "bachelor"
+  ],
+  "category": "animal",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        20,
+        15,
+        460,
+        100
+      ],
+      "hint": "the lazy setup"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        20,
+        385,
+        460,
+        100
+      ],
+      "hint": "the gross shortcut"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/meme/Foul-Bachelor-Frog",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

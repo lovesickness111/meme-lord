@@ -1,0 +1,44 @@
+{
+  "name": "Bike Fall",
+  "tags": ["self-sabotage", "three-panel", "irony"],
+  "selectionGuide": {
+    "description": "A three-panel cyclist causes their own crash with a stick and then complains, making self-inflicted failure visually explicit.",
+    "bestFor": [
+      "an actor creating a problem and then blaming someone else",
+      "self-sabotage followed by indignation or victimhood",
+      "a policy or decision producing its own predictable failure"
+    ],
+    "avoidWhen": [
+      "the harm genuinely comes from an external cause",
+      "there is no clear actor, action, and blame sequence",
+      "the joke is a static comparison without causality"
+    ],
+    "tone": ["ironic", "critical", "sarcastic", "absurd"],
+    "mechanics": {
+      "visual": "The panel sequence establishes the rider, the deliberate sabotage, and the fall before the final complaint can redirect blame.",
+      "text": "Use riding for the actor or starting state, stick for the self-defeating action, and blame for the complaint or falsely accused target."
+    }
+  },
+  "slots": [
+    {
+      "name": "riding",
+      "rect": [15, 10, 220, 120],
+      "hint": "who is happily going along"
+    },
+    {
+      "name": "stick",
+      "rect": [15, 240, 220, 110],
+      "hint": "the self-sabotaging action (stick in spokes)"
+    },
+    {
+      "name": "blame",
+      "rect": [15, 470, 220, 120],
+      "hint": "the complaint after the self-inflicted fall"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Bike-Fall",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

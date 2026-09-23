@@ -1,0 +1,37 @@
+{
+  "name": "Ferret Boss",
+  "tags": [
+    "animal",
+    "ferret",
+    "boss",
+    "attitude"
+  ],
+  "category": "animal",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        33,
+        21,
+        762,
+        137
+      ],
+      "hint": "the setup"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        33,
+        529,
+        762,
+        137
+      ],
+      "hint": "the boss move"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/meme/259841858/Ferret-Boss",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

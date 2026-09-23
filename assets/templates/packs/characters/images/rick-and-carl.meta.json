@@ -1,0 +1,37 @@
+{
+  "name": "Rick And Carl",
+  "tags": [
+    "celebrity",
+    "character",
+    "dad-joke",
+    "walking-dead"
+  ],
+  "category": "character",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        19,
+        14,
+        583,
+        139
+      ],
+      "hint": "the setup"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        19,
+        541,
+        583,
+        139
+      ],
+      "hint": "the punchline, Carl"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Rick-and-Carl",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

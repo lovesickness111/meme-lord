@@ -1,0 +1,37 @@
+{
+  "name": "Genie Rules",
+  "tags": [
+    "panel",
+    "two-panel",
+    "comic",
+    "loophole"
+  ],
+  "category": "comic",
+  "slots": [
+    {
+      "name": "rule",
+      "rect": [
+        346,
+        329,
+        422,
+        85
+      ],
+      "hint": "the extra rule the genie adds"
+    },
+    {
+      "name": "reaction",
+      "rect": [
+        48,
+        954,
+        864,
+        85
+      ],
+      "hint": "the wisher's reaction"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/189098463/Genie-Rules-Meme",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

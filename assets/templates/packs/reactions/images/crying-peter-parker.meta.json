@@ -1,0 +1,26 @@
+{
+  "name": "Crying Peter Parker",
+  "tags": [
+    "reaction",
+    "crying",
+    "sad"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        19,
+        14,
+        583,
+        195
+      ],
+      "hint": "the sad situation"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/5792550/crying-peter-parker",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

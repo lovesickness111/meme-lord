@@ -1,0 +1,36 @@
+{
+  "name": "Squid Game Front Man",
+  "tags": [
+    "decision",
+    "elimination",
+    "judgment"
+  ],
+  "category": "choice",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        19,
+        20,
+        609,
+        200
+      ],
+      "hint": "the situation being judged"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        19,
+        780,
+        609,
+        200
+      ],
+      "hint": "the ruthless verdict"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/558880671/Squid-Game",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

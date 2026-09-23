@@ -1,0 +1,36 @@
+{
+  "name": "Truman Show Realization",
+  "tags": [
+    "realization",
+    "suspicion",
+    "watched"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        30,
+        10,
+        940,
+        105
+      ],
+      "hint": "the suspicious pattern"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        30,
+        410,
+        940,
+        105
+      ],
+      "hint": "the dawning realization"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/554037956/truman-show",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

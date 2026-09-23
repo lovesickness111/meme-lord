@@ -1,0 +1,38 @@
+{
+  "name": "Penguin Pointing At Sign",
+  "tags": [
+    "pointing",
+    "label",
+    "sign",
+    "gif",
+    "animated"
+  ],
+  "category": "gif",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        8,
+        8,
+        304,
+        50
+      ],
+      "hint": "who is pointing"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        8,
+        122,
+        304,
+        50
+      ],
+      "hint": "what the label says"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/gif-maker/258651081/Penguin-pointing-at-shipping-label",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Surprised Scarlett Johansson",
+  "tags": [
+    "reaction",
+    "surprised",
+    "shocked"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        36,
+        16,
+        1128,
+        221
+      ],
+      "hint": "the surprising thing"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/270143204/Surprised-Scarlett-Johansson",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

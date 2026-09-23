@@ -1,0 +1,28 @@
+{
+  "name": "Peter Griffin Running Away",
+  "tags": [
+    "avoidance",
+    "celebrity",
+    "character",
+    "escape",
+    "family-guy"
+  ],
+  "category": "character",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        23,
+        12,
+        722,
+        115
+      ],
+      "hint": "the thing you flee from"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/135505881/Peter-Griffin-running-away",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

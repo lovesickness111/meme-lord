@@ -1,0 +1,36 @@
+{
+  "name": "Afraid To Ask Andy",
+  "tags": [
+    "confusion",
+    "embarrassment",
+    "admission"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        19,
+        12,
+        583,
+        121
+      ],
+      "hint": "the thing you never understood"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        19,
+        473,
+        583,
+        121
+      ],
+      "hint": "\"and at this point I'm too afraid to ask\""
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Afraid-To-Ask-Andy",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

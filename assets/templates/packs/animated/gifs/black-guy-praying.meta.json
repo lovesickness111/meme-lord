@@ -1,0 +1,38 @@
+{
+  "name": "Black Guy Praying",
+  "tags": [
+    "praying",
+    "hope",
+    "desperate",
+    "gif",
+    "animated"
+  ],
+  "category": "gif",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        8,
+        8,
+        304,
+        75
+      ],
+      "hint": "the desperate wish"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        8,
+        185,
+        304,
+        75
+      ],
+      "hint": "the prayer"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/gif-maker/549792503/Black-Guy-Praying",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

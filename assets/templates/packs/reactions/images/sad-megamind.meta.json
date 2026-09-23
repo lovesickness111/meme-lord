@@ -1,0 +1,26 @@
+{
+  "name": "Sad Megamind",
+  "tags": [
+    "reaction",
+    "sad",
+    "dejected"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        22,
+        17,
+        693,
+        239
+      ],
+      "hint": "the deflating situation"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/370522514/Sad-Megamind",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

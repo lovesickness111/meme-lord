@@ -1,0 +1,47 @@
+{
+  "name": "Tuxedo Winnie The Pooh 3 Panel",
+  "tags": [
+    "panel",
+    "three-panel",
+    "fancy",
+    "escalation"
+  ],
+  "category": "escalation",
+  "slots": [
+    {
+      "name": "normal",
+      "rect": [
+        354,
+        21,
+        306,
+        183
+      ],
+      "hint": "the ordinary way"
+    },
+    {
+      "name": "fancy",
+      "rect": [
+        354,
+        253,
+        306,
+        183
+      ],
+      "hint": "the fancy way"
+    },
+    {
+      "name": "fanciest",
+      "rect": [
+        354,
+        493,
+        306,
+        183
+      ],
+      "hint": "the distinguished final form"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/177794456/Tuxedo-Winnie-the-Pooh-3-panel",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

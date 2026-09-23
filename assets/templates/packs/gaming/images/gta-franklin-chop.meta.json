@@ -1,0 +1,36 @@
+{
+  "name": "GTA Franklin And Chop",
+  "tags": [
+    "gaming",
+    "gta",
+    "dog"
+  ],
+  "category": "gaming",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        36,
+        16,
+        1128,
+        140
+      ],
+      "hint": "what Franklin says"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        36,
+        620,
+        1128,
+        140
+      ],
+      "hint": "Chop's reaction"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/360605038/GTA-5-Franklin-and-his-dog-Chop",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

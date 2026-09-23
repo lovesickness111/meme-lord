@@ -1,0 +1,44 @@
+{
+  "name": "Anakin Padme 4 Panel",
+  "tags": ["expectation", "four-panel", "dialogue"],
+  "selectionGuide": {
+    "description": "A four-frame dialogue shifts Padme from a hopeful assumption to concern when Anakin does not provide the expected reassurance.",
+    "bestFor": [
+      "a plan that sounds acceptable until its troubling implication becomes clear",
+      "an optimistic assumption undermined by silence or ambiguity",
+      "a request for reassurance that becomes increasingly uneasy"
+    ],
+    "avoidWhen": [
+      "the premise ends in straightforward success",
+      "there is no hopeful assumption for the final panel to undermine",
+      "the exchange needs more than one claim and one repeated question"
+    ],
+    "tone": ["uneasy", "ironic", "deadpan", "foreboding"],
+    "mechanics": {
+      "visual": "Repeated faces turn the same exchange from optimism into alarm; Anakin's lack of reassurance creates the implied answer.",
+      "text": "Put the plan or claim in anakin, then repeat the same hopeful question in padme-hopeful and padme-worried so the changed expression carries the turn."
+    }
+  },
+  "slots": [
+    {
+      "name": "anakin",
+      "rect": [15, 260, 355, 110],
+      "hint": "the plan or claim being made"
+    },
+    {
+      "name": "padme-hopeful",
+      "rect": [400, 260, 355, 110],
+      "hint": "the hopeful assumption, phrased as a question e.g. 'for the better, right?'"
+    },
+    {
+      "name": "padme-worried",
+      "rect": [400, 645, 355, 110],
+      "hint": "the same question repeated with concern (often identical text)"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Anakin-Padme-4-Panel",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

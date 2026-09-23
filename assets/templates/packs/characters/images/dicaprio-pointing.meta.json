@@ -1,0 +1,28 @@
+{
+  "name": "Leonardo DiCaprio Pointing",
+  "tags": [
+    "celebrity",
+    "character",
+    "leonardo-dicaprio",
+    "pointing",
+    "recognition"
+  ],
+  "category": "character",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        32,
+        22,
+        1003,
+        218
+      ],
+      "hint": "the thing you recognize"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/234856740/Leonardo-DiCaprio-Pointing",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

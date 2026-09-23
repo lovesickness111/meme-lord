@@ -1,0 +1,45 @@
+{
+  "name": "Is This a Pigeon?",
+  "tags": [
+    "misidentification",
+    "confusion",
+    "three-actor"
+  ],
+  "slots": [
+    {
+      "name": "person",
+      "rect": [
+        60,
+        780,
+        420,
+        260
+      ],
+      "hint": "who is confidently misidentifying"
+    },
+    {
+      "name": "butterfly",
+      "rect": [
+        820,
+        60,
+        360,
+        120
+      ],
+      "hint": "the thing being misidentified"
+    },
+    {
+      "name": "caption",
+      "rect": [
+        200,
+        990,
+        800,
+        80
+      ],
+      "hint": "the wrong question, e.g. 'is this a pigeon?'"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Is-This-A-Pigeon",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

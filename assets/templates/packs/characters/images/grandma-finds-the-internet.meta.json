@@ -1,0 +1,37 @@
+{
+  "name": "Grandma Finds The Internet",
+  "tags": [
+    "celebrity",
+    "character",
+    "confusion",
+    "technology"
+  ],
+  "category": "character",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        19,
+        10,
+        602,
+        96
+      ],
+      "hint": "the setup"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        19,
+        374,
+        602,
+        96
+      ],
+      "hint": "grandma's take"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Grandma-Finds-The-Internet",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Stop, He's Already Dead",
+  "tags": [
+    "celebrity",
+    "character",
+    "overkill",
+    "simpsons"
+  ],
+  "category": "character",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        18,
+        15,
+        564,
+        154
+      ],
+      "hint": "the beating being delivered"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        18,
+        600,
+        564,
+        154
+      ],
+      "hint": "\"stop, stop, he's already dead\""
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/298218630/Stop-Hes-Already-Dead",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

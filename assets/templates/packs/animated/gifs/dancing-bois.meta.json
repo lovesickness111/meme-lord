@@ -1,0 +1,38 @@
+{
+  "name": "Dancing Bois",
+  "tags": [
+    "celebration",
+    "dancing",
+    "squad",
+    "gif",
+    "animated"
+  ],
+  "category": "gif",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        8,
+        8,
+        304,
+        90
+      ],
+      "hint": "the occasion"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        8,
+        222,
+        304,
+        90
+      ],
+      "hint": "the celebration"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/gif-maker/205604035/Dancin-bois",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Lion King",
+  "tags": [
+    "animal",
+    "lion",
+    "wisdom",
+    "simba"
+  ],
+  "category": "animal",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        20,
+        11,
+        460,
+        75
+      ],
+      "hint": "the lesson setup"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        20,
+        289,
+        460,
+        75
+      ],
+      "hint": "the wisdom imparted"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/meme/Lion-King",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

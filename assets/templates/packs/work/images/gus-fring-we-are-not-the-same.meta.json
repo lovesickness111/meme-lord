@@ -1,0 +1,48 @@
+{
+  "name": "Gus Fring We Are Not The Same",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "comparison",
+    "breaking-bad"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "you",
+      "rect": [
+        28,
+        20,
+        644,
+        130
+      ],
+      "hint": "what you do"
+    },
+    {
+      "name": "me",
+      "rect": [
+        28,
+        400,
+        644,
+        130
+      ],
+      "hint": "what i do"
+    },
+    {
+      "name": "tagline",
+      "rect": [
+        28,
+        850,
+        644,
+        100
+      ],
+      "hint": "we are not the same"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/342785297/Gus-Fring-we-are-not-the-same",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

@@ -1,0 +1,122 @@
+/* meme-maker UI prototype — design tokens (see docs/UI-DESIGN.md §1) */
+:root {
+  --background: #faf9f7;
+  --card: #ffffff;
+  --elevated: #f1efeb;
+  --foreground: #1b1d22;
+  --muted-foreground: #5f646c;
+  --border: #e3e0da;
+  --accent: #f5c518;
+  --accent-foreground: #161616;
+  --destructive: #ce2c31;
+  --warning: #ad5700;
+  --success: #297c3b;
+  --radius: 10px;
+  --shadow-pop: 0 8px 24px rgb(0 0 0 / 0.12);
+}
+.dark {
+  --background: #0d0e11;
+  --card: #16181d;
+  --elevated: #1e2128;
+  --foreground: #e8eaed;
+  --muted-foreground: #9aa0a6;
+  --border: #2a2e37;
+  --accent: #ffd23f;
+  --accent-foreground: #161616;
+  --destructive: #e5484d;
+  --warning: #f5a623;
+  --success: #46a758;
+  --shadow-pop: 0 8px 24px rgb(0 0 0 / 0.35);
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font: 13px/1.45 Inter, system-ui, sans-serif;
+  background: var(--background);
+  color: var(--foreground);
+}
+.anton { font-family: Anton, Impact, "Arial Narrow Bold", sans-serif; line-height: 1.1; letter-spacing: 0.01em; }
+
+/* top bar */
+.topbar {
+  display: flex; align-items: center; gap: 16px;
+  padding: 10px 16px; border-bottom: 1px solid var(--border); background: var(--card);
+  position: sticky; top: 0; z-index: 10;
+}
+.brand { display: flex; align-items: center; gap: 8px; font-weight: 600; font-size: 14px; }
+.brand-tile {
+  width: 24px; height: 24px; border-radius: 22%;
+  background: #ffd23f; color: #fff; -webkit-text-stroke: 0.8px #161616;
+  display: grid; place-items: center; font-size: 16px;
+}
+.tabs { display: flex; gap: 4px; }
+.tab {
+  padding: 5px 12px; border-radius: 8px; border: none; background: transparent;
+  color: var(--muted-foreground); font: inherit; cursor: pointer;
+}
+.tab:hover { background: var(--elevated); color: var(--foreground); }
+.tab[aria-selected="true"] { background: var(--accent); color: var(--accent-foreground); font-weight: 600; }
+.spacer { flex: 1; }
+.search {
+  width: 240px; padding: 6px 10px; border-radius: 8px;
+  border: 1px solid var(--border); background: var(--elevated); color: var(--foreground); font: inherit;
+}
+.kbd {
+  font: 11px ui-monospace, monospace; border: 1px solid var(--border); border-bottom-width: 2px;
+  border-radius: 4px; padding: 1px 5px; color: var(--muted-foreground); background: var(--card);
+}
+.icon-btn {
+  width: 30px; height: 30px; border-radius: 8px; border: 1px solid var(--border);
+  background: var(--card); color: var(--muted-foreground); cursor: pointer; font: inherit;
+}
+.icon-btn:hover { background: var(--elevated); color: var(--foreground); }
+
+button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visible, [tabindex]:focus-visible {
+  outline: 2px solid var(--accent); outline-offset: 2px;
+}
+
+.btn {
+  padding: 6px 14px; border-radius: 8px; border: 1px solid var(--border);
+  background: var(--card); color: var(--foreground); font: inherit; cursor: pointer;
+}
+.btn:hover { background: var(--elevated); }
+.btn-primary { background: var(--accent); color: var(--accent-foreground); border-color: transparent; font-weight: 600; }
+
+.chip {
+  display: inline-flex; align-items: center; gap: 5px; padding: 2px 9px;
+  border-radius: 999px; border: 1px solid var(--border); background: var(--card);
+  color: var(--muted-foreground); font-size: 12px; cursor: pointer;
+}
+.chip[aria-pressed="true"] { border-color: var(--accent); color: var(--foreground); background: var(--elevated); }
+.chip-warning { border-color: var(--warning); color: var(--warning); background: transparent; cursor: default; }
+
+/* checkerboard preview surface */
+.checker {
+  background:
+    repeating-conic-gradient(color-mix(in srgb, var(--border) 40%, transparent) 0% 25%, transparent 0% 50%)
+    0 0 / 24px 24px;
+}
+
+.card-grid {
+  display: grid; gap: 16px; padding: 16px;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+}
+.tcard {
+  border: 1px solid var(--border); border-radius: var(--radius); background: var(--card);
+  overflow: hidden; cursor: pointer; text-align: left; padding: 0; font: inherit; color: inherit;
+  transition: transform 150ms cubic-bezier(0.215, 0.61, 0.355, 1), background 150ms;
+}
+.tcard:hover { transform: scale(1.02); background: var(--elevated); }
+.tcard .thumb { position: relative; aspect-ratio: 1; display: grid; place-items: center; color: #fff; font-size: 26px; text-align: center; padding: 8px; }
+.tcard .meta { display: flex; align-items: center; gap: 6px; padding: 8px 10px; }
+.tcard .name { font-weight: 600; flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.badge {
+  font-size: 10px; font-weight: 700; padding: 1px 6px; border-radius: 4px;
+  background: var(--elevated); color: var(--muted-foreground); border: 1px solid var(--border);
+}
+.badge-gif { position: absolute; top: 8px; right: 8px; background: var(--accent); color: var(--accent-foreground); border: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+}

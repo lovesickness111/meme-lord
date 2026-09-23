@@ -1,0 +1,57 @@
+{
+  "name": "Tuxedo Winnie The Pooh 4 Panel",
+  "tags": [
+    "panel",
+    "four-panel",
+    "fancy",
+    "escalation"
+  ],
+  "category": "escalation",
+  "slots": [
+    {
+      "name": "normal",
+      "rect": [
+        259,
+        12,
+        225,
+        117
+      ],
+      "hint": "the ordinary way"
+    },
+    {
+      "name": "fancy",
+      "rect": [
+        259,
+        158,
+        225,
+        117
+      ],
+      "hint": "the fancier way"
+    },
+    {
+      "name": "fancier",
+      "rect": [
+        259,
+        304,
+        225,
+        117
+      ],
+      "hint": "the very fancy way"
+    },
+    {
+      "name": "fanciest",
+      "rect": [
+        259,
+        450,
+        225,
+        117
+      ],
+      "hint": "the most distinguished form"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/177056576/Tuxedo-Winnie-the-Pooh-4-panel",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

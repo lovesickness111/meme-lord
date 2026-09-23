@@ -1,0 +1,36 @@
+{
+  "name": "Isabelle And Doomguy",
+  "tags": [
+    "gaming",
+    "doom",
+    "animal-crossing"
+  ],
+  "category": "gaming",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        25,
+        24,
+        797,
+        216
+      ],
+      "hint": "the wholesome one"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        25,
+        960,
+        797,
+        216
+      ],
+      "hint": "the violent one"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/227001202/Isabelle-Doomguy",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

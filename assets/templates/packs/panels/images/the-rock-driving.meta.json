@@ -1,0 +1,37 @@
+{
+  "name": "The Rock Driving",
+  "tags": [
+    "panel",
+    "three-panel",
+    "surprise",
+    "eyebrow"
+  ],
+  "category": "twist",
+  "slots": [
+    {
+      "name": "question",
+      "rect": [
+        239,
+        25,
+        295,
+        70
+      ],
+      "hint": "the innocent question"
+    },
+    {
+      "name": "answer",
+      "rect": [
+        239,
+        256,
+        295,
+        63
+      ],
+      "hint": "the alarming answer"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/The-Rock-Driving",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

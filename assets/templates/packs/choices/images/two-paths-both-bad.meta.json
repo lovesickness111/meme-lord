@@ -1,0 +1,37 @@
+{
+  "name": "Two Paths Both Bad",
+  "tags": [
+    "choice",
+    "decision",
+    "paths",
+    "lose-lose"
+  ],
+  "category": "choice",
+  "slots": [
+    {
+      "name": "left",
+      "rect": [
+        19,
+        19,
+        282,
+        100
+      ],
+      "hint": "first option"
+    },
+    {
+      "name": "right",
+      "rect": [
+        339,
+        19,
+        282,
+        100
+      ],
+      "hint": "second option"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/610828247/Two-paths-both-bad",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

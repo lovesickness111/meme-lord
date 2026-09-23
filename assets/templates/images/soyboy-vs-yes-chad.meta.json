@@ -1,0 +1,36 @@
+{
+  "name": "Soyboy Vs Yes Chad",
+  "tags": [
+    "comparison",
+    "chad",
+    "two-actor"
+  ],
+  "category": "comparison",
+  "slots": [
+    {
+      "name": "soyboy",
+      "rect": [
+        30,
+        14,
+        450,
+        150
+      ],
+      "hint": "the overexcited take"
+    },
+    {
+      "name": "chad",
+      "rect": [
+        520,
+        14,
+        450,
+        150
+      ],
+      "hint": "the calm \"yes\" response"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/232844223/Soyboy-Vs-Yes-Chad",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Right In Front Of My Salad?",
+  "tags": [
+    "disbelief",
+    "audacity",
+    "reaction"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "bottom",
+      "rect": [
+        50,
+        768,
+        900,
+        177
+      ],
+      "hint": "the offended thing it happened in front of"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/471686459/Really-right-in-front-of-my",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

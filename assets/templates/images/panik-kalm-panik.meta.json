@@ -1,0 +1,46 @@
+{
+  "name": "Panik Kalm Panik",
+  "tags": [
+    "panic",
+    "three-panel",
+    "rollercoaster"
+  ],
+  "category": "panic",
+  "slots": [
+    {
+      "name": "panik1",
+      "rect": [
+        15,
+        20,
+        275,
+        255
+      ],
+      "hint": "the initial alarming situation"
+    },
+    {
+      "name": "kalm",
+      "rect": [
+        15,
+        315,
+        275,
+        255
+      ],
+      "hint": "the false reassurance"
+    },
+    {
+      "name": "panik2",
+      "rect": [
+        15,
+        615,
+        275,
+        245
+      ],
+      "hint": "the realization that it is actually worse"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Panik-Kalm-Panik",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

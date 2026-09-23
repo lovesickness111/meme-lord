@@ -1,0 +1,36 @@
+{
+  "name": "Skyrim You're Finally Awake",
+  "tags": [
+    "gaming",
+    "skyrim",
+    "awake"
+  ],
+  "category": "gaming",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        36,
+        14,
+        1128,
+        122
+      ],
+      "hint": "waking up from what"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        36,
+        540,
+        1128,
+        122
+      ],
+      "hint": "\"hey you, you're finally awake\""
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/162027846/Skyrim-youre-finally-awake",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

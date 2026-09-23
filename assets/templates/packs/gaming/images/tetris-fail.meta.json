@@ -1,0 +1,36 @@
+{
+  "name": "Tetris Fail",
+  "tags": [
+    "gaming",
+    "tetris",
+    "fail"
+  ],
+  "category": "gaming",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        26,
+        24,
+        817,
+        216
+      ],
+      "hint": "the plan"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        26,
+        960,
+        817,
+        216
+      ],
+      "hint": "the piece that ruins it"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/60870940/Tetris-Fail",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

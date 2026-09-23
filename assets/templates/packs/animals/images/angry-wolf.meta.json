@@ -1,0 +1,37 @@
+{
+  "name": "Angry Wolf",
+  "tags": [
+    "animal",
+    "wolf",
+    "anger",
+    "intensity"
+  ],
+  "category": "animal",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        16,
+        12,
+        368,
+        80
+      ],
+      "hint": "the provocation"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        16,
+        308,
+        368,
+        80
+      ],
+      "hint": "the snarling response"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/meme/17835158/Angry-Wolf",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

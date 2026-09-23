@@ -1,0 +1,36 @@
+{
+  "name": "A Wild Pokemon Appears",
+  "tags": [
+    "gaming",
+    "pokemon",
+    "encounter"
+  ],
+  "category": "gaming",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        36,
+        24,
+        1128,
+        212
+      ],
+      "hint": "a wild ___ appears"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        36,
+        940,
+        1128,
+        212
+      ],
+      "hint": "your chosen move"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/216036135/Blank-Wild-Pokemon-Appears",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "I Paused My Game To Be Here",
+  "tags": [
+    "gaming",
+    "protest",
+    "sacrifice"
+  ],
+  "category": "gaming",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        15,
+        13,
+        470,
+        113
+      ],
+      "hint": "the event you attended"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        15,
+        504,
+        470,
+        113
+      ],
+      "hint": "\"I paused my game to be here\""
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/451464167/I-paused-my-game-to-be-here",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

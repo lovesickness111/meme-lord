@@ -1,0 +1,38 @@
+{
+  "name": "Laughing Leo (Django)",
+  "tags": [
+    "celebrity",
+    "character",
+    "laughter",
+    "leonardo-dicaprio",
+    "schadenfreude"
+  ],
+  "category": "character",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        14,
+        9,
+        442,
+        94
+      ],
+      "hint": "the setup"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        14,
+        367,
+        442,
+        94
+      ],
+      "hint": "the punchline you laugh at"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Laughing-Leo",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

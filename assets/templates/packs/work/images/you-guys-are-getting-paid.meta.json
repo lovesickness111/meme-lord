@@ -1,0 +1,39 @@
+{
+  "name": "You Guys Are Getting Paid?",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "pay",
+    "interns",
+    "we-are-the-millers"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        21,
+        7,
+        478,
+        57
+      ],
+      "hint": "context for who is getting what"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        21,
+        294,
+        478,
+        57
+      ],
+      "hint": "you guys are getting paid?"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/177682295/You-Guys-are-Getting-Paid",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

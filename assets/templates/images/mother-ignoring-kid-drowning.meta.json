@@ -1,0 +1,46 @@
+{
+  "name": "Mother Ignoring Kid Drowning In A Pool",
+  "tags": [
+    "neglect",
+    "priorities",
+    "four-panel"
+  ],
+  "category": "priorities",
+  "slots": [
+    {
+      "name": "mother",
+      "rect": [
+        394,
+        120,
+        334,
+        140
+      ],
+      "hint": "who/what is getting all the attention"
+    },
+    {
+      "name": "drowning-kid",
+      "rect": [
+        30,
+        280,
+        303,
+        140
+      ],
+      "hint": "what is being neglected"
+    },
+    {
+      "name": "pool-kid",
+      "rect": [
+        394,
+        600,
+        334,
+        140
+      ],
+      "hint": "the even more neglected thing (optional)"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/252758727/Mother-Ignoring-Kid-Drowning-In-A-Pool",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

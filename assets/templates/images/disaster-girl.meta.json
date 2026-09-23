@@ -1,0 +1,36 @@
+{
+  "name": "Disaster Girl",
+  "tags": [
+    "chaos",
+    "mischief",
+    "reaction"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        15,
+        8,
+        470,
+        70
+      ],
+      "hint": "the disaster or chaos caused"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        15,
+        300,
+        470,
+        68
+      ],
+      "hint": "the smug culprit's perspective (optional)"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Disaster-Girl",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Angry Penguin",
+  "tags": [
+    "animal",
+    "penguin",
+    "anger",
+    "attitude"
+  ],
+  "category": "animal",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        48,
+        20,
+        1104,
+        135
+      ],
+      "hint": "the provocation"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        48,
+        522,
+        1104,
+        135
+      ],
+      "hint": "the angry response"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/meme/165735626/Angry-Penguin",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

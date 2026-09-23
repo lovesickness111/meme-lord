@@ -1,0 +1,26 @@
+{
+  "name": "Unimpressed Man",
+  "tags": [
+    "reaction",
+    "unimpressed",
+    "deadpan"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        30,
+        16,
+        943,
+        227
+      ],
+      "hint": "the unimpressive thing"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/235388183/Unimpressed-man",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

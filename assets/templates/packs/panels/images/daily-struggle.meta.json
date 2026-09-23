@@ -1,0 +1,47 @@
+{
+  "name": "The Daily Struggle",
+  "tags": [
+    "panel",
+    "two-panel",
+    "choice",
+    "sweating"
+  ],
+  "category": "choice",
+  "slots": [
+    {
+      "name": "option1",
+      "rect": [
+        37,
+        70,
+        156,
+        104
+      ],
+      "hint": "first button"
+    },
+    {
+      "name": "option2",
+      "rect": [
+        248,
+        70,
+        156,
+        104
+      ],
+      "hint": "second button"
+    },
+    {
+      "name": "chooser",
+      "rect": [
+        23,
+        599,
+        414,
+        77
+      ],
+      "hint": "who is sweating over the choice"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/48613403/the-daily-struggle",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

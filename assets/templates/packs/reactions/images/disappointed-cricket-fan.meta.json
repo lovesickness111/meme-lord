@@ -1,0 +1,26 @@
+{
+  "name": "Disappointed Cricket Fan",
+  "tags": [
+    "reaction",
+    "disappointed",
+    "frustration"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        36,
+        14,
+        1128,
+        203
+      ],
+      "hint": "the disappointing performance"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/245211919/Disappointed-Cricket-Fan",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

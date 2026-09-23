@@ -1,0 +1,45 @@
+{
+  "name": "Distracted Boyfriend",
+  "tags": ["temptation", "choice", "three-actor"],
+  "category": "choice",
+  "selectionGuide": {
+    "description": "A three-person street scene depicts someone abandoning attention to an existing commitment for a tempting newcomer.",
+    "bestFor": [
+      "an established choice being neglected for an attractive novelty",
+      "shifting attention or priorities despite an existing commitment",
+      "a temptation joke with distinct agent, old option, and new option roles"
+    ],
+    "avoidWhen": [
+      "only two concepts have meaningful roles",
+      "the relationship has no temptation or neglect dynamic",
+      "the point depends on a chronological sequence of events"
+    ],
+    "tone": ["ironic", "playful", "critical", "relatable"],
+    "mechanics": {
+      "visual": "The boyfriend's turned gaze links the tempting newcomer to his choice, while the girlfriend's reaction marks the neglected commitment.",
+      "text": "Label other-woman with the novelty, boyfriend with the tempted agent, and girlfriend with the existing option; short noun phrases read cleanly."
+    }
+  },
+  "slots": [
+    {
+      "name": "other-woman",
+      "rect": [90, 470, 440, 290],
+      "hint": "the tempting new thing"
+    },
+    {
+      "name": "boyfriend",
+      "rect": [580, 280, 300, 260],
+      "hint": "the one being tempted"
+    },
+    {
+      "name": "girlfriend",
+      "rect": [880, 320, 300, 320],
+      "hint": "the neglected existing thing"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Distracted-Boyfriend",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

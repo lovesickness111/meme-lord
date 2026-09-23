@@ -1,0 +1,188 @@
+name: Release
+
+on:
+  push:
+    tags: ['v*']
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        include:
+          - os: ubuntu-latest
+            target: linux-x64
+          # GitHub deprecated and retired macos-13 (the last Intel "macos-N"
+          # image); macos-15-intel is the current supported x64 runner label
+          # and macos-15 the current arm64 label.
+          - os: macos-15-intel
+            target: macos-x64
+          - os: macos-15
+            target: macos-arm64
+          - os: windows-latest
+            target: win32-x64
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 30
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - run: npm run lint
+      - run: npm test
+      - run: npm prune --omit=dev --no-audit --no-fund
+      - name: Build platform tarball
+        run: |
+          STAGE=$(mktemp -d)
+          mkdir "$STAGE/meme-maker"
+          cp -R dist assets node_modules package.json README.md CHANGELOG.md install.sh "$STAGE/meme-maker/"
+          tar -czf "meme-maker-${{ matrix.target }}.tar.gz" -C "$STAGE" meme-maker
+      - uses: actions/upload-artifact@v7
+        with:
+          name: meme-maker-${{ matrix.target }}
+          path: meme-maker-${{ matrix.target }}.tar.gz
+          if-no-files-found: error
+
+  npm-package:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: npm
+          registry-url: https://registry.npmjs.org
+      - run: npm ci
+      - name: Verify tag and package versions match
+        run: |
+          TAG_VERSION="${GITHUB_REF_NAME#v}"
+          PACKAGE_VERSION=$(node -p "require('./package.json').version")
+          test "$TAG_VERSION" = "$PACKAGE_VERSION" || {
+            echo "::error::tag $TAG_VERSION does not match package $PACKAGE_VERSION"
+            exit 1
+          }
+      - run: npm run build
+      - run: npm run lint
+      - run: npm test
+      - run: npm audit --omit=dev --audit-level=high
+      - name: Build npm tarball
+        run: |
+          mkdir npm-package
+          npm pack --pack-destination npm-package
+      - name: Clean-install the exact npm package artifact
+        run: |
+          shopt -s nullglob
+          packages=( npm-package/*.tgz )
+          test "${#packages[@]}" -eq 1 || {
+            echo "::error::expected exactly one npm tarball"
+            exit 1
+          }
+          MEME_PACKAGE_TARBALL="${packages[0]}" npm run test:package
+      - uses: actions/upload-artifact@v7
+        with:
+          name: npm-package
+          path: npm-package/*.tgz
+          if-no-files-found: error
+
+  # Disabled unless the package has been published once manually, the owner
+  # sets NPM_PUBLISH=true, and this exact repository/workflow is configured as
+  # an npm trusted publisher with direct publishing enabled.
+  publish-npm:
+    if: vars.NPM_PUBLISH == 'true'
+    needs: npm-package
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+      id-token: write
+    steps:
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          registry-url: https://registry.npmjs.org
+      - run: npm install --global npm@11.6.2
+      - uses: actions/download-artifact@v8
+        with:
+          name: npm-package
+      - name: Publish through npm trusted publishing
+        run: |
+          shopt -s nullglob
+          packages=( *.tgz )
+          test "${#packages[@]}" -eq 1 || {
+            echo "::error::expected exactly one npm tarball"
+            exit 1
+          }
+          npm publish "${packages[0]}" --access public
+
+  release:
+    needs: [build, npm-package, publish-npm]
+    if: >-
+      always() &&
+      needs.build.result == 'success' &&
+      needs.npm-package.result == 'success' &&
+      (needs.publish-npm.result == 'success' || needs.publish-npm.result == 'skipped')
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/download-artifact@v8
+        with:
+          merge-multiple: true
+      - name: Verify all platform artifacts are present
+        run: |
+          missing=0
+          for target in linux-x64 macos-x64 macos-arm64 win32-x64; do
+            if [ ! -s "meme-maker-$target.tar.gz" ]; then
+              echo "::error::Missing artifact meme-maker-$target.tar.gz"
+              missing=1
+            fi
+          done
+          VERSION="${GITHUB_REF_NAME#v}"
+          if [ ! -s "agent-meme-maker-$VERSION.tgz" ]; then
+            echo "::error::Missing npm tarball agent-meme-maker-$VERSION.tgz"
+            missing=1
+          fi
+          exit "$missing"
+      - name: Build source tarball
+        run: |
+          STAGE="agent-meme-maker-$GITHUB_REF_NAME"
+          mkdir "$STAGE"
+          cp -r src assets scripts ui test package.json package-lock.json tsconfig.json vitest.config.ts eslint.config.js README.md CHANGELOG.md install.sh "$STAGE/"
+          tar -czf "$STAGE.tar.gz" "$STAGE"
+      - name: Extract release notes from CHANGELOG.md
+        run: |
+          VERSION="${GITHUB_REF_NAME#v}"
+          awk -v ver="$VERSION" '
+            $0 ~ "^## " ver "$" { found=1; next }
+            found && /^## / { exit }
+            found { print }
+          ' CHANGELOG.md > release-notes.md
+          if [ ! -s release-notes.md ]; then
+            echo "No CHANGELOG.md section found for $VERSION" > release-notes.md
+          fi
+      - name: Create GitHub Release
+        run: |
+          VERSION="${GITHUB_REF_NAME#v}"
+          gh release create "$GITHUB_REF_NAME" \
+            --title "$GITHUB_REF_NAME" \
+            --notes-file release-notes.md \
+            meme-maker-linux-x64.tar.gz \
+            meme-maker-macos-x64.tar.gz \
+            meme-maker-macos-arm64.tar.gz \
+            meme-maker-win32-x64.tar.gz \
+            "agent-meme-maker-$VERSION.tgz" \
+            "agent-meme-maker-$GITHUB_REF_NAME.tar.gz" \
+            install.sh
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

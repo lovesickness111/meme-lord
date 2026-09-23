@@ -1,0 +1,37 @@
+{
+  "name": "Gas Pump",
+  "tags": [
+    "object",
+    "gas",
+    "prices",
+    "pain"
+  ],
+  "category": "animal",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        48,
+        24,
+        1104,
+        160
+      ],
+      "hint": "the setup"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        48,
+        616,
+        1104,
+        160
+      ],
+      "hint": "the wallet pain"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/meme/152394414/Gas-Pump",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

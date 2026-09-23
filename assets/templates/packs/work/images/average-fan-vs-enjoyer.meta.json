@@ -1,0 +1,39 @@
+{
+  "name": "Average Fan vs Average Enjoyer",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "comparison",
+    "chad",
+    "two-panel"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "left",
+      "rect": [
+        14,
+        14,
+        326,
+        101
+      ],
+      "hint": "the average fan take (crying wojak)"
+    },
+    {
+      "name": "right",
+      "rect": [
+        368,
+        14,
+        326,
+        101
+      ],
+      "hint": "the average enjoyer take (chad)"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/316989420/Average-Fan-vs-Average-Enjoyer",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

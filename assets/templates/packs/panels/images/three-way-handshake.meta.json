@@ -1,0 +1,57 @@
+{
+  "name": "Epic Handshake Three-Way",
+  "tags": [
+    "panel",
+    "three-panel",
+    "agreement",
+    "handshake"
+  ],
+  "category": "agreement",
+  "slots": [
+    {
+      "name": "party1",
+      "rect": [
+        18,
+        385,
+        270,
+        86
+      ],
+      "hint": "the first party agreeing"
+    },
+    {
+      "name": "party2",
+      "rect": [
+        612,
+        385,
+        270,
+        86
+      ],
+      "hint": "the second party agreeing"
+    },
+    {
+      "name": "party3",
+      "rect": [
+        315,
+        15,
+        270,
+        71
+      ],
+      "hint": "the third party joining in"
+    },
+    {
+      "name": "common",
+      "rect": [
+        297,
+        228,
+        306,
+        81
+      ],
+      "hint": "what they all agree on"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/195264850/Epic-Handshake-Three-Way",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

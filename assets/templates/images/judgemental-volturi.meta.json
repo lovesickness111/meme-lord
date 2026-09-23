@@ -1,0 +1,36 @@
+{
+  "name": "Judgemental Volturi",
+  "tags": [
+    "judgment",
+    "disapproval",
+    "group"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        20,
+        12,
+        639,
+        125
+      ],
+      "hint": "what is being judged"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        20,
+        488,
+        639,
+        125
+      ],
+      "hint": "the collective verdict"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/316853891/Judgemental-Volturi",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

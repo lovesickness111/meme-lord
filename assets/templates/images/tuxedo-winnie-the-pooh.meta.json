@@ -1,0 +1,35 @@
+{
+  "name": "Tuxedo Winnie the Pooh",
+  "tags": [
+    "fancy",
+    "upgrade",
+    "two-panel"
+  ],
+  "slots": [
+    {
+      "name": "plain",
+      "rect": [
+        400,
+        20,
+        380,
+        250
+      ],
+      "hint": "the ordinary way of saying it"
+    },
+    {
+      "name": "fancy",
+      "rect": [
+        400,
+        310,
+        380,
+        250
+      ],
+      "hint": "the sophisticated way of saying the same thing"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Tuxedo-Winnie-The-Pooh",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

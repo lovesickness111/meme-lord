@@ -1,0 +1,36 @@
+{
+  "name": "First Time? (James Franco)",
+  "tags": [
+    "experience",
+    "veteran",
+    "reaction"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        30,
+        12,
+        940,
+        125
+      ],
+      "hint": "who is panicking about something new"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        30,
+        487,
+        940,
+        125
+      ],
+      "hint": "\"first time?\""
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/163080720/first-time",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

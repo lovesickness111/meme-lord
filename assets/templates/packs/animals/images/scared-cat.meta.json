@@ -1,0 +1,37 @@
+{
+  "name": "Scared Cat",
+  "tags": [
+    "animal",
+    "cat",
+    "fear",
+    "panic"
+  ],
+  "category": "animal",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        25,
+        14,
+        570,
+        93
+      ],
+      "hint": "the scary thing"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        25,
+        356,
+        570,
+        93
+      ],
+      "hint": "the terrified reaction"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/meme/Scared-Cat",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

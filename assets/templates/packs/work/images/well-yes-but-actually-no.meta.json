@@ -1,0 +1,38 @@
+{
+  "name": "Well Yes, But Actually No",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "pirate",
+    "contradiction"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        48,
+        18,
+        1104,
+        146
+      ],
+      "hint": "the question or claim"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        48,
+        749,
+        1104,
+        146
+      ],
+      "hint": "well yes, but actually no"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Well-Yes-But-Actually-No",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

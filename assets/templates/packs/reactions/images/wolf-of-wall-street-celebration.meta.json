@@ -1,0 +1,26 @@
+{
+  "name": "Wolf of Wall Street Celebration",
+  "tags": [
+    "reaction",
+    "celebrating",
+    "hype"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        36,
+        14,
+        1128,
+        189
+      ],
+      "hint": "the win being celebrated"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/92219737/Wolf-of-Wallstreet-Celebration",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

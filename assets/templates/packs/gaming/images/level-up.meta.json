@@ -1,0 +1,36 @@
+{
+  "name": "Level Up",
+  "tags": [
+    "gaming",
+    "level-up",
+    "progress"
+  ],
+  "category": "gaming",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        15,
+        6,
+        470,
+        54
+      ],
+      "hint": "the mundane act"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        15,
+        240,
+        470,
+        54
+      ],
+      "hint": "the level gained"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/55045253/Level-up",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

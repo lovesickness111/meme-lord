@@ -1,0 +1,39 @@
+{
+  "name": "Daring Today, Aren't We Squidward",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "spongebob",
+    "risk",
+    "sarcasm"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        20,
+        11,
+        460,
+        92
+      ],
+      "hint": "the risky move observed (e.g. editing directly in prod)"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        20,
+        469,
+        460,
+        92
+      ],
+      "hint": "daring today, aren't we"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/190895576/Daring-today-arent-we-squidward",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

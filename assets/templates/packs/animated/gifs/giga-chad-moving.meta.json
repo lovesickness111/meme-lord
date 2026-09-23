@@ -1,0 +1,38 @@
+{
+  "name": "Giga Chad (Animated)",
+  "tags": [
+    "chad",
+    "confidence",
+    "flex",
+    "gif",
+    "animated"
+  ],
+  "category": "gif",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        8,
+        8,
+        304,
+        150
+      ],
+      "hint": "the chad move"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        8,
+        378,
+        304,
+        150
+      ],
+      "hint": "the flex"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/gif-maker/338025448/moving-giga-chad",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

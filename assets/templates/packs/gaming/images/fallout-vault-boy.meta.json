@@ -1,0 +1,36 @@
+{
+  "name": "Fallout Vault Boy",
+  "tags": [
+    "gaming",
+    "fallout",
+    "thumbs-up"
+  ],
+  "category": "gaming",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        19,
+        9,
+        583,
+        84
+      ],
+      "hint": "the grim situation"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        19,
+        372,
+        583,
+        84
+      ],
+      "hint": "the optimistic thumbs up"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/16753657/Fallout-Vault-Boy",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "All My Homies Hate",
+  "tags": [
+    "hate",
+    "consensus",
+    "opinion"
+  ],
+  "category": "opinion",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        20,
+        12,
+        639,
+        123
+      ],
+      "hint": "the thing everyone dislikes"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        20,
+        480,
+        639,
+        123
+      ],
+      "hint": "\"all my homies hate X\""
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/216523697/All-My-Homies-Hate",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

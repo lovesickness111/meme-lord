@@ -1,0 +1,27 @@
+{
+  "name": "Confused John Travolta",
+  "tags": [
+    "confusion",
+    "lost",
+    "searching",
+    "animated"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "bottom",
+      "rect": [
+        10,
+        124,
+        301,
+        32
+      ],
+      "hint": "what you are looking for in vain"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/404513830/Confused-John-Travolta-Pulp-Fiction",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

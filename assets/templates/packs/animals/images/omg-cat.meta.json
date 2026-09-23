@@ -1,0 +1,37 @@
+{
+  "name": "OMG Cat",
+  "tags": [
+    "animal",
+    "cat",
+    "shock",
+    "surprise"
+  ],
+  "category": "animal",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        25,
+        13,
+        567,
+        85
+      ],
+      "hint": "the shocking news"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        25,
+        327,
+        567,
+        85
+      ],
+      "hint": "the reaction"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/meme/OMG-Cat",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

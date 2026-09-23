@@ -1,0 +1,36 @@
+{
+  "name": "Dr Evil Air Quotes",
+  "tags": [
+    "sarcasm",
+    "quotes",
+    "skepticism"
+  ],
+  "category": "irony",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        32,
+        16,
+        998,
+        159
+      ],
+      "hint": "the setup"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        32,
+        621,
+        998,
+        159
+      ],
+      "hint": "the word deserving air quotes"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/65807782/Dr-Evil-air-quotes",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

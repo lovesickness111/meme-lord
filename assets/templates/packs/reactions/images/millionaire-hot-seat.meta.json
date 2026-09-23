@@ -1,0 +1,26 @@
+{
+  "name": "Who Wants To Be A Millionaire Hot Seat",
+  "tags": [
+    "reaction",
+    "nervous",
+    "decision"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        22,
+        14,
+        705,
+        201
+      ],
+      "hint": "the high-pressure question"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/457161548/Who-Wants-to-Be-a-Millionaire",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

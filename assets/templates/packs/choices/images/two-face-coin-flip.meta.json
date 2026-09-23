@@ -1,0 +1,38 @@
+{
+  "name": "Two-Face Coin Flip",
+  "tags": [
+    "choice",
+    "decision",
+    "coin-flip",
+    "chance",
+    "batman"
+  ],
+  "category": "choice",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        17,
+        8,
+        312,
+        68
+      ],
+      "hint": "setup text"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        17,
+        348,
+        312,
+        68
+      ],
+      "hint": "punchline text"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/147521059/Two-Face-coin-flip",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

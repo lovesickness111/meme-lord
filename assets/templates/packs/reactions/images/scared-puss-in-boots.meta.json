@@ -1,0 +1,26 @@
+{
+  "name": "Scared Puss In Boots",
+  "tags": [
+    "reaction",
+    "scared",
+    "cat"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        30,
+        14,
+        950,
+        202
+      ],
+      "hint": "the terrifying thing"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/434706120/Puss-and-boots-scared",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

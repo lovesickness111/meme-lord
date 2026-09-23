@@ -1,0 +1,26 @@
+{
+  "name": "Shocked Monkey",
+  "tags": [
+    "reaction",
+    "shocked",
+    "animal"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        19,
+        12,
+        583,
+        174
+      ],
+      "hint": "the shocking thing"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/18106346/Shocked-Monkey",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Hello Human Resources?!",
+  "tags": [
+    "complaint",
+    "offense",
+    "phone"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        20,
+        17,
+        639,
+        171
+      ],
+      "hint": "the offending statement"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        20,
+        667,
+        639,
+        171
+      ],
+      "hint": "the outraged HR call"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/268952187/hello-human-resources",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

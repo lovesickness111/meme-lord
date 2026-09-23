@@ -1,0 +1,38 @@
+{
+  "name": "Modern Problems Require Modern Solutions",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "solution",
+    "workaround"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        31,
+        14,
+        710,
+        115
+      ],
+      "hint": "the hacky workaround described"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        31,
+        590,
+        710,
+        115
+      ],
+      "hint": "modern problems require modern solutions"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/161887818/modern-problems",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

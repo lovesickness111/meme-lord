@@ -1,0 +1,37 @@
+{
+  "name": "Angry Lion vs Chill Monkey",
+  "tags": [
+    "animal",
+    "lion",
+    "monkey",
+    "contrast"
+  ],
+  "category": "animal",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        48,
+        20,
+        1104,
+        135
+      ],
+      "hint": "the furious one"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        48,
+        520,
+        1104,
+        135
+      ],
+      "hint": "the unbothered one"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/meme/593012190/Angry-Lion-vs-Chill-Monkey",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

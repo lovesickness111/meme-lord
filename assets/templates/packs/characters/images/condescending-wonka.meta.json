@@ -1,0 +1,37 @@
+{
+  "name": "Condescending Wonka",
+  "tags": [
+    "celebrity",
+    "character",
+    "mockery",
+    "sarcasm"
+  ],
+  "category": "character",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        16,
+        11,
+        517,
+        109
+      ],
+      "hint": "the sarcastic question"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        16,
+        425,
+        517,
+        109
+      ],
+      "hint": "the condescending punchline"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Creepy-Condescending-Wonka",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Guy Recording A Fight",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "bystander",
+    "drama"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "fight",
+      "rect": [
+        13,
+        14,
+        391,
+        85
+      ],
+      "hint": "the two things fighting"
+    },
+    {
+      "name": "recorder",
+      "rect": [
+        404,
+        427,
+        234,
+        85
+      ],
+      "hint": "the amused bystander"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/176409418/Guy-recording-a-fight",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

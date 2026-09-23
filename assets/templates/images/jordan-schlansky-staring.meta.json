@@ -1,0 +1,44 @@
+{
+  "name": "Jordan Schlansky Staring",
+  "tags": [
+    "reaction",
+    "podcast",
+    "staring",
+    "conan",
+    "jordan",
+    "team-coco",
+    "microphone"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        25,
+        25,
+        900,
+        80
+      ],
+      "hint": "setup or question",
+      "anchor": "middle",
+      "align": "center"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        25,
+        409,
+        900,
+        80
+      ],
+      "hint": "deadpan response or punchline",
+      "anchor": "middle",
+      "align": "center"
+    }
+  ],
+  "source": {
+    "url": "https://x.com/vishctx/status/2079772291827909009",
+    "license": "fair-use",
+    "attribution": "Team Coco / Conan O'Brien Needs a Friend"
+  }
+}

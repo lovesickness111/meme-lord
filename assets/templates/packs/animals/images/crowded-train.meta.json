@@ -1,0 +1,37 @@
+{
+  "name": "Crowded Train",
+  "tags": [
+    "object",
+    "train",
+    "crowded",
+    "commute"
+  ],
+  "category": "animal",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        24,
+        12,
+        561,
+        79
+      ],
+      "hint": "the destination everyone wants"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        24,
+        303,
+        561,
+        79
+      ],
+      "hint": "the crowd piling in"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/meme/92775563/Crowded-Train",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

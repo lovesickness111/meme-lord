@@ -1,0 +1,26 @@
+{
+  "name": "Trump Bill Signing",
+  "tags": [
+    "announcement",
+    "decree",
+    "signing"
+  ],
+  "category": "announcement",
+  "slots": [
+    {
+      "name": "bill",
+      "rect": [
+        250,
+        450,
+        500,
+        180
+      ],
+      "hint": "the absurd decree being signed"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Trump-Bill-Signing",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

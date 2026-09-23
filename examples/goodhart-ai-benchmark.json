@@ -1,0 +1,40 @@
+{
+  "base": {
+    "kind": "template",
+    "id": "disappointed-black-guy"
+  },
+  "texts": [
+    {
+      "slot": "expectation",
+      "text": "CÁC ÔNG LỚN:\nBENCHMARK KHÁCH QUAN",
+      "align": "center",
+      "anchor": "middle",
+      "style": {
+        "size": "auto",
+        "color": "black",
+        "strokeWidth": 0,
+        "caps": false,
+        "lineHeight": 1.05
+      }
+    },
+    {
+      "slot": "reality",
+      "text": "CŨNG CÁC ÔNG LỚN:\nLUYỆN MODEL THEO ĐỀ",
+      "align": "center",
+      "anchor": "middle",
+      "style": {
+        "size": "auto",
+        "color": "black",
+        "strokeWidth": 0,
+        "caps": false,
+        "lineHeight": 1.05
+      }
+    }
+  ],
+  "output": {
+    "path": "ai-benchmark-goodhart-v2.png",
+    "format": "png",
+    "overwrite": true,
+    "onDegrade": "error"
+  }
+}

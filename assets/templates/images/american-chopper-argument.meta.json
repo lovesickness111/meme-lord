@@ -1,0 +1,66 @@
+{
+  "name": "American Chopper Argument",
+  "tags": [
+    "argument",
+    "debate",
+    "five-panel"
+  ],
+  "category": "argument",
+  "slots": [
+    {
+      "name": "line1",
+      "rect": [
+        11,
+        5,
+        335,
+        90
+      ],
+      "hint": "first argument"
+    },
+    {
+      "name": "line2",
+      "rect": [
+        11,
+        205,
+        335,
+        90
+      ],
+      "hint": "angry rebuttal"
+    },
+    {
+      "name": "line3",
+      "rect": [
+        11,
+        405,
+        335,
+        90
+      ],
+      "hint": "counter-point"
+    },
+    {
+      "name": "line4",
+      "rect": [
+        11,
+        605,
+        335,
+        90
+      ],
+      "hint": "escalation"
+    },
+    {
+      "name": "line5",
+      "rect": [
+        11,
+        805,
+        335,
+        90
+      ],
+      "hint": "final point"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/American-Chopper-Argument",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

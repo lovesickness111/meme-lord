@@ -1,0 +1,36 @@
+{
+  "name": "Game Over Man",
+  "tags": [
+    "gaming",
+    "game-over",
+    "panic"
+  ],
+  "category": "gaming",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        23,
+        9,
+        734,
+        82
+      ],
+      "hint": "the catastrophe"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        23,
+        363,
+        734,
+        82
+      ],
+      "hint": "\"game over man, game over!\""
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/73445711/Game-Over-Man-Aliens",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

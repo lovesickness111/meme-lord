@@ -1,0 +1,37 @@
+{
+  "name": "Socially Awkward Penguin",
+  "tags": [
+    "animal",
+    "penguin",
+    "awkward",
+    "social"
+  ],
+  "category": "animal",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        20,
+        15,
+        460,
+        100
+      ],
+      "hint": "the social situation"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        20,
+        385,
+        460,
+        100
+      ],
+      "hint": "the awkward outcome"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/meme/Socially-Awkward-Penguin",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

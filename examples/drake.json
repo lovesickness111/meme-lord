@@ -1,0 +1,8 @@
+{
+  "base": { "kind": "template", "id": "drake" },
+  "texts": [
+    { "slot": "no", "text": "MANUAL MEME EDITORS" },
+    { "slot": "yes", "text": "A CLI FOR AGENTS" }
+  ],
+  "output": { "path": "drake.png", "format": "png" }
+}

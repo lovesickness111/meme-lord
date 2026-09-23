@@ -1,0 +1,37 @@
+{
+  "name": "Futurama Fry (Not Sure If)",
+  "tags": [
+    "celebrity",
+    "character",
+    "doubt",
+    "suspicion"
+  ],
+  "category": "character",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        17,
+        8,
+        519,
+        83
+      ],
+      "hint": "\"not sure if X\""
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        17,
+        323,
+        519,
+        83
+      ],
+      "hint": "\"or just Y\""
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Futurama-Fry",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

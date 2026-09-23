@@ -1,0 +1,36 @@
+{
+  "name": "Scooby Doo Mask Reveal",
+  "tags": [
+    "reveal",
+    "unmasking",
+    "four-panel"
+  ],
+  "category": "reveal",
+  "slots": [
+    {
+      "name": "villain",
+      "rect": [
+        374,
+        77,
+        317,
+        173
+      ],
+      "hint": "the disguised thing"
+    },
+    {
+      "name": "revealed",
+      "rect": [
+        374,
+        557,
+        317,
+        173
+      ],
+      "hint": "what it really was all along"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/145139900/Scooby-doo-mask-reveal",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

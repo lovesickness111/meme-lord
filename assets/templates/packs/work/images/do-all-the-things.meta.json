@@ -1,0 +1,38 @@
+{
+  "name": "X All The Things",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "enthusiasm",
+    "hyperbole"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        20,
+        7,
+        460,
+        57
+      ],
+      "hint": "optional setup"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        20,
+        291,
+        460,
+        57
+      ],
+      "hint": "VERB all the THINGS (e.g. automate all the things)"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/37719343/all-of-the-things",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

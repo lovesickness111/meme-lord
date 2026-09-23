@@ -1,0 +1,26 @@
+{
+  "name": "Bored SpongeBob",
+  "tags": [
+    "reaction",
+    "bored",
+    "unimpressed"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        22,
+        17,
+        675,
+        235
+      ],
+      "hint": "the tedious thing"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/428614817/Bored-Spongebob",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

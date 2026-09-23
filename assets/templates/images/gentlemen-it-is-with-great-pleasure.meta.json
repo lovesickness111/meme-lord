@@ -1,0 +1,26 @@
+{
+  "name": "Gentlemen, It Is With Great Pleasure",
+  "tags": [
+    "announcement",
+    "formal",
+    "celebration"
+  ],
+  "category": "announcement",
+  "slots": [
+    {
+      "name": "bottom",
+      "rect": [
+        30,
+        760,
+        940,
+        220
+      ],
+      "hint": "the great news being announced"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/313581692/Gentlemen-it-is-with-great-pleasure-to-inform-you-that",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

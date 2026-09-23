@@ -1,0 +1,37 @@
+{
+  "name": "Spongebob Ooh, I Get It",
+  "tags": [
+    "panel",
+    "two-panel",
+    "spongebob",
+    "delayed"
+  ],
+  "category": "twist",
+  "slots": [
+    {
+      "name": "setup",
+      "rect": [
+        25,
+        10,
+        450,
+        55
+      ],
+      "hint": "the joke or statement"
+    },
+    {
+      "name": "realization",
+      "rect": [
+        25,
+        264,
+        450,
+        55
+      ],
+      "hint": "the delayed reaction"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/568475290/OOH-I-GET-IT",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

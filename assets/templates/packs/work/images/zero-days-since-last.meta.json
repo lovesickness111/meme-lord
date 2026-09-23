@@ -1,0 +1,29 @@
+{
+  "name": "Futurama Zero Days Since Last...",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "futurama",
+    "counter",
+    "incident"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "sign",
+      "rect": [
+        265,
+        187,
+        529,
+        234
+      ],
+      "hint": "the incident type on the '0 days since last' sign"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/448742875/Futurama-Zero-Days-Since-Last-Blank",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

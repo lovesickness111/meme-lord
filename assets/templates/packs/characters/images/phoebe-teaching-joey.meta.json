@@ -1,0 +1,38 @@
+{
+  "name": "Phoebe Teaching Joey",
+  "tags": [
+    "celebrity",
+    "character",
+    "friends",
+    "misunderstanding",
+    "teaching"
+  ],
+  "category": "character",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        17,
+        15,
+        523,
+        151
+      ],
+      "hint": "what Phoebe says"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        17,
+        590,
+        523,
+        151
+      ],
+      "hint": "what Joey repeats wrong"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/231451789/Phoebe-Joey",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

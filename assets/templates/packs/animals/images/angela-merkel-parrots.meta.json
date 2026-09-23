@@ -1,0 +1,37 @@
+{
+  "name": "Angela Merkel Parrots",
+  "tags": [
+    "animal",
+    "bird",
+    "parrot",
+    "overwhelmed"
+  ],
+  "category": "animal",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        29,
+        15,
+        662,
+        97
+      ],
+      "hint": "you, minding your business"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        29,
+        373,
+        662,
+        97
+      ],
+      "hint": "the demands piling on"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/meme/342934418/Angela-Merkel-Parrots",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

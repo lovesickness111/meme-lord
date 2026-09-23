@@ -1,0 +1,36 @@
+{
+  "name": "Console Peasant",
+  "tags": [
+    "gaming",
+    "console-wars",
+    "peasant"
+  ],
+  "category": "gaming",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        16,
+        7,
+        498,
+        63
+      ],
+      "hint": "the PC gamer's view"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        16,
+        280,
+        498,
+        63
+      ],
+      "hint": "the console peasant"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/88725571/Console-Peasant",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

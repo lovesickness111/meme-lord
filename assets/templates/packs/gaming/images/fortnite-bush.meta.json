@@ -1,0 +1,36 @@
+{
+  "name": "Fortnite Bush",
+  "tags": [
+    "gaming",
+    "fortnite",
+    "hiding"
+  ],
+  "category": "gaming",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        23,
+        22,
+        705,
+        196
+      ],
+      "hint": "the thing you're avoiding"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        23,
+        871,
+        705,
+        196
+      ],
+      "hint": "you, hiding in the bush"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/127271747/Fortnite-bush",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

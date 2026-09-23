@@ -1,0 +1,38 @@
+{
+  "name": "Math Lady / Confused Lady",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "confusion",
+    "calculating"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        27,
+        9,
+        627,
+        71
+      ],
+      "hint": "the confusing situation (e.g. reading your own old code)"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        27,
+        365,
+        627,
+        71
+      ],
+      "hint": "the punchline"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/80996545/Math-ladyConfused-lady",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

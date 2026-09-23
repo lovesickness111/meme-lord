@@ -1,0 +1,37 @@
+{
+  "name": "The Rock Driving",
+  "tags": [
+    "choice",
+    "decision",
+    "question",
+    "reaction"
+  ],
+  "category": "choice",
+  "slots": [
+    {
+      "name": "question",
+      "rect": [
+        256,
+        56,
+        295,
+        126
+      ],
+      "hint": "the innocent question"
+    },
+    {
+      "name": "reply",
+      "rect": [
+        256,
+        406,
+        295,
+        126
+      ],
+      "hint": "the unexpected reply"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/The-Rock-Driving",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

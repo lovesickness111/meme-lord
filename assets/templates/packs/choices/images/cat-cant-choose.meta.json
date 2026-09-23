@@ -1,0 +1,37 @@
+{
+  "name": "Cat Can't Choose",
+  "tags": [
+    "choice",
+    "decision",
+    "indecision",
+    "cat"
+  ],
+  "category": "choice",
+  "slots": [
+    {
+      "name": "left",
+      "rect": [
+        24,
+        16,
+        352,
+        86
+      ],
+      "hint": "first option"
+    },
+    {
+      "name": "right",
+      "rect": [
+        424,
+        16,
+        352,
+        86
+      ],
+      "hint": "second option"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/373375831/Cat-cant-choose",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

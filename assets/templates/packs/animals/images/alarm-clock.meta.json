@@ -1,0 +1,37 @@
+{
+  "name": "Alarm Clock",
+  "tags": [
+    "object",
+    "clock",
+    "morning",
+    "dread"
+  ],
+  "category": "animal",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        20,
+        16,
+        460,
+        104
+      ],
+      "hint": "the rude awakening"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        20,
+        399,
+        460,
+        104
+      ],
+      "hint": "the reaction"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/meme/Alarm-Clock",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

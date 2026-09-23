@@ -1,0 +1,36 @@
+{
+  "name": "Elden Ring",
+  "tags": [
+    "gaming",
+    "elden-ring",
+    "souls-like"
+  ],
+  "category": "gaming",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        36,
+        11,
+        1128,
+        103
+      ],
+      "hint": "the challenge ahead"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        36,
+        458,
+        1128,
+        103
+      ],
+      "hint": "the tarnished's response"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/373697996/Elden-ring",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

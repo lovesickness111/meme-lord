@@ -1,0 +1,22 @@
+{
+  "base": { "kind": "image", "path": "photo.jpg" },
+  "texts": [
+    {
+      "text": "MY OWN IMAGE",
+      "x": "5%",
+      "y": "5%",
+      "width": "90%",
+      "height": "20%",
+      "anchor": "top"
+    },
+    {
+      "text": "CLASSIC BOTTOM CAPTION",
+      "x": "5%",
+      "y": "75%",
+      "width": "90%",
+      "height": "20%",
+      "anchor": "bottom"
+    }
+  ],
+  "output": { "path": "image-base.png", "format": "png" }
+}

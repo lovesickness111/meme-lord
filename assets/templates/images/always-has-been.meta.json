@@ -1,0 +1,39 @@
+{
+  "name": "Always Has Been",
+  "tags": ["revelation", "betrayal", "space"],
+  "selectionGuide": {
+    "description": "One astronaut discovers a broad truth about Earth while a second armed astronaut confirms that the truth was never new.",
+    "bestFor": [
+      "a belated realization about a long-standing condition",
+      "revealing that apparently different things share the same underlying trait",
+      "an ominous confirmation that the discovery changes nothing"
+    ],
+    "avoidWhen": [
+      "the joke is an ordinary preference rather than a revelation",
+      "there is no established truth for the response to confirm",
+      "the punchline needs several intermediate stages"
+    ],
+    "tone": ["ominous", "deadpan", "absurd", "revelatory"],
+    "mechanics": {
+      "visual": "The first astronaut's discovery creates the setup, and the armed figure behind them turns confirmation into a threatening punchline.",
+      "text": "Phrase realization as a concise surprised question, then make response a terse, confident confirmation such as 'Always has been.'"
+    }
+  },
+  "slots": [
+    {
+      "name": "realization",
+      "rect": [40, 25, 560, 130],
+      "hint": "the shocking realization, e.g. 'wait, it's all X?'"
+    },
+    {
+      "name": "response",
+      "rect": [560, 300, 380, 120],
+      "hint": "usually 'Always has been'"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Always-Has-Been",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

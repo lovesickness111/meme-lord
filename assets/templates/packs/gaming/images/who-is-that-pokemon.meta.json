@@ -1,0 +1,36 @@
+{
+  "name": "Who's That Pokemon",
+  "tags": [
+    "gaming",
+    "pokemon",
+    "guess"
+  ],
+  "category": "gaming",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        19,
+        9,
+        583,
+        83
+      ],
+      "hint": "\"who's that pokemon?\""
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        19,
+        370,
+        583,
+        83
+      ],
+      "hint": "the surprising reveal"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/29429555/who-is-that-pokemon",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

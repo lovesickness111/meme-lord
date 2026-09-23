@@ -1,0 +1,40 @@
+{
+  "name": "They're the Same Picture",
+  "tags": ["equivalence", "comparison", "office"],
+  "category": "comparison",
+  "selectionGuide": {
+    "description": "An office comparison presents two labeled subjects before a built-in reaction dismisses any distinction between them.",
+    "bestFor": [
+      "arguing that two supposedly different things are functionally equivalent",
+      "exposing a distinction as superficial or misleading",
+      "a sarcastic comparison whose punchline is sameness"
+    ],
+    "avoidWhen": [
+      "one option should clearly be preferred over the other",
+      "the relationship is cause and effect rather than equivalence",
+      "more than two subjects need independent treatment"
+    ],
+    "tone": ["deadpan", "sarcastic", "dismissive", "ironic"],
+    "mechanics": {
+      "visual": "The side-by-side subjects invite inspection, while the office reaction collapses the expected distinction into one verdict.",
+      "text": "Put one subject in left and the other in right using comparable noun phrases; the image already supplies the 'same picture' conclusion."
+    }
+  },
+  "slots": [
+    {
+      "name": "left",
+      "rect": [80, 200, 380, 280],
+      "hint": "the first thing being compared"
+    },
+    {
+      "name": "right",
+      "rect": [600, 200, 380, 280],
+      "hint": "the second thing being compared"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Theyre-The-Same-Picture",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

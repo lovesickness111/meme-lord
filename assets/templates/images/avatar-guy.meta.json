@@ -1,0 +1,36 @@
+{
+  "name": "Avatar Guy (Everything Changed)",
+  "tags": [
+    "change",
+    "nostalgia",
+    "narration"
+  ],
+  "category": "observation",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        30,
+        18,
+        940,
+        176
+      ],
+      "hint": "how things used to be"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        30,
+        688,
+        940,
+        176
+      ],
+      "hint": "\"everything changed when X attacked\""
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/443188629/Avatar-guy",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

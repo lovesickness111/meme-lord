@@ -1,0 +1,36 @@
+{
+  "name": "Dark Souls You Died",
+  "tags": [
+    "gaming",
+    "dark-souls",
+    "death"
+  ],
+  "category": "gaming",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        36,
+        14,
+        1128,
+        122
+      ],
+      "hint": "the trivial mistake"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        36,
+        540,
+        1128,
+        122
+      ],
+      "hint": "\"YOU DIED\""
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/136214535/Dark-Souls-You-Died",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

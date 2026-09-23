@@ -1,0 +1,27 @@
+{
+  "name": "Hard To Swallow Pills",
+  "tags": [
+    "panel",
+    "two-panel",
+    "truth",
+    "pills"
+  ],
+  "category": "truth",
+  "slots": [
+    {
+      "name": "pills",
+      "rect": [
+        177,
+        587,
+        326,
+        196
+      ],
+      "hint": "the hard-to-swallow truth"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Hard-To-Swallow-Pills",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

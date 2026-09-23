@@ -1,0 +1,37 @@
+{
+  "name": "I'll Take Your Entire Stock",
+  "tags": [
+    "choice",
+    "decision",
+    "buying",
+    "impulse"
+  ],
+  "category": "choice",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        34,
+        7,
+        612,
+        59
+      ],
+      "hint": "setup text"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        34,
+        300,
+        612,
+        59
+      ],
+      "hint": "punchline text"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/183411440/Ill-take-your-entire-stock",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

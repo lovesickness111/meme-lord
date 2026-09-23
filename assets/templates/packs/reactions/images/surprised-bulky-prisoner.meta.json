@@ -1,0 +1,26 @@
+{
+  "name": "Surprised Bulky Prisoner",
+  "tags": [
+    "reaction",
+    "surprised",
+    "shocked"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        35,
+        23,
+        1111,
+        328
+      ],
+      "hint": "the surprising confession"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/251152161/Surprised-bulky-prisoner",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

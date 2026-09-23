@@ -1,0 +1,25 @@
+{
+  "name": "Homer Backs Into Bushes",
+  "tags": [
+    "retreat",
+    "avoidance",
+    "animated"
+  ],
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        5,
+        5,
+        256,
+        50
+      ],
+      "hint": "the awkward situation being escaped"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Homer-Disappears-Into-Bush",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

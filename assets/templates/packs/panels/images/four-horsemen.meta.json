@@ -1,0 +1,57 @@
+{
+  "name": "The Four Horsemen",
+  "tags": [
+    "panel",
+    "four-panel",
+    "labels",
+    "apocalypse"
+  ],
+  "category": "comparison",
+  "slots": [
+    {
+      "name": "first",
+      "rect": [
+        24,
+        528,
+        264,
+        82
+      ],
+      "hint": "the first horseman"
+    },
+    {
+      "name": "second",
+      "rect": [
+        324,
+        528,
+        264,
+        82
+      ],
+      "hint": "the second horseman"
+    },
+    {
+      "name": "third",
+      "rect": [
+        624,
+        528,
+        264,
+        82
+      ],
+      "hint": "the third horseman"
+    },
+    {
+      "name": "fourth",
+      "rect": [
+        912,
+        528,
+        264,
+        82
+      ],
+      "hint": "the fourth horseman"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/230108710/4-horsemen-of-the-apocalypse",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

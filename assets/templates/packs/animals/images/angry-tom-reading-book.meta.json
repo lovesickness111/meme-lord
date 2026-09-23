@@ -1,0 +1,37 @@
+{
+  "name": "Angry Tom Reading Book",
+  "tags": [
+    "animal",
+    "cat",
+    "anger",
+    "interruption"
+  ],
+  "category": "animal",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        37,
+        36,
+        841,
+        240
+      ],
+      "hint": "trying to focus on"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        37,
+        924,
+        841,
+        240
+      ],
+      "hint": "the interruption"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/meme/213542404/Angry-Tom-Reading-Book",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

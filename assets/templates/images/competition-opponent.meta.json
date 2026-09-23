@@ -1,0 +1,26 @@
+{
+  "name": "When I'm In A Competition And My Opponent Is",
+  "tags": [
+    "competition",
+    "confidence",
+    "reaction"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        46,
+        144,
+        824,
+        126
+      ],
+      "hint": "who/what the laughable opponent is"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/360597639/whe-im-in-a-competition-and-my-opponent-is",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

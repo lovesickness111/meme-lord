@@ -1,0 +1,38 @@
+{
+  "name": "Imagination SpongeBob",
+  "tags": [
+    "celebrity",
+    "character",
+    "imagination",
+    "sarcasm",
+    "spongebob"
+  ],
+  "category": "character",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        15,
+        7,
+        470,
+        73
+      ],
+      "hint": "the fanciful thing"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        15,
+        285,
+        470,
+        73
+      ],
+      "hint": "\"imagination\""
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Imagination-Spongebob",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

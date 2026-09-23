@@ -1,0 +1,38 @@
+{
+  "name": "Lion King Yeet",
+  "tags": [
+    "yeet",
+    "throw",
+    "rejection",
+    "gif",
+    "animated"
+  ],
+  "category": "gif",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        8,
+        8,
+        304,
+        52
+      ],
+      "hint": "who does the yeeting"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        8,
+        126,
+        304,
+        52
+      ],
+      "hint": "what gets yeeted"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/gif-maker/264730488/Lion-king-yeet",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

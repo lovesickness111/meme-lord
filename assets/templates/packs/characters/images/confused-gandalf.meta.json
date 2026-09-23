@@ -1,0 +1,37 @@
+{
+  "name": "Confused Gandalf",
+  "tags": [
+    "celebrity",
+    "character",
+    "confusion",
+    "lotr"
+  ],
+  "category": "character",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        15,
+        12,
+        470,
+        121
+      ],
+      "hint": "the setup"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        15,
+        473,
+        470,
+        121
+      ],
+      "hint": "the confused realization"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Confused-Gandalf",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

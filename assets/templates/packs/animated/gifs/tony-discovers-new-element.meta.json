@@ -1,0 +1,38 @@
+{
+  "name": "Tony Stark Discovers A New Element",
+  "tags": [
+    "discovery",
+    "eureka",
+    "iron-man",
+    "gif",
+    "animated"
+  ],
+  "category": "gif",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        8,
+        8,
+        304,
+        129
+      ],
+      "hint": "the breakthrough"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        8,
+        323,
+        304,
+        129
+      ],
+      "hint": "the discovery"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/gif-maker/347580183/Tony-discovers-a-new-element",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

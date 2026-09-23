@@ -1,0 +1,38 @@
+{
+  "name": "Talking To A Wall",
+  "tags": [
+    "ignored",
+    "futile",
+    "explaining",
+    "gif",
+    "animated"
+  ],
+  "category": "gif",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        8,
+        8,
+        304,
+        50
+      ],
+      "hint": "me explaining"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        8,
+        122,
+        304,
+        50
+      ],
+      "hint": "who is not listening"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/gif-maker/304768047/talking-to-wall",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

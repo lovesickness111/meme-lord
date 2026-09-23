@@ -1,0 +1,37 @@
+{
+  "name": "Grumpy Cat No",
+  "tags": [
+    "choice",
+    "decision",
+    "rejection",
+    "no"
+  ],
+  "category": "choice",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        25,
+        12,
+        450,
+        99
+      ],
+      "hint": "setup text"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        25,
+        505,
+        450,
+        99
+      ],
+      "hint": "punchline text"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Grumpy-Cat",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

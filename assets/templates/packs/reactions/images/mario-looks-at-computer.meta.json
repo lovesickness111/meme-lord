@@ -1,0 +1,26 @@
+{
+  "name": "Mario Looks at Computer",
+  "tags": [
+    "reaction",
+    "confused",
+    "staring"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        28,
+        20,
+        867,
+        287
+      ],
+      "hint": "the cursed thing on screen"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/152552385/Mario-looks-at-computer",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

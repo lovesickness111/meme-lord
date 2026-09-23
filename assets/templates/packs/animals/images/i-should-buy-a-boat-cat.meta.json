@@ -1,0 +1,37 @@
+{
+  "name": "I Should Buy A Boat Cat",
+  "tags": [
+    "animal",
+    "cat",
+    "aspiration",
+    "newspaper"
+  ],
+  "category": "animal",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        20,
+        11,
+        460,
+        73
+      ],
+      "hint": "the setup"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        20,
+        283,
+        460,
+        73
+      ],
+      "hint": "\"I should buy a boat\""
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/meme/I-Should-Buy-A-Boat-Cat",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

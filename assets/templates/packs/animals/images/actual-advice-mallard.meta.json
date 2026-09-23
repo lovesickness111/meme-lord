@@ -1,0 +1,37 @@
+{
+  "name": "Actual Advice Mallard",
+  "tags": [
+    "animal",
+    "bird",
+    "duck",
+    "advice"
+  ],
+  "category": "animal",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        21,
+        12,
+        494,
+        78
+      ],
+      "hint": "the problem"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        21,
+        300,
+        494,
+        78
+      ],
+      "hint": "the genuinely useful tip"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/meme/Actual-Advice-Mallard",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

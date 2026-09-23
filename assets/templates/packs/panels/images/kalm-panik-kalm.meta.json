@@ -1,0 +1,47 @@
+{
+  "name": "Kalm Panik Kalm",
+  "tags": [
+    "panel",
+    "three-panel",
+    "panic",
+    "rollercoaster"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "kalm1",
+      "rect": [
+        23,
+        41,
+        319,
+        255
+      ],
+      "hint": "the reassuring news"
+    },
+    {
+      "name": "panik",
+      "rect": [
+        23,
+        377,
+        319,
+        255
+      ],
+      "hint": "the alarming detail"
+    },
+    {
+      "name": "kalm2",
+      "rect": [
+        23,
+        724,
+        319,
+        255
+      ],
+      "hint": "the twist that makes it fine again"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/228417844/Reverse-kalm-panik",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

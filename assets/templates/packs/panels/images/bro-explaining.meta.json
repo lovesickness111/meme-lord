@@ -1,0 +1,37 @@
+{
+  "name": "Bro Explaining",
+  "tags": [
+    "panel",
+    "two-panel",
+    "explaining",
+    "annoyed"
+  ],
+  "category": "argument",
+  "slots": [
+    {
+      "name": "listener",
+      "rect": [
+        16,
+        9,
+        336,
+        63
+      ],
+      "hint": "the person being talked at"
+    },
+    {
+      "name": "explainer",
+      "rect": [
+        440,
+        9,
+        344,
+        63
+      ],
+      "hint": "the bro who won't stop explaining"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/229029871/Bro-explaining",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

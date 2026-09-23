@@ -1,0 +1,37 @@
+{
+  "name": "Idiot Sandwich",
+  "tags": [
+    "panel",
+    "two-panel",
+    "insult",
+    "gordon-ramsay"
+  ],
+  "category": "argument",
+  "slots": [
+    {
+      "name": "question",
+      "rect": [
+        60,
+        24,
+        1080,
+        108
+      ],
+      "hint": "what are you?"
+    },
+    {
+      "name": "answer",
+      "rect": [
+        60,
+        636,
+        1080,
+        108
+      ],
+      "hint": "an idiot sandwich"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/100538243/Gordon-Ramsay-Idiot-Sandwich",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Kronk Shoulder Angel & Devil",
+  "tags": [
+    "choice",
+    "decision",
+    "angel-devil",
+    "internal-conflict",
+    "two-option"
+  ],
+  "category": "choice",
+  "slots": [
+    {
+      "name": "angel",
+      "rect": [
+        24,
+        14,
+        360,
+        122
+      ],
+      "hint": "the good advice"
+    },
+    {
+      "name": "devil",
+      "rect": [
+        816,
+        14,
+        360,
+        122
+      ],
+      "hint": "the bad advice"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        60,
+        540,
+        1080,
+        108
+      ],
+      "hint": "the dilemma"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/272513899/Kronks-Shoulder-AngelDevil",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

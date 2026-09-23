@@ -1,0 +1,36 @@
+{
+  "name": "Yeah This Is Big Brain Time",
+  "tags": [
+    "gaming",
+    "markiplier",
+    "genius"
+  ],
+  "category": "gaming",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        23,
+        15,
+        705,
+        131
+      ],
+      "hint": "the galaxy-brain idea"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        23,
+        583,
+        705,
+        131
+      ],
+      "hint": "\"yeah, this is big brain time\""
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/187252457/Yeah-this-is-big-brain-time",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

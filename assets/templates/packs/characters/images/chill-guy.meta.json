@@ -1,0 +1,37 @@
+{
+  "name": "Chill Guy",
+  "tags": [
+    "calm",
+    "celebrity",
+    "character",
+    "unbothered"
+  ],
+  "category": "character",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        12,
+        8,
+        390,
+        83
+      ],
+      "hint": "the situation"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        12,
+        324,
+        390,
+        83
+      ],
+      "hint": "how you stay chill"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/562391530/Chill-guy",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

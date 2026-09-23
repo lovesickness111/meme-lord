@@ -1,0 +1,27 @@
+{
+  "name": "Types of Headaches",
+  "tags": [
+    "panel",
+    "four-panel",
+    "diagram",
+    "pain"
+  ],
+  "category": "diagram",
+  "slots": [
+    {
+      "name": "cause",
+      "rect": [
+        251,
+        288,
+        217,
+        50
+      ],
+      "hint": "the thing causing the full-head headache"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Types-of-Headaches-meme",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

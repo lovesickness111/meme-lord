@@ -1,0 +1,39 @@
+{
+  "name": "I Have No Idea What I'm Doing (Dog)",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "dog",
+    "incompetence",
+    "impostor"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        18,
+        9,
+        422,
+        72
+      ],
+      "hint": "the technical situation"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        18,
+        368,
+        422,
+        72
+      ],
+      "hint": "i have no idea what i'm doing"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/I-Have-No-Idea-What-I-Am-Doing",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

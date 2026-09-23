@@ -1,0 +1,36 @@
+{
+  "name": "Cyberpunk Keanu",
+  "tags": [
+    "gaming",
+    "cyberpunk",
+    "breathtaking"
+  ],
+  "category": "gaming",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        22,
+        9,
+        696,
+        77
+      ],
+      "hint": "the audience"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        22,
+        343,
+        696,
+        77
+      ],
+      "hint": "\"you're breathtaking!\""
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/186586999/Keanu-Reeves-Cyberpunk",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

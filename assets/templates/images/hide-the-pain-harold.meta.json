@@ -1,0 +1,36 @@
+{
+  "name": "Hide the Pain Harold",
+  "tags": [
+    "suppressed-pain",
+    "coping",
+    "reaction"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        15,
+        8,
+        450,
+        80
+      ],
+      "hint": "the painful situation"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        15,
+        510,
+        450,
+        82
+      ],
+      "hint": "the forced-smile response"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Hide-the-Pain-Harold",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

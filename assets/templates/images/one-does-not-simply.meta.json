@@ -1,0 +1,35 @@
+{
+  "name": "One Does Not Simply",
+  "tags": [
+    "difficulty",
+    "warning",
+    "classic"
+  ],
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        30,
+        8,
+        508,
+        80
+      ],
+      "hint": "usually 'ONE DOES NOT SIMPLY'"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        30,
+        245,
+        508,
+        82
+      ],
+      "hint": "the thing that cannot simply be done"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/One-Does-Not-Simply",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

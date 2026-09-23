@@ -1,0 +1,36 @@
+{
+  "name": "Leeroy Jenkins",
+  "tags": [
+    "gaming",
+    "wow",
+    "reckless"
+  ],
+  "category": "gaming",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        36,
+        14,
+        1128,
+        122
+      ],
+      "hint": "the careful plan"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        36,
+        540,
+        1128,
+        122
+      ],
+      "hint": "\"LEEROY JENKINS!\""
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/52303278/Leeroy-Jenkins",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

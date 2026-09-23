@@ -1,0 +1,57 @@
+{
+  "name": "Boardroom Meeting Suggestion",
+  "tags": [
+    "panel",
+    "four-panel",
+    "comic",
+    "rejection"
+  ],
+  "category": "argument",
+  "slots": [
+    {
+      "name": "question",
+      "rect": [
+        120,
+        6,
+        310,
+        65
+      ],
+      "hint": "the boss's question to the room"
+    },
+    {
+      "name": "answer1",
+      "rect": [
+        10,
+        269,
+        145,
+        55
+      ],
+      "hint": "a safe first suggestion"
+    },
+    {
+      "name": "answer2",
+      "rect": [
+        165,
+        269,
+        140,
+        55
+      ],
+      "hint": "a safe second suggestion"
+    },
+    {
+      "name": "answer3",
+      "rect": [
+        315,
+        269,
+        170,
+        55
+      ],
+      "hint": "the honest suggestion that gets you thrown out"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Boardroom-Meeting-Suggestion",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

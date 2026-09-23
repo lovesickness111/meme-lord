@@ -1,0 +1,38 @@
+{
+  "name": "Sweating Jordan Peele",
+  "tags": [
+    "sweating",
+    "nervous",
+    "stress",
+    "gif",
+    "animated"
+  ],
+  "category": "gif",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        8,
+        8,
+        304,
+        50
+      ],
+      "hint": "the stressful situation"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        8,
+        122,
+        304,
+        50
+      ],
+      "hint": "the nervous sweat"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/gif-maker/210959447/Sweating-Jordan-Peele",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

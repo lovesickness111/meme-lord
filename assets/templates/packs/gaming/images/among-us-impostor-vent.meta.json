@@ -1,0 +1,36 @@
+{
+  "name": "Among Us Impostor Vent",
+  "tags": [
+    "gaming",
+    "among-us",
+    "impostor"
+  ],
+  "category": "gaming",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        19,
+        16,
+        602,
+        144
+      ],
+      "hint": "the suspicious act"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        19,
+        642,
+        602,
+        144
+      ],
+      "hint": "the impostor escaping"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/268616983/impostor-of-the-vent",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

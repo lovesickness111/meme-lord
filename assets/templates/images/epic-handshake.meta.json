@@ -1,0 +1,45 @@
+{
+  "name": "Epic Handshake",
+  "tags": [
+    "agreement",
+    "common-ground",
+    "two-actor"
+  ],
+  "slots": [
+    {
+      "name": "left",
+      "rect": [
+        20,
+        350,
+        280,
+        270
+      ],
+      "hint": "the first unlikely party"
+    },
+    {
+      "name": "right",
+      "rect": [
+        600,
+        350,
+        280,
+        270
+      ],
+      "hint": "the second unlikely party"
+    },
+    {
+      "name": "handshake",
+      "rect": [
+        280,
+        20,
+        340,
+        180
+      ],
+      "hint": "the thing they both agree on"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Epic-Handshake",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

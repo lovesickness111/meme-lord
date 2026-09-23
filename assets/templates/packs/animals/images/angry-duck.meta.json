@@ -1,0 +1,37 @@
+{
+  "name": "Angry Duck",
+  "tags": [
+    "animal",
+    "bird",
+    "duck",
+    "anger"
+  ],
+  "category": "animal",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        25,
+        22,
+        570,
+        149
+      ],
+      "hint": "the provocation"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        25,
+        573,
+        570,
+        149
+      ],
+      "hint": "the angry quack"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/meme/12162484/Angry-duck",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Virgin vs Chad",
+  "tags": [
+    "choice",
+    "decision",
+    "versus",
+    "comparison",
+    "two-option"
+  ],
+  "category": "choice",
+  "slots": [
+    {
+      "name": "left",
+      "rect": [
+        29,
+        12,
+        422,
+        62
+      ],
+      "hint": "first option"
+    },
+    {
+      "name": "right",
+      "rect": [
+        509,
+        12,
+        422,
+        62
+      ],
+      "hint": "second option"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/139370401/Virgin-vs-Chad",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

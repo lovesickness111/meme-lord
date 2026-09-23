@@ -1,0 +1,26 @@
+{
+  "name": "What Gives People Feelings Of Power",
+  "tags": [
+    "power",
+    "chart",
+    "money"
+  ],
+  "category": "comparison",
+  "slots": [
+    {
+      "name": "label",
+      "rect": [
+        499,
+        528,
+        432,
+        255
+      ],
+      "hint": "the surprising thing that gives power"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/177984372/What-Gives-People-Feelings-of-Power",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

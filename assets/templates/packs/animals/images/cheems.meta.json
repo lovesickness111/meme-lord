@@ -1,0 +1,37 @@
+{
+  "name": "Cheems",
+  "tags": [
+    "animal",
+    "dog",
+    "doge",
+    "cheems"
+  ],
+  "category": "animal",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        46,
+        34,
+        1048,
+        228
+      ],
+      "hint": "the setup"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        46,
+        876,
+        1048,
+        228
+      ],
+      "hint": "cheems-speak punchline"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/meme/221689667/cheems",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

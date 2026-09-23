@@ -1,0 +1,47 @@
+name: portless-test
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [devin/portless-fix]
+
+jobs:
+  portless-windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - run: npm ci
+
+      - run: npm run build
+
+      - name: Run portless on port 8443 and probe
+        shell: bash
+        run: |
+          npx portless proxy start --port 8443 --https --foreground > proxy.log 2>&1 &
+          for i in $(seq 1 60); do
+            sleep 2
+            if curl -sk -o /dev/null https://127.0.0.1:8443/; then echo "proxy up after ${i}x2s"; break; fi
+          done
+          cat proxy.log || true
+          PORTLESS_PORT=8443 npx portless > portless.log 2>&1 &
+          PORTLESS_PID=$!
+          for i in $(seq 1 30); do
+            sleep 2
+            code=$(curl -sk -o /dev/null -w '%{http_code}' --resolve meme.localhost:8443:127.0.0.1 https://meme.localhost:8443/ || true)
+            echo "attempt $i: HTTP $code"
+            [ "$code" = "200" ] && break
+          done
+          echo "--- portless.log ---"
+          cat portless.log
+          echo "--- ~/.portless ---"
+          ls -la ~/.portless || true
+          cat ~/.portless/proxy.log || true
+          templates=$(curl -sk --resolve meme.localhost:8443:127.0.0.1 https://meme.localhost:8443/api/templates)
+          echo "${templates:0:300}"
+          echo
+          [ "$code" = "200" ]

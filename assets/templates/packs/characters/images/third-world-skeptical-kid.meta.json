@@ -1,0 +1,37 @@
+{
+  "name": "Third World Skeptical Kid",
+  "tags": [
+    "celebrity",
+    "character",
+    "doubt",
+    "skepticism"
+  ],
+  "category": "character",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        13,
+        9,
+        400,
+        85
+      ],
+      "hint": "the dubious claim"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        13,
+        332,
+        400,
+        85
+      ],
+      "hint": "the skeptical question"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Third-World-Skeptical-Kid",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

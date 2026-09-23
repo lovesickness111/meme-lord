@@ -1,0 +1,27 @@
+{
+  "name": "Sad Pablo Escobar",
+  "tags": [
+    "waiting",
+    "sad",
+    "lonely",
+    "reaction"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        22,
+        7,
+        677,
+        113
+      ],
+      "hint": "what you are sadly waiting for"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Sad-Pablo-Escobar",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

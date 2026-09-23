@@ -1,0 +1,37 @@
+{
+  "name": "If I Must Choose Between One Evil",
+  "tags": [
+    "choice",
+    "decision",
+    "lesser-evil",
+    "dilemma"
+  ],
+  "category": "choice",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        51,
+        12,
+        922,
+        92
+      ],
+      "hint": "setup text"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        51,
+        472,
+        922,
+        92
+      ],
+      "hint": "punchline text"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/317923668/If-I-must-choose-between-one-evil",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

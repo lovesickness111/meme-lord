@@ -1,0 +1,47 @@
+{
+  "name": "Soldier Protecting Sleeping Child",
+  "tags": [
+    "panel",
+    "comic",
+    "protection",
+    "sacrifice"
+  ],
+  "category": "protection",
+  "slots": [
+    {
+      "name": "protector",
+      "rect": [
+        162,
+        9,
+        227,
+        48
+      ],
+      "hint": "the one taking the hits"
+    },
+    {
+      "name": "threat",
+      "rect": [
+        11,
+        123,
+        140,
+        48
+      ],
+      "hint": "the incoming danger"
+    },
+    {
+      "name": "protected",
+      "rect": [
+        297,
+        343,
+        227,
+        48
+      ],
+      "hint": "the one sleeping peacefully"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Soldier-protecting-sleeping-child",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

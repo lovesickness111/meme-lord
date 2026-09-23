@@ -1,0 +1,37 @@
+{
+  "name": "Domino Effect",
+  "tags": [
+    "panel",
+    "two-panel",
+    "causality",
+    "escalation"
+  ],
+  "category": "escalation",
+  "slots": [
+    {
+      "name": "small",
+      "rect": [
+        476,
+        23,
+        328,
+        73
+      ],
+      "hint": "the tiny initial event"
+    },
+    {
+      "name": "big",
+      "rect": [
+        16,
+        23,
+        295,
+        73
+      ],
+      "hint": "the massive consequence"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Domino-Effect",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

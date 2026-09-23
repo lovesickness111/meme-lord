@@ -1,0 +1,40 @@
+{
+  "name": "Buff Doge vs Cheems",
+  "tags": ["comparison", "then-vs-now", "two-panel"],
+  "category": "comparison",
+  "selectionGuide": {
+    "description": "A split image contrasts a muscular Doge with a small Cheems to exaggerate decline between stronger and weaker versions.",
+    "bestFor": [
+      "then-versus-now comparisons framed as a decline",
+      "an idealized predecessor contrasted with a diminished successor",
+      "powerful and weak versions of the same role, product, or behavior"
+    ],
+    "avoidWhen": [
+      "the two sides are meant to be neutrally equivalent",
+      "the preferred side cannot plausibly occupy the dominant buff role",
+      "the joke needs a narrative sequence rather than a two-side contrast"
+    ],
+    "tone": ["nostalgic", "mocking", "exaggerated", "critical"],
+    "mechanics": {
+      "visual": "The extreme difference in body size and posture encodes a built-in hierarchy between the imposing left side and frail right side.",
+      "text": "Use buff for the strong or idealized version and cheems for the weak or degraded version, keeping both labels structurally parallel."
+    }
+  },
+  "slots": [
+    {
+      "name": "buff",
+      "rect": [20, 15, 430, 160],
+      "hint": "the strong impressive old version"
+    },
+    {
+      "name": "cheems",
+      "rect": [490, 15, 430, 160],
+      "hint": "the weak pathetic new version"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Buff-Doge-vs-Cheems",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Patrick's To Do List",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "spongebob",
+    "todo",
+    "list"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "list",
+      "rect": [
+        300,
+        125,
+        400,
+        281
+      ],
+      "hint": "the to-do list contents"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/247756783/patrick-to-do-list-actually-blank",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

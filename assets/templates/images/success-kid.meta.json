@@ -1,0 +1,35 @@
+{
+  "name": "Success Kid",
+  "tags": [
+    "victory",
+    "small-win",
+    "classic"
+  ],
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        15,
+        8,
+        470,
+        80
+      ],
+      "hint": "the setup or situation"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        15,
+        410,
+        470,
+        82
+      ],
+      "hint": "the small but satisfying victory"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Success-Kid",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "The Office Handshake",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "the-office",
+    "deal",
+    "agreement"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        21,
+        10,
+        479,
+        79
+      ],
+      "hint": "the two parties or the context"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        21,
+        407,
+        479,
+        79
+      ],
+      "hint": "the unholy agreement"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/153695877/the-office-congratulations",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

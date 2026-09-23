@@ -1,0 +1,37 @@
+{
+  "name": "X, X Everywhere",
+  "tags": [
+    "everywhere",
+    "ubiquity",
+    "buzz-lightyear",
+    "two-panel"
+  ],
+  "category": "observation",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        30,
+        14,
+        940,
+        136
+      ],
+      "hint": "the thing that is everywhere"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        30,
+        530,
+        940,
+        136
+      ],
+      "hint": "\"X everywhere\" punchline"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/X-X-Everywhere",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

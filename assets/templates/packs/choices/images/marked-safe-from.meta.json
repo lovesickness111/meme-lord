@@ -1,0 +1,27 @@
+{
+  "name": "Marked Safe From",
+  "tags": [
+    "choice",
+    "decision",
+    "relief",
+    "avoidance"
+  ],
+  "category": "choice",
+  "slots": [
+    {
+      "name": "text",
+      "rect": [
+        93,
+        190,
+        433,
+        120
+      ],
+      "hint": "what you are marked safe from"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Marked-Safe-From",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

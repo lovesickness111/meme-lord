@@ -1,0 +1,37 @@
+{
+  "name": "Woman Choosing Between Many Objects",
+  "tags": [
+    "choice",
+    "decision",
+    "many-options",
+    "indecision"
+  ],
+  "category": "choice",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        51,
+        19,
+        922,
+        151
+      ],
+      "hint": "setup text"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        51,
+        772,
+        922,
+        151
+      ],
+      "hint": "punchline text"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/508553871/30-years-old-woman-choosing-between-many-objects",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

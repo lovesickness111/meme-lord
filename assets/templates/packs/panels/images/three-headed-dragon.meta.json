@@ -1,0 +1,47 @@
+{
+  "name": "Three-Headed Dragon",
+  "tags": [
+    "panel",
+    "three-panel",
+    "dragon",
+    "odd-one-out"
+  ],
+  "category": "comparison",
+  "slots": [
+    {
+      "name": "serious1",
+      "rect": [
+        7,
+        11,
+        211,
+        65
+      ],
+      "hint": "the first competent head"
+    },
+    {
+      "name": "serious2",
+      "rect": [
+        231,
+        11,
+        211,
+        65
+      ],
+      "hint": "the second competent head"
+    },
+    {
+      "name": "derp",
+      "rect": [
+        456,
+        11,
+        218,
+        65
+      ],
+      "hint": "the goofy odd-one-out head"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Three-headed-Dragon",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

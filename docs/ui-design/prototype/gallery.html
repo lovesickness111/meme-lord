@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en" class="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>meme-maker — Gallery (mockup)</title>
+<link rel="stylesheet" href="tokens.css">
+<style>
+  .filters { display: flex; gap: 8px; padding: 12px 16px 0; flex-wrap: wrap; }
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="brand"><span class="brand-tile anton">M</span> Meme Maker</div>
+  <nav class="tabs" role="tablist">
+    <button class="tab" role="tab" aria-selected="true">Gallery</button>
+    <button class="tab" role="tab" onclick="location='history.html'">My Memes</button>
+    <button class="tab" role="tab" onclick="location='batch.html'">Batch</button>
+  </nav>
+  <div class="spacer"></div>
+  <input class="search" type="search" placeholder="Search templates…  ( / )" aria-label="Search templates">
+  <button class="icon-btn" title="Toggle theme (Ctrl+D)" onclick="document.documentElement.classList.toggle('dark')">◐</button>
+  <button class="icon-btn" title="Keyboard shortcuts (?)">?</button>
+</header>
+
+<div class="tabs" style="padding: 12px 16px 0;" role="tablist" aria-label="Template type">
+  <button class="tab" role="tab" aria-selected="true">Image</button>
+  <button class="tab" role="tab">GIF</button>
+  <button class="tab" role="tab">Blank Canvas</button>
+  <button class="tab" role="tab">Layouts</button>
+</div>
+<div class="filters" role="group" aria-label="Tag filters">
+  <button class="chip" aria-pressed="true">choice</button>
+  <button class="chip" aria-pressed="false">reaction</button>
+  <button class="chip" aria-pressed="false">four-panel</button>
+  <button class="chip" aria-pressed="false">galaxy-brain</button>
+  <button class="chip" aria-pressed="false">panic</button>
+</div>
+
+<main class="card-grid" aria-label="Templates">
+  <button class="tcard" onclick="location='editor.html'">
+    <div class="thumb anton" style="background:linear-gradient(135deg,#e8a33d,#b5651d)">DRAKE</div>
+    <div class="meta"><span class="name">Drake Hotline Bling</span><span class="badge">2 slots</span></div>
+  </button>
+  <button class="tcard">
+    <div class="thumb anton" style="background:linear-gradient(135deg,#5b8dbf,#2f4d6e)">DISTRACTED</div>
+    <div class="meta"><span class="name">Distracted Boyfriend</span><span class="badge">3 slots</span></div>
+  </button>
+  <button class="tcard">
+    <div class="thumb anton" style="background:linear-gradient(135deg,#c0392b,#7d241a)">TWO<br>BUTTONS</div>
+    <div class="meta"><span class="name">Two Buttons</span><span class="badge">3 slots</span></div>
+  </button>
+  <button class="tcard">
+    <div class="thumb anton" style="background:linear-gradient(135deg,#8e44ad,#4a2360)">EXPANDING<br>BRAIN</div>
+    <div class="meta"><span class="name">Expanding Brain</span><span class="badge">4 slots</span></div>
+  </button>
+  <button class="tcard">
+    <div class="thumb anton" style="background:linear-gradient(135deg,#e67e22,#a04000)">THIS IS<br>FINE<span class="badge badge-gif">GIF</span></div>
+    <div class="meta"><span class="name">This Is Fine</span><span class="badge">2 slots</span></div>
+  </button>
+  <button class="tcard">
+    <div class="thumb anton" style="background:linear-gradient(135deg,#f4d03f,#b7950b);color:#161616">PIKACHU</div>
+    <div class="meta"><span class="name">Surprised Pikachu</span><span class="badge">1 slot</span></div>
+  </button>
+  <button class="tcard">
+    <div class="thumb anton" style="background:linear-gradient(135deg,#16a085,#0b4f43)">CHANGE MY<br>MIND</div>
+    <div class="meta"><span class="name">Change My Mind</span><span class="badge">1 slot</span></div>
+  </button>
+  <button class="tcard">
+    <div class="thumb anton" style="background:linear-gradient(135deg,#2c3e50,#1a252f)">GALAXY<br>BRAIN<span class="badge badge-gif">GIF</span></div>
+    <div class="meta"><span class="name">Galaxy Brain</span><span class="badge">4 slots</span></div>
+  </button>
+</main>
+</body>
+</html>

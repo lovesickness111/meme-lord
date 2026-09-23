@@ -1,0 +1,37 @@
+{
+  "name": "The Cooler Daniel",
+  "tags": [
+    "celebrity",
+    "character",
+    "comparison",
+    "cooler"
+  ],
+  "category": "character",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        19,
+        9,
+        598,
+        90
+      ],
+      "hint": "the regular thing"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        19,
+        353,
+        598,
+        90
+      ],
+      "hint": "the cooler version"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/113387478/The-Cooler-Daniel",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

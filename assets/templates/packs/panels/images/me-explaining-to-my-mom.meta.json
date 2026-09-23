@@ -1,0 +1,37 @@
+{
+  "name": "Me Explaining To My Mom",
+  "tags": [
+    "panel",
+    "two-panel",
+    "explaining",
+    "unimpressed"
+  ],
+  "category": "argument",
+  "slots": [
+    {
+      "name": "explainer",
+      "rect": [
+        16,
+        9,
+        352,
+        63
+      ],
+      "hint": "the passionate explanation"
+    },
+    {
+      "name": "listener",
+      "rect": [
+        424,
+        9,
+        352,
+        63
+      ],
+      "hint": "the unimpressed audience"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/185536441/Me-explaining-to-my-mom",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Doomguy",
+  "tags": [
+    "gaming",
+    "doom",
+    "rage"
+  ],
+  "category": "gaming",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        36,
+        14,
+        1128,
+        122
+      ],
+      "hint": "what angered the doomguy"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        36,
+        540,
+        1128,
+        122
+      ],
+      "hint": "rip and tear"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/144221423/Doomguy",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

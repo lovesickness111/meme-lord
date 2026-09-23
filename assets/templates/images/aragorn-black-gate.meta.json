@@ -1,0 +1,26 @@
+{
+  "name": "Aragorn \"For Frodo\"",
+  "tags": [
+    "sacrifice",
+    "dedication",
+    "charge"
+  ],
+  "category": "announcement",
+  "slots": [
+    {
+      "name": "bottom",
+      "rect": [
+        30,
+        651,
+        940,
+        167
+      ],
+      "hint": "who/what you are charging into battle for"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/73966654/Aragorn-Black-Gate-for-Frodo",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

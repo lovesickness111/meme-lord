@@ -1,0 +1,38 @@
+{
+  "name": "Confused Math Lady",
+  "tags": [
+    "confused",
+    "calculating",
+    "math",
+    "gif",
+    "animated"
+  ],
+  "category": "gif",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        8,
+        8,
+        304,
+        57
+      ],
+      "hint": "the confusing situation"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        8,
+        139,
+        304,
+        57
+      ],
+      "hint": "the mental math"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/gif-maker/286126573/Confused-Math-Lady",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "He Chose Poorly",
+  "tags": [
+    "choice",
+    "decision",
+    "bad-choice",
+    "consequences",
+    "indiana-jones"
+  ],
+  "category": "choice",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        60,
+        19,
+        1080,
+        155
+      ],
+      "hint": "setup text"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        60,
+        792,
+        1080,
+        155
+      ],
+      "hint": "punchline text"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/111592052/He-chose-poorly",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

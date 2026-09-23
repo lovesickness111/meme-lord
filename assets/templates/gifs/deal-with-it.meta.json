@@ -1,0 +1,25 @@
+{
+  "name": "Deal With It",
+  "tags": [
+    "confidence",
+    "dismissive",
+    "animated"
+  ],
+  "slots": [
+    {
+      "name": "bottom",
+      "rect": [
+        10,
+        380,
+        300,
+        65
+      ],
+      "hint": "usually 'deal with it' or a variation"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Deal-With-It",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Negan Eeny Meeny Miny Moe",
+  "tags": [
+    "choice",
+    "decision",
+    "random-pick",
+    "walking-dead"
+  ],
+  "category": "choice",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        56,
+        14,
+        1012,
+        115
+      ],
+      "hint": "setup text"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        56,
+        587,
+        1012,
+        115
+      ],
+      "hint": "punchline text"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/82737483/Negan-Playing-Eeny-Meeny-Miny-Moe",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

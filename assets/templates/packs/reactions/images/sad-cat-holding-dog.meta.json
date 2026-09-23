@@ -1,0 +1,26 @@
+{
+  "name": "Sad Cat Holding Dog",
+  "tags": [
+    "reaction",
+    "sad",
+    "comfort"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        22,
+        14,
+        677,
+        201
+      ],
+      "hint": "the situation needing comfort"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/206464066/Sad-Cat-Holding-Dog",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

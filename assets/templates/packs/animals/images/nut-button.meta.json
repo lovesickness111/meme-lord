@@ -1,0 +1,37 @@
+{
+  "name": "Nut Button",
+  "tags": [
+    "object",
+    "button",
+    "impulse",
+    "smash"
+  ],
+  "category": "animal",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        22,
+        12,
+        500,
+        81
+      ],
+      "hint": "the irresistible trigger"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        22,
+        310,
+        500,
+        81
+      ],
+      "hint": "the button label"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/meme/66008256/Nut-button",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

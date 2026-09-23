@@ -1,0 +1,36 @@
+{
+  "name": "Eggman Two Buttons",
+  "tags": [
+    "gaming",
+    "sonic",
+    "dilemma"
+  ],
+  "category": "gaming",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        12,
+        9,
+        367,
+        80
+      ],
+      "hint": "button one"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        12,
+        354,
+        367,
+        80
+      ],
+      "hint": "button two"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/250378387/Two-Buttons-Eggman",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "If Those Kids Could Read",
+  "tags": [
+    "panel",
+    "two-panel",
+    "sign",
+    "irony"
+  ],
+  "category": "comic",
+  "slots": [
+    {
+      "name": "sign",
+      "rect": [
+        256,
+        36,
+        173,
+        201
+      ],
+      "hint": "what is written on the posted sign"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/243100573/If-those-kids-could-read-theyd-be-very-upset",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

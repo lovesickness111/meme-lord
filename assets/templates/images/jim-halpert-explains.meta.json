@@ -1,0 +1,36 @@
+{
+  "name": "Jim Halpert Explains",
+  "tags": [
+    "explaining",
+    "smug",
+    "two-panel"
+  ],
+  "category": "explanation",
+  "slots": [
+    {
+      "name": "setup",
+      "rect": [
+        20,
+        15,
+        635,
+        123
+      ],
+      "hint": "the whiteboard-worthy explanation"
+    },
+    {
+      "name": "punchline",
+      "rect": [
+        20,
+        400,
+        635,
+        108
+      ],
+      "hint": "the smug follow-up"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/228097860/Jim-Halpert-Explains",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

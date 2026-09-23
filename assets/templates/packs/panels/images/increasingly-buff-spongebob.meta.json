@@ -1,0 +1,57 @@
+{
+  "name": "Increasingly Buff Spongebob",
+  "tags": [
+    "panel",
+    "four-panel",
+    "escalation",
+    "buff"
+  ],
+  "category": "escalation",
+  "slots": [
+    {
+      "name": "level1",
+      "rect": [
+        250,
+        13,
+        235,
+        134
+      ],
+      "hint": "the normal version"
+    },
+    {
+      "name": "level2",
+      "rect": [
+        250,
+        181,
+        235,
+        134
+      ],
+      "hint": "a tougher version"
+    },
+    {
+      "name": "level3",
+      "rect": [
+        250,
+        348,
+        235,
+        134
+      ],
+      "hint": "a buff version"
+    },
+    {
+      "name": "level4",
+      "rect": [
+        250,
+        515,
+        235,
+        134
+      ],
+      "hint": "the final anime-power version"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/186985046/Sponge-Finna-Commit-Muder",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Putin Facepalm",
+  "tags": [
+    "reaction",
+    "facepalm",
+    "frustration"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        19,
+        17,
+        583,
+        235
+      ],
+      "hint": "the facepalm-worthy thing"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/17450694/Putin-Facepalm",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

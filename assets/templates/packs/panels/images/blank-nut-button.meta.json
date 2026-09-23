@@ -1,0 +1,27 @@
+{
+  "name": "Blank Nut Button",
+  "tags": [
+    "panel",
+    "two-panel",
+    "button",
+    "impulse"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "button",
+      "rect": [
+        48,
+        232,
+        330,
+        161
+      ],
+      "hint": "what the button triggers"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Blank-Nut-Button",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

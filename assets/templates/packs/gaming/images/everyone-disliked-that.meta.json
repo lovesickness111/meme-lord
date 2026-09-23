@@ -1,0 +1,36 @@
+{
+  "name": "Everyone Disliked That",
+  "tags": [
+    "gaming",
+    "fallout",
+    "dislike"
+  ],
+  "category": "gaming",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        30,
+        11,
+        940,
+        101
+      ],
+      "hint": "the unpopular action"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        30,
+        450,
+        940,
+        101
+      ],
+      "hint": "\"everyone disliked that\""
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/201860189/Fallout-4-Everyone-Disliked-That",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

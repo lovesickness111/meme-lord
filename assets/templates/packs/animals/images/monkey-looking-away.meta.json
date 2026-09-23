@@ -1,0 +1,37 @@
+{
+  "name": "Monkey Looking Away",
+  "tags": [
+    "animal",
+    "monkey",
+    "avoidance",
+    "denial"
+  ],
+  "category": "animal",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        46,
+        18,
+        1059,
+        123
+      ],
+      "hint": "the thing being avoided"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        46,
+        475,
+        1059,
+        123
+      ],
+      "hint": "me, pretending not to see"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/meme/170378536/Monkey-looking-away",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

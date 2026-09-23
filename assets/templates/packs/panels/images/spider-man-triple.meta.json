@@ -1,0 +1,47 @@
+{
+  "name": "Spider Man Triple",
+  "tags": [
+    "panel",
+    "three-panel",
+    "pointing",
+    "identical"
+  ],
+  "category": "confrontation",
+  "slots": [
+    {
+      "name": "first",
+      "rect": [
+        6,
+        468,
+        192,
+        72
+      ],
+      "hint": "the first identical party"
+    },
+    {
+      "name": "second",
+      "rect": [
+        204,
+        468,
+        192,
+        72
+      ],
+      "hint": "the second identical party"
+    },
+    {
+      "name": "third",
+      "rect": [
+        402,
+        468,
+        192,
+        72
+      ],
+      "hint": "the third identical party"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Spider-Man-Triple",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

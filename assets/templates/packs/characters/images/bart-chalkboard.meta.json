@@ -1,0 +1,28 @@
+{
+  "name": "Bart Simpson Chalkboard",
+  "tags": [
+    "celebrity",
+    "character",
+    "punishment",
+    "repetition",
+    "simpsons"
+  ],
+  "category": "character",
+  "slots": [
+    {
+      "name": "bottom",
+      "rect": [
+        20,
+        275,
+        618,
+        70
+      ],
+      "hint": "the line Bart writes repeatedly"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/60777140/Bart-Simpson---chalkboard",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Moe Throws Barney",
+  "tags": [
+    "rejection",
+    "ejection",
+    "two-panel"
+  ],
+  "category": "rejection",
+  "slots": [
+    {
+      "name": "barney",
+      "rect": [
+        18,
+        20,
+        552,
+        140
+      ],
+      "hint": "what is being thrown out"
+    },
+    {
+      "name": "moe",
+      "rect": [
+        18,
+        520,
+        552,
+        120
+      ],
+      "hint": "who is doing the throwing (optional)"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/188789496/Moe-throws-Barney",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

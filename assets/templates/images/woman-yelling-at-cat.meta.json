@@ -1,0 +1,36 @@
+{
+  "name": "Woman Yelling at Cat",
+  "tags": [
+    "argument",
+    "reaction",
+    "two-panel"
+  ],
+  "category": "argument",
+  "slots": [
+    {
+      "name": "woman",
+      "rect": [
+        10,
+        8,
+        320,
+        110
+      ],
+      "hint": "the angry accusation"
+    },
+    {
+      "name": "cat",
+      "rect": [
+        350,
+        8,
+        320,
+        110
+      ],
+      "hint": "the smug rebuttal"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Woman-Yelling-At-Cat",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

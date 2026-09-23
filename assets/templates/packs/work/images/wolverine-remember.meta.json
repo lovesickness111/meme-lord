@@ -1,0 +1,38 @@
+{
+  "name": "Wolverine Remembering Photo",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "nostalgia",
+    "longing"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        19,
+        14,
+        442,
+        112
+      ],
+      "hint": "the wistful setup"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        19,
+        574,
+        442,
+        112
+      ],
+      "hint": "the thing longingly remembered (e.g. when the build was green)"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/47169131/Wolverine-Remember",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

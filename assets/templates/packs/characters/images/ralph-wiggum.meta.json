@@ -1,0 +1,38 @@
+{
+  "name": "Ralph Wiggum (I'm In Danger)",
+  "tags": [
+    "celebrity",
+    "character",
+    "danger",
+    "obliviousness",
+    "simpsons"
+  ],
+  "category": "character",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        13,
+        6,
+        395,
+        63
+      ],
+      "hint": "the situation"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        13,
+        246,
+        395,
+        63
+      ],
+      "hint": "\"chuckles, I'm in danger\""
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/15017232/ralph-wiggum",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

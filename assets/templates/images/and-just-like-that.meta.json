@@ -1,0 +1,36 @@
+{
+  "name": "And Just Like That",
+  "tags": [
+    "sudden",
+    "change",
+    "forrest-gump"
+  ],
+  "category": "observation",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        30,
+        13,
+        940,
+        133
+      ],
+      "hint": "the thing that was a big deal"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        30,
+        520,
+        940,
+        133
+      ],
+      "hint": "\"and just like that, X was over\""
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/And-Just-Like-That",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

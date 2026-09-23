@@ -1,0 +1,37 @@
+{
+  "name": "Buddy Christ",
+  "tags": [
+    "approval",
+    "celebrity",
+    "character",
+    "thumbs-up"
+  ],
+  "category": "character",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        12,
+        8,
+        376,
+        80
+      ],
+      "hint": "the setup"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        12,
+        312,
+        376,
+        80
+      ],
+      "hint": "the approval"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Buddy-Christ",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

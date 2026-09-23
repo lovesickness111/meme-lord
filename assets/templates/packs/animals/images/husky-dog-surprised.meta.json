@@ -1,0 +1,37 @@
+{
+  "name": "Husky Dog Surprised",
+  "tags": [
+    "animal",
+    "dog",
+    "husky",
+    "surprise"
+  ],
+  "category": "animal",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        24,
+        34,
+        552,
+        226
+      ],
+      "hint": "the shocking news"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        24,
+        870,
+        552,
+        226
+      ],
+      "hint": "the stunned reaction"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/meme/271796051/Husky-Dog-Surprised",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

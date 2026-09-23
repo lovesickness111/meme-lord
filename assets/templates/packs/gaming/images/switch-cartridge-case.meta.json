@@ -1,0 +1,36 @@
+{
+  "name": "Switch Cartridge Case",
+  "tags": [
+    "gaming",
+    "nintendo",
+    "cartridge"
+  ],
+  "category": "gaming",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        14,
+        15,
+        435,
+        135
+      ],
+      "hint": "the game title"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        14,
+        600,
+        435,
+        135
+      ],
+      "hint": "extra caption"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/192050189/Nintendo-Switch-Cartridge-Case",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

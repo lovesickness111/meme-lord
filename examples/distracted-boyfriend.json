@@ -1,0 +1,9 @@
+{
+  "base": { "kind": "template", "id": "distracted-boyfriend" },
+  "texts": [
+    { "slot": "other-woman", "text": "SHINY NEW FRAMEWORK" },
+    { "slot": "boyfriend", "text": "ME" },
+    { "slot": "girlfriend", "text": "THE UNFINISHED REWRITE" }
+  ],
+  "output": { "path": "distracted-boyfriend.png", "format": "png" }
+}

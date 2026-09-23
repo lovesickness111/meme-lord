@@ -1,0 +1,38 @@
+{
+  "name": "Jon Hamm Dancing",
+  "tags": [
+    "dancing",
+    "celebration",
+    "smug",
+    "gif",
+    "animated"
+  ],
+  "category": "gif",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        8,
+        8,
+        304,
+        60
+      ],
+      "hint": "the occasion"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        8,
+        146,
+        304,
+        60
+      ],
+      "hint": "the victory dance"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/gif-maker/628238188/John-Hamm-dancing",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

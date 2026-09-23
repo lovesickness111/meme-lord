@@ -1,0 +1,36 @@
+{
+  "name": "Ol' Reliable",
+  "tags": [
+    "dependable",
+    "solution",
+    "spongebob"
+  ],
+  "category": "explanation",
+  "slots": [
+    {
+      "name": "problem",
+      "rect": [
+        20,
+        20,
+        625,
+        130
+      ],
+      "hint": "the recurring problem"
+    },
+    {
+      "name": "label",
+      "rect": [
+        100,
+        560,
+        465,
+        100
+      ],
+      "hint": "the trusty solution (label on the card)"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/139937960/Ol-Reliable",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

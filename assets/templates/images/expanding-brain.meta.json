@@ -1,0 +1,50 @@
+{
+  "name": "Expanding Brain",
+  "tags": ["escalation", "four-panel", "galaxy-brain"],
+  "category": "escalation",
+  "selectionGuide": {
+    "description": "Four vertically ordered panels pair increasingly luminous brain imagery with ideas presented as progressively more advanced.",
+    "bestFor": [
+      "ranking four approaches from basic to supposedly transcendent",
+      "escalating an ordinary idea into an absurdly sophisticated conclusion",
+      "an ironic hierarchy where the final answer is extreme rather than sensible"
+    ],
+    "avoidWhen": [
+      "the comparison is only binary",
+      "the entries have no intelligible order or escalation",
+      "each level needs long explanatory prose"
+    ],
+    "tone": ["escalating", "absurd", "ironic", "satirical"],
+    "mechanics": {
+      "visual": "Each successive brain glows more intensely, so the layout visually claims increasing insight whether the ranking is sincere or ironic.",
+      "text": "Fill level1 through level4 in ascending order with concise, comparable clauses; reserve level4 for the most extreme or enlightened claim."
+    }
+  },
+  "slots": [
+    {
+      "name": "level1",
+      "rect": [15, 15, 400, 270],
+      "hint": "the basic idea"
+    },
+    {
+      "name": "level2",
+      "rect": [15, 315, 400, 270],
+      "hint": "a slightly smarter idea"
+    },
+    {
+      "name": "level3",
+      "rect": [15, 615, 400, 270],
+      "hint": "a much smarter idea"
+    },
+    {
+      "name": "level4",
+      "rect": [15, 915, 400, 270],
+      "hint": "the transcendent galaxy-brain idea"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Expanding-Brain",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

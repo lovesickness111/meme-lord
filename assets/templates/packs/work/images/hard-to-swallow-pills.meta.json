@@ -1,0 +1,28 @@
+{
+  "name": "Hard To Swallow Pills",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "truth",
+    "pills"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "pill",
+      "rect": [
+        68,
+        587,
+        544,
+        245
+      ],
+      "hint": "the hard-to-accept truth"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Hard-To-Swallow-Pills",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

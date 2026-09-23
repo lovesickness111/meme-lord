@@ -1,0 +1,47 @@
+{
+  "name": "No Take, Only Throw",
+  "tags": [
+    "panel",
+    "three-panel",
+    "comic",
+    "dog"
+  ],
+  "category": "comic",
+  "slots": [
+    {
+      "name": "offer",
+      "rect": [
+        15,
+        7,
+        221,
+        41
+      ],
+      "hint": "what is offered"
+    },
+    {
+      "name": "refuse",
+      "rect": [
+        266,
+        7,
+        221,
+        41
+      ],
+      "hint": "no take"
+    },
+    {
+      "name": "demand",
+      "rect": [
+        517,
+        7,
+        228,
+        41
+      ],
+      "hint": "only throw"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/184734077/No-Take-Only-Throw",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

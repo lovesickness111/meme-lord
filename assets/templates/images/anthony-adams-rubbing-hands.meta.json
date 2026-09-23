@@ -1,0 +1,36 @@
+{
+  "name": "Anthony Adams Rubbing Hands",
+  "tags": [
+    "anticipation",
+    "scheming",
+    "excitement"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        20,
+        17,
+        639,
+        170
+      ],
+      "hint": "the situation"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        20,
+        661,
+        639,
+        170
+      ],
+      "hint": "what you are eagerly anticipating"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/196595107/Anthony-Adams-Rubbing-Hands",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

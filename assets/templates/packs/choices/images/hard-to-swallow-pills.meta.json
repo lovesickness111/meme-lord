@@ -1,0 +1,37 @@
+{
+  "name": "Hard To Swallow Pills",
+  "tags": [
+    "choice",
+    "decision",
+    "truth",
+    "acceptance"
+  ],
+  "category": "choice",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        34,
+        20,
+        612,
+        117
+      ],
+      "hint": "setup text"
+    },
+    {
+      "name": "pills",
+      "rect": [
+        102,
+        587,
+        476,
+        196
+      ],
+      "hint": "the hard truth to swallow"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Hard-To-Swallow-Pills",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

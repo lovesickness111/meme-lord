@@ -1,0 +1,37 @@
+{
+  "name": "Car Salesman Slaps Roof Of Car",
+  "tags": [
+    "panel",
+    "two-panel",
+    "comic",
+    "sales-pitch"
+  ],
+  "category": "comic",
+  "slots": [
+    {
+      "name": "pitch",
+      "rect": [
+        40,
+        9,
+        720,
+        63
+      ],
+      "hint": "this bad boy can fit so much X in it"
+    },
+    {
+      "name": "car",
+      "rect": [
+        96,
+        279,
+        336,
+        90
+      ],
+      "hint": "what is being sold"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Car-Salesman-Slaps-Roof-Of-Car",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

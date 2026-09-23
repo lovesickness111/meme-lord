@@ -1,0 +1,27 @@
+{
+  "name": "Pentagon Hexagon Octagon",
+  "tags": [
+    "panel",
+    "four-panel",
+    "shapes",
+    "escalation"
+  ],
+  "category": "escalation",
+  "slots": [
+    {
+      "name": "finalform",
+      "rect": [
+        374,
+        383,
+        324,
+        284
+      ],
+      "hint": "the absurd final -agon"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Pentagon-Hexagon-Octagon",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

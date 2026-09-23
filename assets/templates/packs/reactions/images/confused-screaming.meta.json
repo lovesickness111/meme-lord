@@ -1,0 +1,26 @@
+{
+  "name": "Confused Screaming (Kermit)",
+  "tags": [
+    "reaction",
+    "confused",
+    "screaming"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        26,
+        24,
+        802,
+        336
+      ],
+      "hint": "the panic-inducing confusion"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/109869808/confused-screaming",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

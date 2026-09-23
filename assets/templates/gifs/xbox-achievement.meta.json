@@ -1,0 +1,27 @@
+{
+  "name": "Xbox Achievement Unlocked",
+  "tags": [
+    "achievement",
+    "gaming",
+    "unlock",
+    "animated"
+  ],
+  "category": "success",
+  "slots": [
+    {
+      "name": "bottom",
+      "rect": [
+        10,
+        65,
+        301,
+        19
+      ],
+      "hint": "the achievement unlocked"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/404092011/Xbox-Achievement",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

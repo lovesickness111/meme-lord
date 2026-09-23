@@ -1,0 +1,36 @@
+{
+  "name": "Nintendo Switch",
+  "tags": [
+    "gaming",
+    "nintendo",
+    "switch"
+  ],
+  "category": "gaming",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        21,
+        23,
+        660,
+        205
+      ],
+      "hint": "option on the left"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        21,
+        910,
+        660,
+        205
+      ],
+      "hint": "option on the right"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/187554134/Nintendo-Switch",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

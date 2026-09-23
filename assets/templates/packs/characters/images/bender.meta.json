@@ -1,0 +1,37 @@
+{
+  "name": "Bender (Blackjack And Hookers)",
+  "tags": [
+    "celebrity",
+    "character",
+    "futurama",
+    "independence"
+  ],
+  "category": "character",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        19,
+        9,
+        583,
+        93
+      ],
+      "hint": "what you'll build yourself"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        19,
+        363,
+        583,
+        93
+      ],
+      "hint": "\"with blackjack and hookers\""
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Bender",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

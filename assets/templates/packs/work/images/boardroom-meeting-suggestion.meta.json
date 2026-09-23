@@ -1,0 +1,60 @@
+{
+  "name": "Boardroom Meeting Suggestion",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "meeting",
+    "boss",
+    "suggestion",
+    "four-panel"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "question",
+      "rect": [
+        60,
+        6,
+        380,
+        58
+      ],
+      "hint": "the boss's question to the room"
+    },
+    {
+      "name": "answer1",
+      "rect": [
+        10,
+        247,
+        140,
+        52
+      ],
+      "hint": "first safe suggestion"
+    },
+    {
+      "name": "answer2",
+      "rect": [
+        180,
+        247,
+        140,
+        52
+      ],
+      "hint": "second safe suggestion"
+    },
+    {
+      "name": "answer3",
+      "rect": [
+        340,
+        247,
+        150,
+        52
+      ],
+      "hint": "the honest suggestion that gets you thrown out the window"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Boardroom-Meeting-Suggestion",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

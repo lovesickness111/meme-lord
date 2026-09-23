@@ -1,0 +1,38 @@
+{
+  "name": "Will You Press The Button",
+  "tags": [
+    "choice",
+    "decision",
+    "button",
+    "two-option",
+    "tradeoff"
+  ],
+  "category": "choice",
+  "slots": [
+    {
+      "name": "left",
+      "rect": [
+        20,
+        287,
+        430,
+        118
+      ],
+      "hint": "the tempting benefit"
+    },
+    {
+      "name": "right",
+      "rect": [
+        572,
+        287,
+        430,
+        118
+      ],
+      "hint": "the catch"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/184059769/Will-you-press-the-button",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

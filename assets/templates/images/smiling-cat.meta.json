@@ -1,0 +1,36 @@
+{
+  "name": "Smiling Cat (Polite Cat)",
+  "tags": [
+    "polite",
+    "cat",
+    "approval"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        19,
+        12,
+        583,
+        124
+      ],
+      "hint": "the setup"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        19,
+        484,
+        583,
+        124
+      ],
+      "hint": "the suspiciously polite response"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Smiling-Cat",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

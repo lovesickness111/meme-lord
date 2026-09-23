@@ -1,0 +1,38 @@
+{
+  "name": "Lizard Pressing Button",
+  "tags": [
+    "button",
+    "temptation",
+    "press",
+    "gif",
+    "animated"
+  ],
+  "category": "gif",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        8,
+        8,
+        304,
+        67
+      ],
+      "hint": "the tempting button"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        8,
+        165,
+        304,
+        67
+      ],
+      "hint": "pressing it anyway"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/gif-maker/609104982/Lizard-button",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

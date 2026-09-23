@@ -1,0 +1,48 @@
+{
+  "name": "I Fear No Man",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "tf2",
+    "fear"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        20,
+        10,
+        460,
+        50
+      ],
+      "hint": "i fear no man, but that thing"
+    },
+    {
+      "name": "thing",
+      "rect": [
+        20,
+        209,
+        460,
+        50
+      ],
+      "hint": "the feared thing (e.g. a regex in prod)"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        20,
+        427,
+        460,
+        50
+      ],
+      "hint": "it scares me"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/119575805/I-fear-no-man",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Bugs Bunny No",
+  "tags": [
+    "choice",
+    "decision",
+    "rejection",
+    "no"
+  ],
+  "category": "choice",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        35,
+        17,
+        630,
+        136
+      ],
+      "hint": "setup text"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        35,
+        695,
+        630,
+        136
+      ],
+      "hint": "punchline text"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/179116198/Bugs-Bunny-No",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

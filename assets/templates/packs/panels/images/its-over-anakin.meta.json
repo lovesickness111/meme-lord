@@ -1,0 +1,37 @@
+{
+  "name": "It's Over Anakin",
+  "tags": [
+    "panel",
+    "two-panel",
+    "star-wars",
+    "high-ground"
+  ],
+  "category": "argument",
+  "slots": [
+    {
+      "name": "high-ground",
+      "rect": [
+        25,
+        8,
+        446,
+        42
+      ],
+      "hint": "the advantage being claimed"
+    },
+    {
+      "name": "underestimate",
+      "rect": [
+        25,
+        192,
+        446,
+        42
+      ],
+      "hint": "the doomed reply"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/118081681/Its-Over-Anakin-I-Have-the-High-Ground",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

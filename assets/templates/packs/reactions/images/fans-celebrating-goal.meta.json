@@ -1,0 +1,26 @@
+{
+  "name": "Football Fans Celebrating a Goal",
+  "tags": [
+    "reaction",
+    "celebrating",
+    "group"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        19,
+        13,
+        596,
+        182
+      ],
+      "hint": "the thing worth cheering"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/112817763/Football-fans-celebrating-a-goal",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

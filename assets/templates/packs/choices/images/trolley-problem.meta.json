@@ -1,0 +1,38 @@
+{
+  "name": "The Trolley Problem",
+  "tags": [
+    "choice",
+    "decision",
+    "trolley-problem",
+    "ethics",
+    "dilemma"
+  ],
+  "category": "choice",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        32,
+        9,
+        581,
+        69
+      ],
+      "hint": "setup text"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        32,
+        352,
+        581,
+        69
+      ],
+      "hint": "punchline text"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/236598912/the-trolley-problem",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

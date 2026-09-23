@@ -1,0 +1,38 @@
+{
+  "name": "You Have No Power Here",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "lotr",
+    "authority"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        25,
+        7,
+        570,
+        56
+      ],
+      "hint": "who is being dismissed (e.g. prod bugs in the staging env)"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        25,
+        285,
+        570,
+        56
+      ],
+      "hint": "you have no power here"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/7345560/You-have-no-power-here",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

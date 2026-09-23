@@ -1,0 +1,38 @@
+{
+  "name": "Look What They Need To Mimic A Fraction Of Our Power",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "superiority",
+    "comparison"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        38,
+        21,
+        883,
+        172
+      ],
+      "hint": "the elaborate thing they need (e.g. a k8s cluster)"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        38,
+        880,
+        883,
+        172
+      ],
+      "hint": "to mimic a fraction of our power (e.g. a bash script)"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/324268649/Look-What-They-Need-To-Mimic-A-Fraction-Of-Our-Power",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

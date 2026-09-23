@@ -1,0 +1,37 @@
+{
+  "name": "Heavy Breathing Cat",
+  "tags": [
+    "animal",
+    "cat",
+    "excitement",
+    "anticipation"
+  ],
+  "category": "animal",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        15,
+        10,
+        343,
+        69
+      ],
+      "hint": "the tempting thing"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        15,
+        265,
+        343,
+        69
+      ],
+      "hint": "\"heavy breathing\""
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/meme/Heavy-Breathing-Cat",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

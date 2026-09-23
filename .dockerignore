@@ -1,0 +1,14 @@
+node_modules
+ui/node_modules
+dist
+.git
+.github
+*.log
+out*.png
+test/output
+.memes
+docs
+examples
+Dockerfile
+docker-compose.yml
+.dockerignore

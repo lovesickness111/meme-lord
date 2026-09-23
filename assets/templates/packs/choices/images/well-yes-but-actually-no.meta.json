@@ -1,0 +1,37 @@
+{
+  "name": "Well Yes, But Actually No",
+  "tags": [
+    "choice",
+    "decision",
+    "contradiction",
+    "pirate"
+  ],
+  "category": "choice",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        60,
+        18,
+        1080,
+        146
+      ],
+      "hint": "setup text"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        60,
+        749,
+        1080,
+        146
+      ],
+      "hint": "punchline text"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Well-Yes-But-Actually-No",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

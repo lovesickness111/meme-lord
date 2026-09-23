@@ -1,0 +1,37 @@
+{
+  "name": "Staring Hamster",
+  "tags": [
+    "animal",
+    "hamster",
+    "staring",
+    "facetime"
+  ],
+  "category": "animal",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        32,
+        14,
+        736,
+        90
+      ],
+      "hint": "what you just heard"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        32,
+        346,
+        736,
+        90
+      ],
+      "hint": "the blank stare"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/meme/200452379/Staring-Hamster",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

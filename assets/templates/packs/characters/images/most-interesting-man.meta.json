@@ -1,0 +1,36 @@
+{
+  "name": "The Most Interesting Man In The World",
+  "tags": [
+    "celebrity",
+    "character",
+    "rarity"
+  ],
+  "category": "character",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        16,
+        14,
+        517,
+        138
+      ],
+      "hint": "\"I don't always X\""
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        16,
+        538,
+        517,
+        138
+      ],
+      "hint": "\"but when I do, Y\""
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/The-Most-Interesting-Man-In-The-World",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

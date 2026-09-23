@@ -1,0 +1,37 @@
+{
+  "name": "Kombucha Girl",
+  "tags": [
+    "choice",
+    "decision",
+    "mixed-feelings",
+    "reconsidering"
+  ],
+  "category": "choice",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        275,
+        27,
+        238,
+        118
+      ],
+      "hint": "first reaction"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        275,
+        253,
+        238,
+        118
+      ],
+      "hint": "second reaction"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/197671929/Kombucha-Girl",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

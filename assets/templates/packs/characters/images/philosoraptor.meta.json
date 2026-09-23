@@ -1,0 +1,37 @@
+{
+  "name": "Philosoraptor",
+  "tags": [
+    "celebrity",
+    "character",
+    "philosophy",
+    "question"
+  ],
+  "category": "character",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        15,
+        10,
+        470,
+        100
+      ],
+      "hint": "the first half of the deep question"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        15,
+        390,
+        470,
+        100
+      ],
+      "hint": "the mind-bending second half"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Philosoraptor",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

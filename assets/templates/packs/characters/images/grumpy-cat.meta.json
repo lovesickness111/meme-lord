@@ -1,0 +1,37 @@
+{
+  "name": "Grumpy Cat",
+  "tags": [
+    "celebrity",
+    "character",
+    "grumpy",
+    "rejection"
+  ],
+  "category": "character",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        15,
+        12,
+        470,
+        123
+      ],
+      "hint": "the setup"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        15,
+        480,
+        470,
+        123
+      ],
+      "hint": "the grumpy verdict"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Grumpy-Cat",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

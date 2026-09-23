@@ -1,0 +1,29 @@
+{
+  "name": "Jarvis, ...",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "iron-man",
+    "ai",
+    "command"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        26,
+        12,
+        589,
+        106
+      ],
+      "hint": "the absurd command given to the AI (jarvis, ...)"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/568618654/Jarvis-Template",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

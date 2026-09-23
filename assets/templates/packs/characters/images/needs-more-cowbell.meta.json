@@ -1,0 +1,37 @@
+{
+  "name": "Needs More Cowbell (Christopher Walken)",
+  "tags": [
+    "celebrity",
+    "character",
+    "demand",
+    "snl"
+  ],
+  "category": "character",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        12,
+        6,
+        372,
+        59
+      ],
+      "hint": "the setup"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        12,
+        232,
+        372,
+        59
+      ],
+      "hint": "\"needs more cowbell\""
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/24165732/Needs-More-Cowbell",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

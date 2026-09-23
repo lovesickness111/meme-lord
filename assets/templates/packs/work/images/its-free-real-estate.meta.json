@@ -1,0 +1,38 @@
+{
+  "name": "It's Free Real Estate",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "opportunity",
+    "free"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        20,
+        8,
+        460,
+        62
+      ],
+      "hint": "the tempting opportunity"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        20,
+        316,
+        460,
+        62
+      ],
+      "hint": "it's free real estate"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/128916024/Its-Free-Real-Estate",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

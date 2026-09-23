@@ -1,0 +1,37 @@
+{
+  "name": "Amazed Owls",
+  "tags": [
+    "animal",
+    "bird",
+    "owl",
+    "surprise"
+  ],
+  "category": "animal",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        23,
+        13,
+        524,
+        86
+      ],
+      "hint": "the amazing thing"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        23,
+        333,
+        524,
+        86
+      ],
+      "hint": "the wide-eyed reaction"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/meme/29034345/Amazed-Owls",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Something Of A Scientist Myself",
+  "tags": [
+    "self-proclaimed",
+    "green-goblin",
+    "confidence"
+  ],
+  "category": "opinion",
+  "slots": [
+    {
+      "name": "bottom",
+      "rect": [
+        30,
+        390,
+        940,
+        100
+      ],
+      "hint": "\"you know, I'm something of a X myself\""
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/133946291/You-know-Im-something-of-a-scientist-myself",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

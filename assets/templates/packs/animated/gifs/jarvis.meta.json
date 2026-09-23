@@ -1,0 +1,38 @@
+{
+  "name": "Jarvis, Pull Up...",
+  "tags": [
+    "jarvis",
+    "command",
+    "iron-man",
+    "gif",
+    "animated"
+  ],
+  "category": "gif",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        8,
+        8,
+        304,
+        50
+      ],
+      "hint": "Jarvis, ..."
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        8,
+        122,
+        304,
+        50
+      ],
+      "hint": "the request"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/gif-maker/308448403/Jarvis",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

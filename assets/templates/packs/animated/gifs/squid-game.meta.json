@@ -1,0 +1,38 @@
+{
+  "name": "Squid Game Red Light",
+  "tags": [
+    "squid-game",
+    "tension",
+    "freeze",
+    "gif",
+    "animated"
+  ],
+  "category": "gif",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        8,
+        8,
+        304,
+        50
+      ],
+      "hint": "the deadly rule"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        8,
+        122,
+        304,
+        50
+      ],
+      "hint": "trying not to move"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/gif-maker/602907697/squid-game",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

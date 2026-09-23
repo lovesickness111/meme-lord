@@ -1,0 +1,38 @@
+{
+  "name": "Two Paths",
+  "tags": [
+    "choice",
+    "decision",
+    "paths",
+    "two-option",
+    "crossroads"
+  ],
+  "category": "choice",
+  "slots": [
+    {
+      "name": "left",
+      "rect": [
+        12,
+        12,
+        183,
+        67
+      ],
+      "hint": "first option"
+    },
+    {
+      "name": "right",
+      "rect": [
+        220,
+        12,
+        183,
+        67
+      ],
+      "hint": "second option"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/309668311/Two-Paths",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

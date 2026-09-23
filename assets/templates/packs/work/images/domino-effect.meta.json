@@ -1,0 +1,38 @@
+{
+  "name": "Domino Effect",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "causality",
+    "chain-reaction"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "small",
+      "rect": [
+        16,
+        311,
+        246,
+        79
+      ],
+      "hint": "the small initial cause (e.g. a one-line change)"
+    },
+    {
+      "name": "big",
+      "rect": [
+        508,
+        28,
+        295,
+        79
+      ],
+      "hint": "the huge consequence (e.g. prod outage)"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/162372564/Domino-Effect",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

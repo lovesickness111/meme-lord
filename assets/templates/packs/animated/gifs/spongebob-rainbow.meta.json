@@ -1,0 +1,38 @@
+{
+  "name": "SpongeBob Rainbow (Animated)",
+  "tags": [
+    "imagination",
+    "sarcastic",
+    "spongebob",
+    "gif",
+    "animated"
+  ],
+  "category": "gif",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        8,
+        8,
+        304,
+        64
+      ],
+      "hint": "the setup"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        8,
+        158,
+        304,
+        64
+      ],
+      "hint": "the sarcastic wonder"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/gif-maker/446086102/Spongebob-Rainbow-Gif-template-meme",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

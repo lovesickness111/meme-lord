@@ -1,0 +1,36 @@
+{
+  "name": "Yes Honey",
+  "tags": [
+    "support",
+    "couple",
+    "resignation"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        22,
+        15,
+        705,
+        150
+      ],
+      "hint": "the questionable plan being announced"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        22,
+        587,
+        705,
+        150
+      ],
+      "hint": "\"yes honey\"-style supportive reply"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/245901889/Yes-Honey",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

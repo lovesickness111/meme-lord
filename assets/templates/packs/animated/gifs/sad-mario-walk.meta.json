@@ -1,0 +1,38 @@
+{
+  "name": "Sad Mario Walk",
+  "tags": [
+    "sad",
+    "defeated",
+    "walking-away",
+    "gif",
+    "animated"
+  ],
+  "category": "gif",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        8,
+        8,
+        304,
+        74
+      ],
+      "hint": "the defeat"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        8,
+        182,
+        304,
+        74
+      ],
+      "hint": "walking away sadly"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/gif-maker/524908109/Sad-Mario-walk",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

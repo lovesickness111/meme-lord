@@ -1,0 +1,16 @@
+{
+  "base": {
+    "kind": "layout",
+    "grid": [2, 2],
+    "cells": [
+      { "image": "a.jpg" },
+      { "image": "b.jpg" },
+      { "image": "c.jpg" },
+      { "image": "d.jpg" }
+    ],
+    "width": 800,
+    "gutter": 8
+  },
+  "texts": [{ "slot": "bottom", "text": "FOUR PANELS, ONE SPEC" }],
+  "output": { "path": "grid.png", "format": "png" }
+}

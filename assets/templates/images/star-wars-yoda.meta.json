@@ -1,0 +1,36 @@
+{
+  "name": "Star Wars Yoda",
+  "tags": [
+    "wisdom",
+    "advice",
+    "yoda"
+  ],
+  "category": "opinion",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        19,
+        14,
+        583,
+        143
+      ],
+      "hint": "the setup"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        19,
+        556,
+        583,
+        143
+      ],
+      "hint": "the yoda-style wisdom"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Star-Wars-Yoda",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

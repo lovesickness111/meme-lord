@@ -1,0 +1,36 @@
+{
+  "name": "God Of War Dad Of Boy",
+  "tags": [
+    "gaming",
+    "god-of-war",
+    "boy"
+  ],
+  "category": "gaming",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        14,
+        7,
+        451,
+        65
+      ],
+      "hint": "what Kratos says"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        14,
+        288,
+        451,
+        65
+      ],
+      "hint": "\"BOY\""
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/158250560/Dad-of-Boy",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

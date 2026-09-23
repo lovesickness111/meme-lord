@@ -1,0 +1,12 @@
+node_modules/
+dist/
+*.log
+.env
+.env.*
+*.pem
+*.key
+secrets/
+out*.png
+/tmp
+test/output/
+.memes/

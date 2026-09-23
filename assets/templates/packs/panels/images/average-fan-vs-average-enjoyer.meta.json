@@ -1,0 +1,37 @@
+{
+  "name": "Average Fan vs Average Enjoyer",
+  "tags": [
+    "panel",
+    "two-panel",
+    "comparison",
+    "chad"
+  ],
+  "category": "comparison",
+  "slots": [
+    {
+      "name": "fan",
+      "rect": [
+        14,
+        576,
+        326,
+        122
+      ],
+      "hint": "the average fan's take"
+    },
+    {
+      "name": "enjoyer",
+      "rect": [
+        368,
+        576,
+        326,
+        122
+      ],
+      "hint": "the average enjoyer's take"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/316989420/Average-Fan-vs-Average-Enjoyer",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

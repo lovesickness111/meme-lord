@@ -1,0 +1,38 @@
+{
+  "name": "Doofenshmirtz If I Had A Nickel",
+  "tags": [
+    "work",
+    "tech",
+    "programming",
+    "phineas-ferb",
+    "coincidence"
+  ],
+  "category": "work",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        19,
+        11,
+        442,
+        86
+      ],
+      "hint": "if i had a nickel for every time X"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        19,
+        443,
+        442,
+        86
+      ],
+      "hint": "i'd have two nickels. which isn't a lot, but it's weird it happened twice"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/264039754/Which-isnt-a-lot-but-its-weird-that-it-happened-twice",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Who Would Win?",
+  "tags": [
+    "choice",
+    "decision",
+    "versus",
+    "two-option",
+    "comparison"
+  ],
+  "category": "choice",
+  "slots": [
+    {
+      "name": "left",
+      "rect": [
+        24,
+        15,
+        353,
+        80
+      ],
+      "hint": "first option"
+    },
+    {
+      "name": "right",
+      "rect": [
+        425,
+        15,
+        353,
+        80
+      ],
+      "hint": "second option"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Who-Would-Win",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

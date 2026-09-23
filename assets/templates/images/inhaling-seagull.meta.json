@@ -1,0 +1,56 @@
+{
+  "name": "Inhaling Seagull",
+  "tags": [
+    "escalation",
+    "four-panel",
+    "screaming"
+  ],
+  "category": "escalation",
+  "slots": [
+    {
+      "name": "inhale",
+      "rect": [
+        224,
+        30,
+        211,
+        170
+      ],
+      "hint": "the build-up"
+    },
+    {
+      "name": "scream1",
+      "rect": [
+        224,
+        280,
+        211,
+        170
+      ],
+      "hint": "the first part of the scream"
+    },
+    {
+      "name": "scream2",
+      "rect": [
+        224,
+        530,
+        211,
+        170
+      ],
+      "hint": "the loudest part"
+    },
+    {
+      "name": "rest",
+      "rect": [
+        224,
+        780,
+        211,
+        170
+      ],
+      "hint": "the trailing off"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Inhaling-Seagull",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

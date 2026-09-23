@@ -1,0 +1,78 @@
+name: Install Test
+
+on:
+  push:
+    branches: [main, devin/windows-install, devin/install-combined]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  install:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 30
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 20
+      - name: Run curl installer
+        run: |
+          mkdir -p "$RUNNER_TEMP/meme-test"
+          curl -fsSL "https://raw.githubusercontent.com/${{ github.repository }}/${{ github.sha }}/install.sh" \
+            | PREFIX="$RUNNER_TEMP/meme-test" sh 2>&1 | tee "$RUNNER_TEMP/install.log"
+      - name: Add install bin to PATH
+        run: echo "$RUNNER_TEMP/meme-test/bin" >> "$GITHUB_PATH"
+      - name: meme --version
+        run: meme --version
+      - name: meme templates list
+        run: meme templates list
+      - name: meme render
+        run: meme render --template drake --text no="MANUAL" --text yes="AGENT" -o "$RUNNER_TEMP/meme.png"
+      - name: meme.cmd in Command Prompt (Windows)
+        if: runner.os == 'Windows'
+        shell: cmd
+        run: meme --version
+      - uses: actions/upload-artifact@v7
+        if: always()
+        with:
+          name: install-test-${{ matrix.os }}
+          path: |
+            ${{ runner.temp }}/meme.png
+            ${{ runner.temp }}/install.log
+          if-no-files-found: warn
+
+  install-no-node:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    container:
+      image: debian:bookworm-slim
+    steps:
+      - name: Install curl and ca-certificates only
+        run: |
+          apt-get update -qq
+          apt-get install -y -qq curl ca-certificates
+      - name: Verify Node is absent
+        run: |
+          if command -v node >/dev/null 2>&1; then
+            echo "::error::Node unexpectedly present in container"
+            exit 1
+          fi
+      - name: Run curl installer (auto-download Node path)
+        run: |
+          mkdir -p /tmp/meme-test
+          curl -fsSL "https://raw.githubusercontent.com/${{ github.repository }}/${{ github.sha }}/install.sh" \
+            | PREFIX=/tmp/meme-test sh 2>&1 | tee /tmp/install.log
+      - name: meme --version
+        run: /tmp/meme-test/bin/meme --version
+      - name: meme render
+        run: /tmp/meme-test/bin/meme render --template drake --text no="MANUAL" --text yes="AGENT" -o /tmp/meme.png

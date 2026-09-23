@@ -1,0 +1,37 @@
+{
+  "name": "Pick One Door Gameshow",
+  "tags": [
+    "choice",
+    "decision",
+    "doors",
+    "gameshow"
+  ],
+  "category": "choice",
+  "slots": [
+    {
+      "name": "left",
+      "rect": [
+        24,
+        30,
+        352,
+        160
+      ],
+      "hint": "first option"
+    },
+    {
+      "name": "right",
+      "rect": [
+        425,
+        30,
+        352,
+        160
+      ],
+      "hint": "second option"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/434148220/Pick-one-door-gameshow",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Spongebob Burning Paper",
+  "tags": [
+    "panel",
+    "four-panel",
+    "spongebob",
+    "discard"
+  ],
+  "category": "rejection",
+  "slots": [
+    {
+      "name": "paper",
+      "rect": [
+        34,
+        47,
+        179,
+        231
+      ],
+      "hint": "what gets read and immediately burned"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/139971723/Spongebob-Burning-Paper",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

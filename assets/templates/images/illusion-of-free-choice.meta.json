@@ -1,0 +1,36 @@
+{
+  "name": "Illusion Of Free Choice",
+  "tags": [
+    "choice",
+    "tunnel",
+    "manipulation"
+  ],
+  "category": "choice",
+  "slots": [
+    {
+      "name": "left",
+      "rect": [
+        38,
+        190,
+        230,
+        88
+      ],
+      "hint": "the choice you think you have"
+    },
+    {
+      "name": "right",
+      "rect": [
+        476,
+        190,
+        253,
+        88
+      ],
+      "hint": "the choice being forced"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/143600380/Illusion-of-free-choice",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

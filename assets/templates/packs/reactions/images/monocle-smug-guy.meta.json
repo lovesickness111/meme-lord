@@ -1,0 +1,26 @@
+{
+  "name": "Smug Monocle Guy",
+  "tags": [
+    "reaction",
+    "smug",
+    "fancy"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        36,
+        24,
+        1128,
+        336
+      ],
+      "hint": "the smug observation"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/218125424/Old-Guy-with-monocle-looking-smug",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Street Fighter Continue Screen",
+  "tags": [
+    "gaming",
+    "street-fighter",
+    "arcade"
+  ],
+  "category": "gaming",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        14,
+        7,
+        451,
+        65
+      ],
+      "hint": "the defeat"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        14,
+        288,
+        451,
+        65
+      ],
+      "hint": "continue? insert coin"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/209008303/ken-street-fighter-continue-insert-coin",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

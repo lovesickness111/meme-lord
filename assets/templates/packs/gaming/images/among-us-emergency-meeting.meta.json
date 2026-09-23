@@ -1,0 +1,36 @@
+{
+  "name": "Among Us Emergency Meeting",
+  "tags": [
+    "gaming",
+    "among-us",
+    "meeting"
+  ],
+  "category": "gaming",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        27,
+        24,
+        855,
+        216
+      ],
+      "hint": "the emergency being discussed"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        27,
+        960,
+        855,
+        216
+      ],
+      "hint": "who gets blamed"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/266761989/Among-Us-Meeting",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

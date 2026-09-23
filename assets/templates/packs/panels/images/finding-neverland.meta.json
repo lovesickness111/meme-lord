@@ -1,0 +1,47 @@
+{
+  "name": "Finding Neverland",
+  "tags": [
+    "panel",
+    "three-panel",
+    "sad",
+    "comfort"
+  ],
+  "category": "comic",
+  "slots": [
+    {
+      "name": "question",
+      "rect": [
+        21,
+        128,
+        381,
+        53
+      ],
+      "hint": "the innocent question"
+    },
+    {
+      "name": "reply",
+      "rect": [
+        21,
+        327,
+        381,
+        53
+      ],
+      "hint": "the sad truth"
+    },
+    {
+      "name": "comfort",
+      "rect": [
+        21,
+        514,
+        381,
+        53
+      ],
+      "hint": "the comforting conclusion"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/19144260/crying-boy-on-a-bench",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

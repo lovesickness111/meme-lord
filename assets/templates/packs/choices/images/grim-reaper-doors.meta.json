@@ -1,0 +1,58 @@
+{
+  "name": "Grim Reaper Knocking Doors",
+  "tags": [
+    "choice",
+    "decision",
+    "doors",
+    "inevitable",
+    "four-option"
+  ],
+  "category": "choice",
+  "slots": [
+    {
+      "name": "door1",
+      "rect": [
+        10,
+        109,
+        80,
+        37
+      ],
+      "hint": "first door"
+    },
+    {
+      "name": "door2",
+      "rect": [
+        105,
+        109,
+        80,
+        37
+      ],
+      "hint": "second door"
+    },
+    {
+      "name": "door3",
+      "rect": [
+        200,
+        109,
+        80,
+        37
+      ],
+      "hint": "third door"
+    },
+    {
+      "name": "reaper",
+      "rect": [
+        390,
+        87,
+        100,
+        37
+      ],
+      "hint": "the inevitable one"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/104893621/Grim-Reaper-Knocking-Door",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

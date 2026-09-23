@@ -1,0 +1,46 @@
+{
+  "name": "Left Exit 12 Off Ramp",
+  "tags": [
+    "sudden-choice",
+    "swerve",
+    "decision"
+  ],
+  "category": "choice",
+  "slots": [
+    {
+      "name": "straight",
+      "rect": [
+        200,
+        95,
+        190,
+        155
+      ],
+      "hint": "the sensible planned path"
+    },
+    {
+      "name": "exit",
+      "rect": [
+        420,
+        95,
+        175,
+        155
+      ],
+      "hint": "the impulsive swerve destination"
+    },
+    {
+      "name": "car",
+      "rect": [
+        280,
+        500,
+        250,
+        120
+      ],
+      "hint": "who is making the swerve (optional)"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/Left-Exit-12-Off-Ramp",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

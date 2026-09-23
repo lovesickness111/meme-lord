@@ -1,0 +1,56 @@
+{
+  "name": "Vince McMahon Escalating Reaction",
+  "tags": [
+    "escalation",
+    "excitement",
+    "four-panel"
+  ],
+  "category": "escalation",
+  "slots": [
+    {
+      "name": "level1",
+      "rect": [
+        309,
+        30,
+        267,
+        150
+      ],
+      "hint": "the good thing"
+    },
+    {
+      "name": "level2",
+      "rect": [
+        309,
+        280,
+        267,
+        150
+      ],
+      "hint": "the better thing"
+    },
+    {
+      "name": "level3",
+      "rect": [
+        309,
+        530,
+        267,
+        150
+      ],
+      "hint": "the amazing thing"
+    },
+    {
+      "name": "level4",
+      "rect": [
+        309,
+        780,
+        267,
+        150
+      ],
+      "hint": "the transcendent thing"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/126882756/Vince-McMahon-Reaction-wGlowing-Eyes",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

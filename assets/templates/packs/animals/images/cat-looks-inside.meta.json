@@ -1,0 +1,37 @@
+{
+  "name": "Cat Looks Inside",
+  "tags": [
+    "animal",
+    "cat",
+    "introspection",
+    "realization"
+  ],
+  "category": "animal",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        20,
+        15,
+        461,
+        100
+      ],
+      "hint": "looks inside"
+    },
+    {
+      "name": "bottom",
+      "rect": [
+        20,
+        384,
+        461,
+        100
+      ],
+      "hint": "what it finds"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/meme/453425234/Cat-looks-inside",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "I Bet He's Thinking About Other Women",
+  "tags": [
+    "thoughts",
+    "couple",
+    "two-actor"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "her-thought",
+      "rect": [
+        50,
+        28,
+        744,
+        186
+      ],
+      "hint": "what she thinks he is thinking"
+    },
+    {
+      "name": "his-thought",
+      "rect": [
+        860,
+        28,
+        744,
+        279
+      ],
+      "hint": "what he is actually thinking"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/I-Bet-Hes-Thinking-About-Other-Women",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}

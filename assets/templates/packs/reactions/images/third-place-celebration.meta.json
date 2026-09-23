@@ -1,0 +1,26 @@
+{
+  "name": "3rd Place Celebration",
+  "tags": [
+    "reaction",
+    "celebrating",
+    "irony"
+  ],
+  "category": "reaction",
+  "slots": [
+    {
+      "name": "top",
+      "rect": [
+        32,
+        24,
+        1000,
+        336
+      ],
+      "hint": "the small win being over-celebrated"
+    }
+  ],
+  "source": {
+    "url": "https://imgflip.com/memetemplate/224480326/3rd-Place-Celebration",
+    "license": "fair-use",
+    "attribution": "via Imgflip"
+  }
+}
