@@ -1,11 +1,9 @@
-# meme-maker
+# Meme Lord
 
-> Deterministic meme generation for autonomous agents — 610 templates, one JSON spec, zero cloud.
+> Local-first, deterministic meme generation for autonomous agents — 610 templates, one JSON spec, zero cloud.
 
-[![Release](https://img.shields.io/github/v/release/kartikkabadi/meme-maker)](https://github.com/kartikkabadi/meme-maker/releases)
-[![CI](https://github.com/kartikkabadi/meme-maker/actions/workflows/ci.yml/badge.svg)](https://github.com/kartikkabadi/meme-maker/actions/workflows/ci.yml)
-[![GitHub stars](https://img.shields.io/github/stars/kartikkabadi/meme-maker?style=social)](https://github.com/kartikkabadi/meme-maker/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/kartikkabadi/meme-maker?style=social)](https://github.com/kartikkabadi/meme-maker/network/members)
+[![CI](https://github.com/lovesickness111/meme-lord/actions/workflows/ci.yml/badge.svg)](https://github.com/lovesickness111/meme-lord/actions/workflows/ci.yml)
+[![GitHub stars](https://img.shields.io/github/stars/lovesickness111/meme-lord?style=social)](https://github.com/lovesickness111/meme-lord/stargazers)
 
 **Key features**
 
@@ -35,12 +33,10 @@
 
 ## What is this?
 
-meme-maker is a headless meme generator. You describe a meme as a small JSON document (a **MemeSpec**) — which template, what text in which slot — and it renders a finished PNG, WebP, or GIF.
+Meme Lord is a headless meme generator. You describe a meme as a small JSON document (a **MemeSpec**) — which template, what text in which slot — and it renders a finished PNG, WebP, or GIF.
 
 - **For agents**: call it via the MCP server (`meme-maker-mcp`), the HTTP API, or the CLI with `--json`. Every input is schema-validated (Zod) and every output is machine-readable, so LLMs can discover templates, fill slots, and render without ever seeing a GUI.
 - **For humans**: the same engine powers a one-line CLI and a local web UI with a gallery, live-preview editor, render history, and batch mode.
-
-Inspired by the SupaBird.io "Meme Maker" tool, re-imagined for autonomous agent workflows.
 
 ![Drake meme rendered with one CLI command](docs/assets/screenshots/cli-drake.webp)
 
@@ -260,7 +256,7 @@ Claude Desktop / any other `mcpServers`-style host:
 
 ACP hosts (e.g. Synara): register `meme-maker-mcp` as a stdio MCP server in the agent's MCP configuration; rendered files land under the output root (`SYNARA_ARTIFACTS_DIR` is respected automatically).
 
-If running from a clone rather than the installer, use `"command": "node", "args": ["/path/to/meme-maker/dist/mcp.js"]`.
+If running from a clone rather than the installer, use `"command": "node", "args": ["/path/to/meme-lord/dist/mcp.js"]`.
 
 `render_meme` takes a full `MemeSpec` and returns the rendered image inline (≤ 1 MB) plus the file path when `output.path` is given.
 
