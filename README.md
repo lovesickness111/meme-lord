@@ -11,24 +11,24 @@ Requirements: Node.js `>=20.19.0`.
 Install the package once:
 
 ```sh
-npm install -g agent-meme-maker@0.4.0
+npm install -g meme-lord@0.4.0
 ```
 
 Register the local MCP server:
 
 ```sh
 # Codex
-codex mcp add meme-lord -- meme-maker-mcp
+codex mcp add meme-lord -- meme-lord-mcp
 
 # Claude Code
-claude mcp add --scope user meme-lord -- meme-maker-mcp
+claude mcp add --scope user meme-lord -- meme-lord-mcp
 ```
 
 On native Windows, use `npx` through `cmd`:
 
 ```sh
-codex mcp add meme-lord -- cmd /c npx -y agent-meme-maker@0.4.0 mcp
-claude mcp add --scope user meme-lord -- cmd /c npx -y agent-meme-maker@0.4.0 mcp
+codex mcp add meme-lord -- cmd /c npx -y meme-lord@0.4.0 mcp
+claude mcp add --scope user meme-lord -- cmd /c npx -y meme-lord@0.4.0 mcp
 ```
 
 Restart the agent and verify that the `meme-lord` MCP server exposes:
@@ -60,7 +60,7 @@ meme render --template drake \
 Without a global install:
 
 ```sh
-npx -y agent-meme-maker@0.4.0 render --template drake \
+npx -y meme-lord@0.4.0 render --template drake \
   --text no="MANUAL MEME EDITORS" \
   --text yes="A CLI FOR AGENTS" \
   -o out.png

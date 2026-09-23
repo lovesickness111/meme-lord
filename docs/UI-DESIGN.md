@@ -411,7 +411,7 @@ host-embeddable UX** and does not build against any host's palette/loop runtime:
 ## 6. Open questions for the user
 
 1. **Brand name & accent.** Is "meme yellow `#ffd23f`" + the Anton-"M" tile the brand, or
-   is there a preferred name/wordmark (the npm name is `agent-meme-maker` — does the UI say
+   is there a preferred name/wordmark (the npm name is `meme-lord` — does the UI say
    "Meme Maker"?) and accent color?
 2. **Primary user for v1 UI.** Review surface for agent-made memes (recommended, shapes
    F2 as the golden path), standalone human editor, or maintainer slot-tuner first? This

@@ -1,5 +1,5 @@
 {
-  "name": "agent-meme-maker",
+  "name": "meme-lord",
   "version": "0.4.0",
   "description": "Local-first meme maker for agents: 610 templates, deterministic quality gates, CLI, stdio MCP server, and optional web UI.",
   "keywords": [
@@ -26,8 +26,10 @@
     }
   },
   "bin": {
+    "meme-lord": "dist/cli.js",
     "agent-meme-maker": "dist/cli.js",
     "meme": "dist/cli.js",
+    "meme-lord-mcp": "dist/mcp.js",
     "meme-maker-mcp": "dist/mcp.js"
   },
   "files": [

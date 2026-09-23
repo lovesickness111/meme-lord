@@ -5,7 +5,7 @@ focused PR (per the repo's small-PR convention). `[P0/P1/P2]` = priority; `[XSâ€
 
 ## Milestone 0 â€” Unblock distribution
 - `[P0][S]` Merge implementation (`devin/polish`) to the default branch. *(D20)*
-- `[P0][S]` Publish `agent-meme-maker` to npm: pin `sharp` exactly, 2FA + `--provenance`,
+- `[P0][S]` Publish `meme-lord` to npm: pin `sharp` exactly, 2FA + `--provenance`,
   committed lockfile, `npm audit` in CI. Add per-provider MCP registration snippets to the
   README (Codex TOML, Claude `mcpServers`, ACP). *(D20 â†’ unblocks all Synara/MCP paths)*
 
@@ -51,7 +51,7 @@ focused PR (per the repo's small-PR convention). `[P0/P1/P2]` = priority; `[XSâ€
 - `[P2][M]` Manifest generator + `Map<id,Template>` index + pack namespacing/`file`
   sanitization. *(D19)*
 - `[P2][L]` Catalog buildout to 100+ image / 20+ GIF with licensing/QC pipeline + manifest provenance.
-- `[P2][M]` Package-weight split into optional `agent-meme-maker-templates` once assets >20 MB.
+- `[P2][M]` Package-weight split into optional `meme-lord-templates` once assets >20 MB.
 
 ## Milestone 6 â€” Polish
 - `[P2][S]` Doc/spec drift cleanup (`strokeWidth:'auto'`, band slots in MCP desc, `--font`). *(D18)*

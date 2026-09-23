@@ -1,6 +1,6 @@
 # Installing meme-maker
 
-`agent-meme-maker` ships the `meme` CLI, the `meme-maker-mcp` stdio server,
+`meme-lord` ships the `meme` CLI, the `meme-maker-mcp` stdio server,
 and the built-in template catalog. npm/npx is the primary installation path
 on Windows, macOS, and Linux. The GitHub Release tarballs and curl installer
 remain available as a standalone alternative.
@@ -16,7 +16,7 @@ Use a global install when you want stable `meme` and `meme-maker-mcp`
 commands on your `PATH`:
 
 ```sh
-npm install -g agent-meme-maker@0.4.0
+npm install -g meme-lord@0.4.0
 meme --version
 meme templates list
 ```
@@ -24,8 +24,8 @@ meme templates list
 Upgrade and uninstall npm-managed copies with npm:
 
 ```sh
-npm install -g agent-meme-maker@latest
-npm uninstall -g agent-meme-maker
+npm install -g meme-lord@latest
+npm uninstall -g meme-lord
 ```
 
 Before a release is available on the registry, build and install the exact
@@ -34,7 +34,7 @@ same package from a checkout:
 ```sh
 npm ci
 npm pack
-npm install -g ./agent-meme-maker-0.4.0.tgz
+npm install -g ./meme-lord-0.4.0.tgz
 ```
 
 Do not use `meme update` for an npm-managed install. That command belongs to
@@ -46,9 +46,9 @@ Use npx for one-off commands or an MCP configuration that should pin an exact
 package version:
 
 ```sh
-npx -y agent-meme-maker@0.4.0 --version
-npx -y agent-meme-maker@0.4.0 templates list
-npx -y agent-meme-maker@0.4.0 render \
+npx -y meme-lord@0.4.0 --version
+npx -y meme-lord@0.4.0 templates list
+npx -y meme-lord@0.4.0 render \
   --template drake \
   --text no="MANUAL EDITORS" \
   --text yes="ONE COMMAND" \
@@ -69,7 +69,7 @@ subcommand. It does not open a network port.
 Register the pinned npx command and verify it:
 
 ```sh
-codex mcp add meme-maker -- npx -y agent-meme-maker@0.4.0 mcp
+codex mcp add meme-maker -- npx -y meme-lord@0.4.0 mcp
 codex mcp list
 ```
 
@@ -84,7 +84,7 @@ The npx form is equivalent to this entry in `~/.codex/config.toml`:
 ```toml
 [mcp_servers.meme-maker]
 command = "npx"
-args = ["-y", "agent-meme-maker@0.4.0", "mcp"]
+args = ["-y", "meme-lord@0.4.0", "mcp"]
 startup_timeout_sec = 120
 ```
 
@@ -96,7 +96,7 @@ for configuration and troubleshooting details.
 On macOS, Linux, or WSL:
 
 ```sh
-claude mcp add --scope user meme-maker -- npx -y agent-meme-maker@0.4.0 mcp
+claude mcp add --scope user meme-maker -- npx -y meme-lord@0.4.0 mcp
 claude mcp list
 ```
 
@@ -104,7 +104,7 @@ On native Windows, Claude Code requires the `cmd /c` wrapper for local MCP
 servers launched with npx:
 
 ```powershell
-claude mcp add --scope user meme-maker -- cmd /c npx -y agent-meme-maker@0.4.0 mcp
+claude mcp add --scope user meme-maker -- cmd /c npx -y meme-lord@0.4.0 mcp
 claude mcp list
 ```
 
@@ -181,7 +181,7 @@ meme update
 
 It checks GitHub Releases and reruns the standalone installer in place. If a
 custom `PREFIX` was used, pass the same value while updating. npm users must
-upgrade with `npm install -g agent-meme-maker@latest`; npx users update the
+upgrade with `npm install -g meme-lord@latest`; npx users update the
 version in their command or MCP configuration.
 
 ### Uninstall a standalone install

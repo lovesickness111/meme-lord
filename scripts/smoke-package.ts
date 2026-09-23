@@ -76,16 +76,16 @@ writeFileSync(
 );
 npm(['install', '--no-audit', '--no-fund', tarball], projectDir, 'inherit');
 
-const packageDir = join(projectDir, 'node_modules', 'agent-meme-maker');
+const packageDir = join(projectDir, 'node_modules', 'meme-lord');
 const packageJson = JSON.parse(readFileSync(join(packageDir, 'package.json'), 'utf8')) as {
   name: string;
   version: string;
   private?: boolean;
   bin?: Record<string, string>;
 };
-assert(packageJson.name === 'agent-meme-maker', 'installed package name mismatch');
+assert(packageJson.name === 'meme-lord', 'installed package name mismatch');
 assert(packageJson.private !== true, 'package is still marked private');
-assert(packageJson.bin?.['agent-meme-maker'] === 'dist/cli.js', 'package-name bin is missing');
+assert(packageJson.bin?.['meme-lord'] === 'dist/cli.js', 'package-name bin is missing');
 
 for (const excluded of ['src', 'test', 'scripts', 'ui', '.env']) {
   assert(!existsSync(join(packageDir, excluded)), `tarball unexpectedly contains ${excluded}`);
@@ -111,7 +111,7 @@ assert(existsSync(join(packageDir, 'assets', 'templates', 'manifest.json')), 'te
 const version = runCli(['--version']).trim();
 assert(version === packageJson.version, `CLI version ${version} != package ${packageJson.version}`);
 assert(
-  npm(['exec', '--', 'agent-meme-maker', '--version'], projectDir).trim() === packageJson.version,
+  npm(['exec', '--', 'meme-lord', '--version'], projectDir).trim() === packageJson.version,
   'npm package-name bin shim failed',
 );
 assert(

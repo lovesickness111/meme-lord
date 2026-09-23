@@ -356,15 +356,15 @@ code changes for v1):**
 |----------|-----|------|
 | **MCP (primary)** | `meme-maker-mcp` stdio server registered in each provider's native config. One registration serves all 9 providers. | v1 |
 | **CLI** | Agents with shell access run `meme … --json` (or `meme spec render`) in Studio/Automation workspaces. Lowest friction today. | v1 |
-| **Library** | `import { renderMeme } from 'agent-meme-maker'` — but **do not** bundle into `apps/server` (drags native `sharp` into Bun/Electron). | avoid |
+| **Library** | `import { renderMeme } from 'meme-lord'` — but **do not** bundle into `apps/server` (drags native `sharp` into Bun/Electron). | avoid |
 | **Web view** | `meme ui` link-out: agent replies with `http://localhost:<port>/edit#<base64-spec>`; Synara's `InlineLinkChip` makes it one click. | v1.1 |
 | **Embedded panel** | Synara right-dock/`BrowserPanel` hosts the editor (`?theme=…`). | later |
 
 **Phased plan (from synara-integration §7, made concrete):**
 
 - **Phase 0 — unblock (P0):** merge implementation to the default branch; publish
-  `agent-meme-maker@0.1.x` to npm with `sharp` pinned, 2FA + `--provenance`, committed
-  lockfile. Registration becomes one line: `npx -y agent-meme-maker meme-maker-mcp`. Add
+  `meme-lord@0.1.x` to npm with `sharp` pinned, 2FA + `--provenance`, committed
+  lockfile. Registration becomes one line: `npx -y meme-lord meme-maker-mcp`. Add
   per-provider snippets to the README (Codex TOML, Claude `mcpServers`, ACP).
 - **Phase 1 — worktree hygiene (P1, fixes D25):** default `output.path` to
   `$MEME_OUTPUT_ROOT` (honoring a Synara-provided `SYNARA_ARTIFACTS_DIR` if present) →
@@ -434,7 +434,7 @@ correctly licensed, discoverable by agents from metadata alone.
 
 - 9 MB / 37 templates → ~24 MB at 100. npm has no partial download; every `npx` pulls it all.
 - **Plan:** keep bundled until ~20 MB. Beyond that, split into an optional
-  `agent-meme-maker-templates` package (core ships a small starter set + the pack loader
+  `meme-lord-templates` package (core ships a small starter set + the pack loader
   via `--templates-dir`), or fetch-on-demand GIF packs above a size threshold. The
   `--templates-dir`/`MEME_TEMPLATES_DIR` plumbing (D17) + manifest merge with `pack:id`
   namespacing (arch scenario B) makes this a ~1-day change when needed, not a rewrite.
@@ -556,7 +556,7 @@ human-tweak-without-a-model-turn are both met.
 | P2-5 | Restate determinism as version-scoped; pin `sharp` exactly | D23 | XS |
 | P2-6 | Batch/contact-sheet UI view + drag/slot-tuner mode | D24 | M |
 | P2-7 | Alt-text field in spec + MCP output | D24 | S |
-| P2-8 | Package-weight split (`agent-meme-maker-templates`) when assets >20 MB | — | M |
+| P2-8 | Package-weight split (`meme-lord-templates`) when assets >20 MB | — | M |
 
 ---
 
@@ -581,7 +581,7 @@ human-tweak-without-a-model-turn are both met.
    largest item), and if so: web (Vite+Preact, recommended) vs. desktop (Electron/Tauri)?
    Who is the primary human — review surface for agent memes (recommended), standalone editor,
    or maintainer slot-tuner?
-6. **B6 — npm publish ownership.** Publish `agent-meme-maker` under which npm scope/account,
+6. **B6 — npm publish ownership.** Publish `meme-lord` under which npm scope/account,
    and who owns release cadence relative to Synara? (P0-1 is the unblock for every MCP path.)
 7. **B7 — `--text N=` semantics.** Should numeric index map to template slot N, or be
    rejected? (Affects CLI help, DESIGN §5, and P0-6.)
@@ -615,7 +615,7 @@ To keep the design minimal (per the "small, focused, minimalist" repo convention
 - **No config-file system** — env vars + flags only.
 - **No database** — filesystem is the history/state store.
 - **No video/MP4** — deferred; if ever, an optional ffmpeg-dependent peer package
-  (`agent-meme-maker-video`), never in core.
+  (`meme-lord-video`), never in core.
 - **No fontconfig/Pango / platform text stack** — the deterministic SVG text layer is the
   crown jewel and must stay pure.
 - **No embedding meme-maker inside Synara's `apps/server`** — it stays a standalone,

@@ -665,7 +665,7 @@ Examples:
       fail(
         new MemeError(
           'IO_ERROR',
-          "this is an npm-managed install; use 'npm install -g agent-meme-maker@latest' to update a global install, while npx resolves the requested version automatically",
+          "this is an npm-managed install; use 'npm install -g meme-lord@latest' to update a global install, while npx resolves the requested version automatically",
         ),
         json,
       );

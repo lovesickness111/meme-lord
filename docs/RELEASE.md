@@ -11,7 +11,7 @@ it to npm is an explicit, conditional step.
 ## 1. Prepare the fork and npm publisher
 
 Before the first publish, confirm that the npm account or organization controls
-the `agent-meme-maker` package name. A first publication may need to be
+the `meme-lord` package name. A first publication may need to be
 bootstrapped before npm exposes package settings.
 
 > **Fork safety:** `package.json` fields `repository`, `bugs`, and `homepage`
@@ -126,8 +126,8 @@ The GitHub Release must contain:
 - `meme-maker-macos-x64.tar.gz`
 - `meme-maker-macos-arm64.tar.gz`
 - `meme-maker-win32-x64.tar.gz`
-- `agent-meme-maker-X.Y.Z.tgz` (the tested npm tarball)
-- `agent-meme-maker-vX.Y.Z.tar.gz` (source)
+- `meme-lord-X.Y.Z.tgz` (the tested npm tarball)
+- `meme-lord-vX.Y.Z.tar.gz` (source)
 - `install.sh`
 
 The `.tgz` filename intentionally omits the `v`, matching `npm pack` output.
@@ -137,13 +137,13 @@ The `.tgz` filename intentionally omits the `v`, matching `npm pack` output.
 If npm publishing was enabled:
 
 ```sh
-npm view agent-meme-maker@X.Y.Z version
-npx -y agent-meme-maker@X.Y.Z --version
-npx -y agent-meme-maker@X.Y.Z templates list
+npm view meme-lord@X.Y.Z version
+npx -y meme-lord@X.Y.Z --version
+npx -y meme-lord@X.Y.Z templates list
 ```
 
 Also configure a temporary MCP client with
-`npx -y agent-meme-maker@X.Y.Z mcp` and confirm it lists and calls the server's
+`npx -y meme-lord@X.Y.Z mcp` and confirm it lists and calls the server's
 tools. This validates the same npx path documented for Codex and Claude Code.
 
 Verify the standalone channel on a supported platform:
