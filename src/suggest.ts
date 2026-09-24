@@ -214,10 +214,48 @@ export function suggestTemplates(options: SuggestTemplatesOptions): TemplateSugg
     throw new MemeError('INVALID_SPEC', 'maxSlots must be greater than or equal to minSlots');
   }
 
-  return listTemplates({ type: options.type }, options.templatesDir)
+  const suggestions = listTemplates({ type: options.type }, options.templatesDir)
     .filter((template) => template.slots.length >= minSlots && template.slots.length <= maxSlots)
     .map((template) => rankTemplate(template, normalizedQuery, queryTokens))
     .filter((result): result is TemplateSuggestion => result !== undefined)
     .sort((a, b) => b.score - a.score || (a.id === b.id ? 0 : a.id < b.id ? -1 : 1))
     .slice(0, limit);
+
+  // Fallback to substring search if semantic scoring yields no results
+  if (suggestions.length === 0) {
+    const fallbackTemplates = listTemplates(
+      { type: options.type, search: options.query },
+      options.templatesDir,
+    ).filter((template) => template.slots.length >= minSlots && template.slots.length <= maxSlots);
+
+    return fallbackTemplates
+      .map((template) => {
+        const selectionGuide = resolveTemplateSelectionGuide(template);
+        const qualityReady =
+          template.slots.length > 0 &&
+          template.slots.every(
+            (slot) =>
+              slot.safeRect !== undefined &&
+              slot.constraints !== undefined &&
+              Object.keys(slot.constraints).length > 0,
+          );
+        return {
+          id: template.id,
+          name: template.name,
+          type: template.type,
+          width: template.width,
+          height: template.height,
+          category: template.category,
+          tags: template.tags,
+          slots: template.slots.map((slot) => ({ name: slot.name, hint: slot.hint })),
+          selectionGuide,
+          score: 1,
+          reasons: [{ kind: 'explicit' as const, term: 'fallback-search', points: 1 }],
+          qualityReady,
+        };
+      })
+      .slice(0, limit);
+  }
+
+  return suggestions;
 }

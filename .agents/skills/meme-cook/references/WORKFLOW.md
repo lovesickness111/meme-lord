@@ -41,10 +41,22 @@ A universal, agent-friendly workflow for turning any topic, tweet, thread, or li
 
 ## 5. Render
 
+### Suggesting Templates
+
+When using `suggest_templates` or similar tools:
+- **Brief MUST be in English**. Translate the user's scenario into a description of the humor mechanic (e.g. User: "trêu bạn bị limit quota Claude" -> Agent brief: "frustration, impatience, waiting, craving, addiction, comparison between tools").
+- If `suggest_templates` returns empty, fall back to `meme templates list --search "<keywords>"` or `--category "<category>"`. Browse by category if needed.
+
 ### Mode A — CLI (repo cloned)
 
+To render a single meme:
 ```sh
 npx tsx src/cli.ts render --template <id> --text <slot>="<text>" ... -o <path> --force --json
+```
+
+To render multiple memes quickly, write an array of MemeSpecs to `specs.json` and run:
+```sh
+npx tsx src/cli.ts spec render specs.json --json
 ```
 
 ### Mode B — MCP (npm install)

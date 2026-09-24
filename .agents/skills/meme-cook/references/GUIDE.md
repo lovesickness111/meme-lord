@@ -8,6 +8,10 @@
 - Match the template's visual logic; the image should reinforce the joke, not just carry text.
 - One strong line is usually better than three OK lines.
 
+## Everyday-life Memes
+
+For everyday-life memes (family, relationships, daily situations), prefer templates from the `choices`, `panels`, or `reactions` categories. Avoid `work-*` templates unless the joke involves workplace context.
+
 ## Templates to avoid by default
 
 These are overused or lazy unless the user explicitly asks for them:

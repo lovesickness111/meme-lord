@@ -46,7 +46,7 @@ claude mcp add --scope user meme-lord -- cmd /c npx -y @nvcuong1/meme-lord mcp
 ```
 
 Call the MCP tools in this order:
-1. `suggest_templates` — get template candidates for the humor mechanic.
+1. `suggest_templates` — get template candidates for the humor mechanic. **Brief MUST be in English** and describe the humor mechanic (e.g., "sarcastic betrayal, trust and disappointment", not "Claude bị limit"). Translate user's intent into English humor keywords before calling suggest.
 2. `get_template` — inspect slots of the chosen template.
 3. `measure_meme` — verify caption fits before rendering.
 4. `render_meme` with `output.onDegrade: "error"` — render the final image.

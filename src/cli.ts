@@ -93,7 +93,7 @@ function readJsonFile(path: string): unknown {
   }
 }
 
-function readSpecDocument(file: string): Record<string, unknown> {
+function readSpecDocument(file: string): Record<string, unknown> | Record<string, unknown>[] {
   const raw = file === '-' ? readFileSync(0, 'utf8') : readFileSync(file, 'utf8');
   let parsed: unknown;
   try {
@@ -103,10 +103,14 @@ function readSpecDocument(file: string): Record<string, unknown> {
       file,
     });
   }
-  if (typeof parsed !== 'object' || parsed === null || Array.isArray(parsed)) {
-    throw new MemeError('INVALID_SPEC', `"${file}" must contain a MemeSpec JSON object`, { file });
+  if (typeof parsed !== 'object' || parsed === null) {
+    throw new MemeError(
+      'INVALID_SPEC',
+      `"${file}" must contain a MemeSpec JSON object or array of objects`,
+      { file },
+    );
   }
-  return parsed as Record<string, unknown>;
+  return parsed as Record<string, unknown> | Record<string, unknown>[];
 }
 
 async function runRender(opts: RenderOpts, base: MemeSpec['base']): Promise<void> {
@@ -223,46 +227,85 @@ templates
   .command('list')
   .description('list available templates, optionally filtered')
   .option('--tag <tag>', 'only templates with this tag')
+  .option('--category <category>', 'only templates in this category')
   .option('--type <type>', 'only "image" or "gif" templates')
   .option('--search <q>', 'substring match on identity, tags, or semantic guide text')
+  .option('--limit <n>', 'maximum results to return')
+  .option('--compact', 'only return id, name, category, tags, and slots in JSON output')
   .option('--json', 'machine-readable JSON output')
   .addHelpText(
     'after',
     `
 Examples:
   $ meme templates list
+  $ meme templates list --category work
   $ meme templates list --type gif
-  $ meme templates list --search drake --json`,
+  $ meme templates list --search drake --limit 5 --compact --json`,
   )
-  .action((opts: { tag?: string; type?: 'image' | 'gif'; search?: string; json?: boolean }) => {
-    try {
-      if (opts.type !== undefined && opts.type !== 'image' && opts.type !== 'gif') {
-        throw new MemeError('INVALID_SPEC', `--type must be "image" or "gif", got "${opts.type}"`);
-      }
-      const list = listTemplates({ tag: opts.tag, type: opts.type, search: opts.search }).map(
-        (t) => ({
-          id: t.id,
-          name: t.name,
-          type: t.type,
-          width: t.width,
-          height: t.height,
-          panels: t.slots.length,
-          tags: t.tags,
-          slots: t.slots.map((s) => ({ name: s.name, hint: s.hint })),
-          guideSource: resolveTemplateSelectionGuide(t).source,
-        }),
-      );
-      output(list, opts.json ?? false, () => {
-        for (const t of list) {
-          process.stdout.write(
-            `${t.id.padEnd(24)} ${t.type.padEnd(6)} ${String(t.width) + 'x' + String(t.height)}  slots: ${t.slots.map((s) => s.name).join(', ')}\n`,
+  .action(
+    (opts: {
+      tag?: string;
+      category?: string;
+      type?: 'image' | 'gif';
+      search?: string;
+      limit?: string;
+      compact?: boolean;
+      json?: boolean;
+    }) => {
+      try {
+        if (opts.type !== undefined && opts.type !== 'image' && opts.type !== 'gif') {
+          throw new MemeError(
+            'INVALID_SPEC',
+            `--type must be "image" or "gif", got "${opts.type}"`,
           );
         }
-      });
-    } catch (err) {
-      fail(err, opts.json ?? false);
-    }
-  });
+        let rawList = listTemplates({
+          tag: opts.tag,
+          category: opts.category,
+          type: opts.type,
+          search: opts.search,
+        });
+        if (opts.limit) {
+          const limit = parseInt(opts.limit, 10);
+          if (!isNaN(limit) && limit > 0) {
+            rawList = rawList.slice(0, limit);
+          }
+        }
+        const list = rawList.map((t) => {
+          if (opts.compact) {
+            return {
+              id: t.id,
+              name: t.name,
+              category: t.category,
+              tags: t.tags,
+              slots: t.slots.map((s) => ({ name: s.name, hint: s.hint })),
+            };
+          }
+          return {
+            id: t.id,
+            name: t.name,
+            type: t.type,
+            width: t.width,
+            height: t.height,
+            panels: t.slots.length,
+            category: t.category,
+            tags: t.tags,
+            slots: t.slots.map((s) => ({ name: s.name, hint: s.hint })),
+            guideSource: resolveTemplateSelectionGuide(t).source,
+          };
+        });
+        output(list, opts.json ?? false, () => {
+          for (const t of list) {
+            process.stdout.write(
+              `${t.id.padEnd(24)} ${String('type' in t ? t.type : 'image').padEnd(6)} ${String('width' in t ? t.width : 0) + 'x' + String('height' in t ? t.height : 0)}  slots: ${t.slots.map((s) => s.name).join(', ')}\n`,
+            );
+          }
+        });
+      } catch (err) {
+        fail(err, opts.json ?? false);
+      }
+    },
+  );
 
 templates
   .command('suggest <query>')
@@ -553,40 +596,44 @@ Examples:
       opts: { out?: string; force?: boolean; strict?: boolean; json?: boolean },
     ) => {
       try {
-        const parsed = readSpecDocument(file) as {
-          output?: Record<string, unknown>;
-          base?: { kind?: string };
-        };
-        parsed.output = { ...(parsed.output ?? {}) };
-        if (opts.out) parsed.output.path = opts.out;
-        if (opts.force) parsed.output.overwrite = true;
-        if (opts.strict) parsed.output.onDegrade = 'error';
-        if (!parsed.output.path && typeof parsed.base === 'object' && parsed.base !== null) {
-          parsed.output.path = defaultOutputName(
-            parsed as MemeSpec,
-            (parsed.output.format as string | undefined) ??
-              (parsed.base?.kind === 'template' &&
-              getTemplateType(parsed.base as MemeSpec['base']) === 'gif'
-                ? 'gif'
-                : 'png'),
+        const parsedDoc = readSpecDocument(file);
+        const specs = Array.isArray(parsedDoc) ? parsedDoc : [parsedDoc];
+        for (const rawParsed of specs) {
+          const parsed = rawParsed as {
+            output?: Record<string, unknown>;
+            base?: { kind?: string };
+          };
+          parsed.output = { ...(parsed.output ?? {}) };
+          if (opts.out && specs.length === 1) parsed.output.path = opts.out;
+          if (opts.force) parsed.output.overwrite = true;
+          if (opts.strict) parsed.output.onDegrade = 'error';
+          if (!parsed.output.path && typeof parsed.base === 'object' && parsed.base !== null) {
+            parsed.output.path = defaultOutputName(
+              parsed as MemeSpec,
+              (parsed.output.format as string | undefined) ??
+                (parsed.base?.kind === 'template' &&
+                getTemplateType(parsed.base as MemeSpec['base']) === 'gif'
+                  ? 'gif'
+                  : 'png'),
+            );
+          }
+          const result = await renderMeme(parsed as MemeSpec);
+          output(
+            {
+              path: result.path,
+              width: result.width,
+              height: result.height,
+              format: result.format,
+              bytes: result.bytes,
+              warnings: result.warnings,
+            },
+            opts.json ?? false,
+            () =>
+              process.stdout.write(
+                `wrote ${result.path ?? '(buffer)'} (${result.width}x${result.height} ${result.format})\n`,
+              ),
           );
         }
-        const result = await renderMeme(parsed);
-        output(
-          {
-            path: result.path,
-            width: result.width,
-            height: result.height,
-            format: result.format,
-            bytes: result.bytes,
-            warnings: result.warnings,
-          },
-          opts.json ?? false,
-          () =>
-            process.stdout.write(
-              `wrote ${result.path ?? '(buffer)'} (${result.width}x${result.height} ${result.format})\n`,
-            ),
-        );
       } catch (err) {
         fail(err, opts.json ?? false);
       }

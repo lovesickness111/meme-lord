@@ -71,6 +71,7 @@ function loadCatalog(templatesDir?: string): CatalogCache {
 export interface TemplateFilter {
   type?: 'image' | 'gif';
   tag?: string;
+  category?: string;
   search?: string;
 }
 
@@ -78,6 +79,7 @@ export function listTemplates(filter: TemplateFilter = {}, templatesDir?: string
   let templates = loadManifest(templatesDir);
   if (filter.type) templates = templates.filter((t) => t.type === filter.type);
   if (filter.tag) templates = templates.filter((t) => t.tags.includes(filter.tag!));
+  if (filter.category) templates = templates.filter((t) => t.category === filter.category);
   if (filter.search) {
     const q = filter.search.toLowerCase();
     templates = templates.filter(

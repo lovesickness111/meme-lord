@@ -34,7 +34,6 @@ describe('cli error handling', () => {
     const dir = mkdtempSync(join(tmpdir(), 'meme-cli-'));
     for (const [name, body] of [
       ['null.json', 'null'],
-      ['arr.json', '[]'],
       ['num.json', '42'],
     ] as const) {
       const file = join(dir, name);
