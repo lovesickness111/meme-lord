@@ -1,9 +1,16 @@
 # Meme Cook — Full Workflow
 
-A universal, agent-friendly workflow for turning a tweet, thread, topic, or link into a curated set of memes.
+A universal, agent-friendly workflow for turning any topic, tweet, thread, or link into a curated set of memes.
+
+> **Before you start:** Check which mode you are in.
+> - **Mode A (CLI):** Agent is running inside the cloned `meme-lord` repo. Use `npx tsx src/cli.ts` commands.
+> - **Mode B (MCP):** User installed via npm and registered the MCP server. Use MCP tool calls (`render_meme`, `suggest_templates`, etc.).
+
+---
 
 ## 1. Fetch the source material
 
+- For a topic or description: use it directly as the brief.
 - For an X/Twitter thread, use `https://api.fxtwitter.com/<status>` for the root tweet and `https://api.fxtwitter.com/2/conversation/<id>` for the full reply list.
 - Save the JSON locally and parse the root tweet plus the top 20-40 replies.
 - If the source is an article or another site, use a fetch/read tool to get the text.
@@ -11,13 +18,13 @@ A universal, agent-friendly workflow for turning a tweet, thread, topic, or link
 
 ## 2. Research named things
 
-- If the thread mentions a person, company, product, protocol, or acronym (e.g., OpenCode, Dax Raad, BUZZ, Codex resets), run a quick web search.
+- If the topic mentions a person, company, product, or acronym, run a quick web search.
 - Drop 1-3 sentences of the most useful context into the prompts that will generate captions.
 - Do not over-research; only pull facts that make the meme land.
 
 ## 3. Generate angles
 
-- Derive 6-10 distinct angles from the thread itself, not from generic meme templates.
+- Derive 6-10 distinct angles from the source material itself, not from generic meme templates.
 - Each angle should be a single idea: a quoted reply, a central joke, a skeptical take, a pun, a milestone, a conflict, etc.
 - If the user asked for "a lot" or "ultra", generate 15-20 angles, then curate.
 
@@ -25,22 +32,37 @@ A universal, agent-friendly workflow for turning a tweet, thread, topic, or link
 
 - Spawn one worker per angle.
 - Give every worker:
-  - the full thread context,
+  - the full source context,
   - the assigned angle,
   - a template blacklist,
-  - the render/verify/upload instructions,
-  - a shared structured output schema: `template_id`, `concept`, `caption_text`, `rendered_image_url`.
+  - the render/verify instructions,
+  - a shared structured output schema: `template_id`, `concept`, `caption_text`, `rendered_image_path`.
 - If no subagents are available, run the same steps sequentially.
 
 ## 5. Render
 
-- Use the repo's CLI:
-  ```sh
-  npx tsx src/cli.ts render --template <id> --text <slot>="<text>" ... -o <path> --json
-  ```
-- If the repo is built and installed, `meme render` works too.
-- Use 1-3 short lines per text slot.
-- Verify the output file exists and `width`/`height`/`bytes` look reasonable.
+### Mode A — CLI (repo cloned)
+
+```sh
+npx tsx src/cli.ts render --template <id> --text <slot>="<text>" ... -o <path> --force --json
+```
+
+### Mode B — MCP (npm install)
+
+Call `measure_meme` first to verify captions fit, then call `render_meme`:
+
+```json
+{
+  "tool": "render_meme",
+  "spec": {
+    "base": { "kind": "template", "id": "<template_id>" },
+    "texts": [{ "slot": "<slot>", "text": "<caption>" }],
+    "output": { "path": "<output_path>", "format": "png", "onDegrade": "error" }
+  }
+}
+```
+
+Use 1-3 short lines per text slot. Verify the output file exists and `width`/`height`/`bytes` look reasonable.
 
 ## 6. Verify readability
 
