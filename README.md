@@ -4,6 +4,78 @@
 
 Meme Lord renders deterministic PNG, WebP, and GIF memes from templates. It runs **entirely on the user's machine** — no server hosting required. The MCP server is a local `stdio` process spawned automatically by your AI agent.
 
+---
+
+## 🖼️ Sample Output
+
+### Render Command:
+
+```sh
+meme render --template drake \
+  --text no="Writing manual code for memes" \
+  --text yes="Using AI Agent with meme-lord" \
+  -o out.png
+```
+
+### Generated Result:
+
+![Sample Rendered Meme](docs/example-meme.png)
+
+---
+
+## 🌟 Featured Templates (610+ Catalog)
+
+Meme Lord includes a built-in catalog of over **610 curated meme templates**. Below is a visual sample of popular templates:
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <img src="assets/templates/thumbs/drake.webp" alt="drake" width="220"/><br/>
+      <b><code>drake</code></b>
+    </td>
+    <td align="center" width="33%">
+      <img src="assets/templates/thumbs/distracted-boyfriend.webp" alt="distracted-boyfriend" width="220"/><br/>
+      <b><code>distracted-boyfriend</code></b>
+    </td>
+    <td align="center" width="33%">
+      <img src="assets/templates/thumbs/two-buttons.webp" alt="two-buttons" width="220"/><br/>
+      <b><code>two-buttons</code></b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="33%">
+      <img src="assets/templates/thumbs/expanding-brain.webp" alt="expanding-brain" width="220"/><br/>
+      <b><code>expanding-brain</code></b>
+    </td>
+    <td align="center" width="33%">
+      <img src="assets/templates/thumbs/tuxedo-winnie-the-pooh.webp" alt="tuxedo-pooh" width="220"/><br/>
+      <b><code>tuxedo-winnie-the-pooh</code></b>
+    </td>
+    <td align="center" width="33%">
+      <img src="assets/templates/thumbs/change-my-mind.webp" alt="change-my-mind" width="220"/><br/>
+      <b><code>change-my-mind</code></b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="33%">
+      <img src="assets/templates/thumbs/trade-offer.webp" alt="trade-offer" width="220"/><br/>
+      <b><code>trade-offer</code></b>
+    </td>
+    <td align="center" width="33%">
+      <img src="assets/templates/thumbs/disaster-girl.webp" alt="disaster-girl" width="220"/><br/>
+      <b><code>disaster-girl</code></b>
+    </td>
+    <td align="center" width="33%">
+      <img src="assets/templates/thumbs/roll-safe.webp" alt="roll-safe" width="220"/><br/>
+      <b><code>roll-safe</code></b>
+    </td>
+  </tr>
+</table>
+
+> 💡 **Tip:** Explore all 610+ templates using `meme templates list` or `meme templates suggest "<brief>"`, or run `meme ui` for visual browser browsing.
+
+---
+
 ## How to use with an AI Agent
 
 There are **two ways** to give your AI agent the ability to cook memes:
